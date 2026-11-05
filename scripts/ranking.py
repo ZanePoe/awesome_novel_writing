@@ -34,4 +34,3 @@ def cell(value):
 
 def table(headers, rows):
     return '\n'.join(['| '+' | '.join(headers)+' |','| '+' | '.join(['---']*len(headers))+' |']+['| '+' | '.join(cell(v) for v in row)+' |' for row in rows])
-
