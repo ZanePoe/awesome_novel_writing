@@ -1,0 +1,33 @@
+name: 推荐 AI 写作项目
+description: 推荐小说、写作技能、修订或剧本工具
+title: '[推荐] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: GitHub 原始仓库
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 主分类
+      options:
+        - 小说创作软件与工作台
+        - 自动写作 Agent 与创作引擎
+        - 长篇创作技能与方法框架
+        - 文风修订与质量检查
+        - 剧本、短剧改编与影视解说
+        - 创意写作评测工具
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 用途、适用边界与证据
+      description: 说明已实现能力，附 README 或文档链接；如果是 fork，请说明差异。
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 许可证与核验日期
+      description: 无法核验时请明确写待核验

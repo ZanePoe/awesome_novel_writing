@@ -1,0 +1,6 @@
+.local/
+research/run/
+__pycache__/
+*.pyc
+.venv/
+.env

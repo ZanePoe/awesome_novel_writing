@@ -1,0 +1,112 @@
+{
+  "objective": "Which AI novel writing software, fiction workflows, writing agent skills, style revision tools and screenplay projects should be collected and ranked by GitHub maintenance?",
+  "mode": "standard",
+  "rounds": [
+    {
+      "round": 1,
+      "queries": 15,
+      "executed": 15,
+      "results": 331,
+      "relevant": 242,
+      "new_sources": 300,
+      "novelty_score": 8.368,
+      "novel_terms": 12,
+      "new_source_rate": 0.906
+    },
+    {
+      "round": 2,
+      "queries": 4,
+      "executed": 4,
+      "results": 127,
+      "relevant": 116,
+      "new_sources": 90,
+      "novelty_score": 4.935,
+      "novel_terms": 12,
+      "new_source_rate": 0.709
+    },
+    {
+      "round": 3,
+      "queries": 3,
+      "executed": 3,
+      "results": 17,
+      "relevant": 17,
+      "new_sources": 15,
+      "novelty_score": null,
+      "novel_terms": 0,
+      "new_source_rate": 0.882
+    }
+  ],
+  "axes": {
+    "semantics": {
+      "queries": 1,
+      "done": 1,
+      "retained": 18,
+      "intent": "definition, mechanism, terminology boundaries"
+    },
+    "primary": {
+      "queries": 7,
+      "done": 7,
+      "retained": 110,
+      "intent": "first-party sources: official docs, specs, source code"
+    },
+    "index": {
+      "queries": 2,
+      "done": 2,
+      "retained": 57,
+      "intent": "curated maps, awesome lists and leaderboards that enumerate the field"
+    },
+    "repo": {
+      "queries": 5,
+      "done": 5,
+      "retained": 111,
+      "intent": "usable code and install surfaces: repositories, packages, registries"
+    },
+    "compare": {
+      "queries": 3,
+      "done": 3,
+      "retained": 40,
+      "intent": "alternatives, substitutes, head-to-head"
+    },
+    "data": {
+      "queries": 2,
+      "done": 2,
+      "retained": 17,
+      "intent": "quantitative evidence, benchmarks, scale"
+    },
+    "risks": {
+      "queries": 1,
+      "done": 1,
+      "retained": 10,
+      "intent": "failure modes, criticism, limits"
+    },
+    "recency": {
+      "queries": 1,
+      "done": 1,
+      "retained": 14,
+      "intent": "changes in the last 12-18 months"
+    }
+  },
+  "gaps": [],
+  "sources": 405,
+  "sources_relevant": 283,
+  "sources_duplicate": 0,
+  "sources_by_source": {
+    "web": 405
+  },
+  "evidence": 84,
+  "claims": 84,
+  "metrics": 123,
+  "coverage": {
+    "rate": 1.0,
+    "entities_total": 2,
+    "entities_covered": 2,
+    "entities_missing": [],
+    "gap": false,
+    "baseline": "research/baseline.md"
+  },
+  "pending_queries": [],
+  "verdict": "stop",
+  "reasons": [
+    "max_rounds reached (3)"
+  ]
+}
