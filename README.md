@@ -22,7 +22,7 @@ flowchart LR
 
 ## 当前收录
 
-**41 个项目，覆盖全部 13 个去重后的参考项目。** 功能核验：2026-11-05；指标快照：`2026-11-05T03:36:32+00:00`（UTC）。
+**41 个项目，覆盖全部 13 个去重后的参考项目。** 功能核验：2026-11-05；指标快照：`2026-11-05T03:44:48+00:00`（UTC）。
 
 每类先按维护状态分层，再综合 star（40%）、90 天提交活动（35%）和最近默认分支提交（25%）排序。归档项目后置。**维护分不代表小说质量、文学水平或一键成书成功率。**
 
@@ -89,7 +89,7 @@ flowchart LR
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | 诊断并改写模板化 AI 文风，提供仅检测和原地编辑等模式。 | Agent Skill / 检查工具 | 5,429 | 499 | 2026-11-04 | 89.8 | MIT |
 | [Sepia](https://github.com/Nanako0129/sepia) ★ | 先修复小说叙事结构，再处理词句；其他文体按场合采用规则。 | Agent Skill | 3,645 | 389 | 2026-11-03 | 86.6 | MIT |
-| [Humanizer](https://github.com/blader/humanizer) | 根据常见 AI 写作特征检查并改写文本。 | 英文润色 Skill | 64,904 | 60 | 2026-10-28 | 84.6 | MIT |
+| [Humanizer](https://github.com/blader/humanizer) | 根据常见 AI 写作特征检查并改写文本。 | 英文润色 Skill | 64,907 | 60 | 2026-10-28 | 84.5 | MIT |
 | [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 以中文化规则识别和修订机械、空泛的 AI 表达模式。 | 中文润色 Skill | 22,003 | 1 | 2026-09-23 | 54.1 | MIT |
 | [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | 诊断中文推文和文章的事实、结构、叙事与语言问题。 | 中文写作 Skill | 40 | 2 | 2026-08-31 | 31.1 | MIT |
 | [llmlint](https://github.com/notnotype/llmlint) | 用规则扫描写作痕迹，为修订提供可定位的问题。 | 文本规则检查器 | 12 | 3 | 2026-08-15 | 26.8 | AGPL-3.0 |
@@ -102,7 +102,7 @@ flowchart LR
 | [shuohao-skills](https://github.com/eternityspring/shuohao-skills) ★ | 从小说改编大纲、人物和剧本延伸到场面调度与分镜交付。 | 短剧制作技能包 | 6,017 | 118 | 2026-10-26 | 79.5 | Apache-2.0 |
 | [juben / ai-juben](https://github.com/VanGong1999/juben) ★ | 以专业 Agent 工作流辅助影视策划、剧本创作与评估。 | 剧本 Agent 平台 | 179 | 5 | 2026-10-19 | 48.9 | MIT |
 | [ai-short-drama](https://github.com/Hao0321/ai-short-drama) | 面向 AI 短剧的剧情设计与剧本创作技能。 | 编剧 Skill | 79 | 2 | 2026-08-13 | 31.3 | MIT |
-| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | 指导 Agent 调用 CLI 完成影视解说制作。 | CLI 配套 Skill | 3,165 | 0 | 2026-07-05 | 34.4 | MIT |
+| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | 指导 Agent 调用 CLI 完成影视解说制作。 | CLI 配套 Skill | 3,166 | 0 | 2026-07-05 | 34.4 | MIT |
 
 ### 创意写作评测工具
 
