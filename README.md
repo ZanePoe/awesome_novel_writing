@@ -22,7 +22,7 @@ flowchart LR
 
 ## 当前收录
 
-**42 个项目，覆盖全部 14 个去重后的参考项目。** 功能核验：2026-11-06；指标快照：`2026-11-06T02:55:40+00:00`（UTC）。
+**42 个项目，覆盖全部 14 个去重后的参考项目。** 功能核验：2026-11-06；指标快照：`2026-11-06T02:59:20+00:00`（UTC）。
 
 每类先按维护状态分层，再综合 star（40%）、90 天提交活动（35%）和最近默认分支提交（25%）排序。归档项目后置。**维护分不代表小说质量、文学水平或一键成书成功率。**
 
@@ -89,9 +89,9 @@ flowchart LR
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | 诊断并改写模板化 AI 文风，提供仅检测和原地编辑等模式。 | Agent Skill / 检查工具 | 5,447 | 499 | 2026-11-05 | 89.7 | MIT |
-| [Sepia](https://github.com/Nanako0129/sepia) ★ | 先修复小说叙事结构，再处理词句；其他文体按场合采用规则。 | Agent Skill | 3,656 | 389 | 2026-11-03 | 86.3 | MIT |
+| [Sepia](https://github.com/Nanako0129/sepia) ★ | 先修复小说叙事结构，再处理词句；其他文体按场合采用规则。 | Agent Skill | 3,657 | 389 | 2026-11-03 | 86.3 | MIT |
 | [Humanizer](https://github.com/blader/humanizer) | 根据常见 AI 写作特征检查并改写文本。 | 英文润色 Skill | 65,300 | 60 | 2026-10-28 | 84.3 | MIT |
-| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 以中文化规则识别和修订机械、空泛的 AI 表达模式。 | 中文润色 Skill | 22,089 | 1 | 2026-09-23 | 54.0 | MIT |
+| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 以中文化规则识别和修订机械、空泛的 AI 表达模式。 | 中文润色 Skill | 22,090 | 1 | 2026-09-23 | 54.0 | MIT |
 | [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | 诊断中文推文和文章的事实、结构、叙事与语言问题。 | 中文写作 Skill | 40 | 2 | 2026-08-31 | 31.0 | MIT |
 | [llmlint](https://github.com/notnotype/llmlint) | 用规则扫描写作痕迹，为修订提供可定位的问题。 | 文本规则检查器 | 12 | 3 | 2026-08-15 | 26.7 | AGPL-3.0 |
 
