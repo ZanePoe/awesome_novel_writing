@@ -17,3 +17,6 @@ Resolved names: Denova = alfredxw/denova; easy-writing（易创） = yilujian/ea
 
 The user confirmed ai-juben = VanGong1999/juben during this session.
 The repeated Nanako0129/sepia -g is treated as the same repository.
+
+Incremental user reference added on 2026-11-06:
+- https://github.com/looplj/reveric

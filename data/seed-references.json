@@ -1,9 +1,9 @@
 [
   {
     "input": "EthanYoQ/AI-Novel-Writer",
-    "canonical_repo": "EthanYoQ/AI-Novel-Writer",
+    "canonical_repo": "EthanYoQ/Pagekin",
     "status": "resolved",
-    "note": "GitHub 原始仓库核验"
+    "note": "仓库已重命名为 Pagekin；保留用户输入的旧地址"
   },
   {
     "input": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
@@ -76,5 +76,11 @@
     "canonical_repo": "yilujian/easy-writing",
     "status": "resolved",
     "note": "GitHub 原始仓库核验"
+  },
+  {
+    "input": "https://github.com/looplj/reveric",
+    "canonical_repo": "looplj/reveric",
+    "status": "resolved",
+    "note": "用户于 2026-11-06 补充；GitHub 原始仓库与附加许可条款已核验"
   }
 ]

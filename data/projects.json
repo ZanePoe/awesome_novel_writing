@@ -1,6 +1,6 @@
 [
   {
-    "repo": "EthanYoQ/AI-Novel-Writer",
+    "repo": "EthanYoQ/Pagekin",
     "name": "书童 Pagekin",
     "category": "workspace",
     "form": "桌面应用",
@@ -13,14 +13,14 @@
       {
         "path": "README.md",
         "line": 17,
-        "url": "https://github.com/EthanYoQ/AI-Novel-Writer/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17"
+        "url": "https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17"
       }
     ],
     "evidence_commit": "2bf8b5aac5fc3bc679a13843af221424941b93b5",
     "license_review": {
       "status": "verified",
       "label": "GPL-3.0",
-      "source": "https://api.github.com/repos/EthanYoQ/AI-Novel-Writer/license",
+      "source": "https://api.github.com/repos/EthanYoQ/Pagekin/license",
       "note": "GitHub SPDX 识别；附属模型、数据和素材许可另计。"
     }
   },
@@ -1027,6 +1027,36 @@
       "label": "待核验",
       "source": "https://api.github.com/repos/MaoXiaoYuZ/Long-Novel-GPT/license",
       "note": "GitHub SPDX 识别；不推断模型与示例作品授权。"
+    }
+  },
+  {
+    "repo": "looplj/reveric",
+    "name": "Reveric 幻界",
+    "category": "workspace",
+    "form": "本地优先桌面创作工作台",
+    "scope": "core",
+    "description": "以智能体连接长篇小说、剧本改编、分镜、3D 导演台和剪辑流程的桌面创作工作台。",
+    "boundary": "默认分支为 unstable；项目采用 BYOK，文稿本地保存不代表调用远程文本、图像、音频或视频模型时数据不会外发。",
+    "seed": true,
+    "reviewed_at": "2026-11-06",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 76,
+        "url": "https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76"
+      },
+      {
+        "path": "README.md",
+        "line": 91,
+        "url": "https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91"
+      }
+    ],
+    "evidence_commit": "282f8e4c218abe566b2e70050d80b8eccf876a32",
+    "license_review": {
+      "status": "custom",
+      "label": "AGPL-3.0 + Section 7 署名要求",
+      "source": "https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES",
+      "note": "修改版界面需保留 Based on Reveric by looplj. 和原项目链接；另提供商业许可路径，第三方材料依各自许可。"
     }
   }
 ]

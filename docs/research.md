@@ -1,6 +1,6 @@
 # 检索记录与收录判断
 
-2026-11-05 完成首版：41 个项目、6 个分类，13 个去重参考项目全部覆盖。本轮关注项目与实现，没有把相关论文扩展为独立论文清单。
+2026-11-05 完成首版：41 个项目、6 个分类，13 个去重参考项目全部覆盖。2026-11-06 根据用户补充收录 Reveric，当前为 42 个项目、14 个参考项目。本轮关注项目与实现，没有把相关论文扩展为独立论文清单。
 
 ## 从参考项目归纳的检索轴
 
@@ -38,7 +38,7 @@
 | Denova | [alfredxw/denova](https://github.com/alfredxw/denova) |
 | 易创 easy-writing | [yilujian/easy-writing](https://github.com/yilujian/easy-writing) |
 | ai-juben | [VanGong1999/juben](https://github.com/VanGong1999/juben)，经用户确认 |
-| AI Novel Writer | [书童 Pagekin](https://github.com/EthanYoQ/AI-Novel-Writer)，同一仓库 |
+| AI Novel Writer | [书童 Pagekin](https://github.com/EthanYoQ/Pagekin)，仓库已重命名，旧地址自动重定向 |
 | AI Novel Writing Assistant | [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant)，同一仓库 |
 | Storyteller | [Dankular/Storyteller](https://github.com/Dankular/Storyteller)，README 当前名 novel-harness |
 | 重复的 Sepia 与 `-g` | 同一仓库只计一项，未安装技能 |
@@ -52,6 +52,7 @@
 - [NeuroBook](https://github.com/notnotype/neuro-book) 当前 v2 正在重建，部分 AI 工作室能力列于路线图；目录保留预览版边界。
 - [Novel Studio](https://github.com/bbaz123/novel-studio) 的默认分支为实验线，指标确实取该分支，未强行使用旧 main。
 - [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT) 的部分一键成书能力仍列在计划，不能把首页口号当成已完成验收。
+- [Reveric](https://github.com/looplj/reveric) 当前默认分支为 `unstable`；目录按该分支核验。其 `NOTICES` 依据 AGPLv3 第 7 条要求修改版保留项目署名和链接，并提供商业许可路径。
 
 ## 许可证核验
 
@@ -75,7 +76,7 @@ Agnes 明确表示未声明许可；部分小型写作 Harness、Skill 和评测
 
 - [检索日志](../research/search-log.json)：查询、轮次和结果统计。
 - [收录决策](../research/decisions.json)：用途、边界、固定提交和许可核验。
-- [基线覆盖](../research/coverage.json)：13 个参考链接全部覆盖。
+- [基线覆盖](../research/coverage.json)：14 个参考链接全部覆盖。
 - [首版指标](../research/initial-metrics.json) 与 [当前指标](../data/metrics.json)：初始与持续更新分开。
 - [状态](../research/status.json) 与 [完整性结果](../research/verification.json)：停止原因和已知空结果。
 
