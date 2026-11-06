@@ -19,7 +19,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：原名 AI Novel Writer；模型需另配，桌面主产品与 DSH 开发预览插件分开看。
-- 维护状态：近90天有提交；30 天提交 2308 次，90 天提交 3084 次。
+- 维护状态：近90天有提交；30 天提交 2331 次，90 天提交 3107 次。
 - 许可：[GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17)。
 
@@ -29,7 +29,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作工作台。
 - 适用边界：兼含剧本、漫画和互动世界，不能把全部功能都当作正文写作能力。
-- 维护状态：近90天有提交；30 天提交 1307 次，90 天提交 2267 次。
+- 维护状态：近90天有提交；30 天提交 1307 次，90 天提交 2266 次。
 - 许可：[MIT](https://api.github.com/repos/yuanbw2025/storyforge/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15)。
 
@@ -39,7 +39,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作平台。
 - 适用边界：兼含角色扮演；游戏体验功能不等同长篇小说自动生成能力。
-- 维护状态：近90天有提交；30 天提交 108 次，90 天提交 465 次。
+- 维护状态：近90天有提交；30 天提交 104 次，90 天提交 464 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/alfredxw/denova/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58)。
 
@@ -49,7 +49,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作 IDE / 预览版。
 - 适用边界：当前 v2 正在重建；AI 写作工作室等列在路线图，不按旧版功能宣称已完成。
-- 维护状态：近90天有提交；30 天提交 2893 次，90 天提交 3600 次。
+- 维护状态：近90天有提交；30 天提交 2875 次，90 天提交 3598 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26)。
 
@@ -59,7 +59,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：需要配置模型；“实时决策”是项目设计描述，尚未实测质量。
-- 维护状态：近90天有提交；30 天提交 220 次，90 天提交 522 次。
+- 维护状态：近90天有提交；30 天提交 219 次，90 天提交 522 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6)。
 
@@ -69,7 +69,7 @@
 
 - 分类：小说创作软件与工作台；形态：跨平台应用。
 - 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
-- 维护状态：近90天有提交；30 天提交 45 次，90 天提交 157 次。
+- 维护状态：近90天有提交；30 天提交 45 次，90 天提交 155 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
 
@@ -79,7 +79,7 @@
 
 - 分类：小说创作软件与工作台；形态：本地优先桌面创作工作台。
 - 适用边界：默认分支为 unstable；项目采用 BYOK，文稿本地保存不代表调用远程文本、图像、音频或视频模型时数据不会外发。
-- 维护状态：近90天有提交；30 天提交 111 次，90 天提交 111 次。
+- 维护状态：近90天有提交；30 天提交 112 次，90 天提交 112 次。
 - 许可：[AGPL-3.0 + Section 7 署名要求](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES)；存在附加许可说明。修改版界面需保留 Based on Reveric by looplj. 和原项目链接；另提供商业许可路径，第三方材料依各自许可。
 - 功能核验：2026-11-06；[来源 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [来源 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91)。
 
@@ -239,7 +239,7 @@
 
 - 分类：长篇创作技能与方法框架；形态：Agent 技能包。
 - 适用边界：运行在已有 Agent 中；不把资料采集和文本生成效果混为一谈。
-- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 137 次。
+- 维护状态：近90天有提交；30 天提交 63 次，90 天提交 139 次。
 - 许可：[MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8)。
 
@@ -309,7 +309,7 @@
 
 - 分类：文风修订、去模板化与质量检查；形态：Agent Skill / 检查工具。
 - 适用边界：通用写作修订；降低模式化表达不代表证明文本作者身份。
-- 维护状态：近90天有提交；30 天提交 103 次，90 天提交 499 次。
+- 维护状态：近90天有提交；30 天提交 100 次，90 天提交 499 次。
 - 许可：[MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5)。
 
@@ -369,7 +369,7 @@
 
 - 分类：剧本、短剧改编与影视解说；形态：短剧技能包。
 - 适用边界：保留与小说改编相关部分；视频生成成本不包含在文本工具本身。
-- 维护状态：近90天有提交；30 天提交 70 次，90 天提交 336 次。
+- 维护状态：近90天有提交；30 天提交 71 次，90 天提交 335 次。
 - 许可：[MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5)。
 
@@ -379,7 +379,7 @@
 
 - 分类：剧本、短剧改编与影视解说；形态：短剧制作技能包。
 - 适用边界：主方向是小说改编和短剧制作；图像、视频生成有额外工具依赖。
-- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 118 次。
+- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 117 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/eternityspring/shuohao-skills/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md#L5)。
 
