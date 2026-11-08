@@ -1,43 +1,43 @@
 repo,name,category,form,seed,license,license_status,stars,commits_30d,commits_90d,last_commit_at,maintenance_status,score,as_of
-conorbronsdon/avoid-ai-writing,avoid-ai-writing,revision,Agent Skill / 检查工具,True,MIT,verified,5462,81,499,2026-11-05T08:27:04Z,近90天有提交,89.35,2026-11-07T07:41:51+00:00
-ExplosiveCoderflome/AI-Novel-Writing-Assistant,Biz Novel Studio,workspace,桌面 / 自托管工作台,True,AGPL-3.0 + 商用附加说明,custom,3387,167,615,2026-11-06T12:50:23Z,近90天有提交,88.02,2026-11-07T07:41:51+00:00
-EthanYoQ/Pagekin,书童 Pagekin,workspace,桌面应用,True,GPL-3.0,verified,2397,2348,3123,2026-11-06T15:01:46Z,近90天有提交,86.85,2026-11-07T07:41:51+00:00
-zenstory-ai/drama-skills,drama-skills,screenplay,短剧技能包,False,MIT,verified,3893,75,339,2026-11-06T17:39:19Z,近90天有提交,86.38,2026-11-07T07:41:51+00:00
-Nanako0129/sepia,Sepia,revision,Agent Skill,True,MIT,verified,3670,71,389,2026-11-03T05:53:46Z,近90天有提交,86.0,2026-11-07T07:41:51+00:00
-zenstory-ai/oh-story-claudecode,Oh Story,skills,Agent 技能包,False,MIT,verified,8372,70,146,2026-11-06T18:01:02Z,近90天有提交,84.32,2026-11-07T07:41:51+00:00
-blader/humanizer,Humanizer,revision,英文润色 Skill,False,MIT,verified,65745,5,60,2026-10-28T07:17:33Z,近90天有提交,84.05,2026-11-07T07:41:51+00:00
-yuanbw2025/storyforge,StoryForge 故事熔炉,workspace,创作工作台,False,MIT,verified,998,1305,2258,2026-11-06T09:21:00Z,近90天有提交,83.74,2026-11-07T07:41:51+00:00
-alfredxw/denova,Denova,workspace,创作平台,True,Apache-2.0,verified,987,105,462,2026-11-06T13:52:15Z,近90天有提交,83.31,2026-11-07T07:41:51+00:00
-notnotype/neuro-book,NeuroBook,workspace,创作 IDE / 预览版,False,AGPL-3.0,verified,778,3781,4583,2026-11-06T09:33:39Z,近90天有提交,82.88,2026-11-07T07:41:51+00:00
-sigpanic/goink,Goink,workspace,桌面应用,False,AGPL-3.0,verified,508,234,541,2026-11-06T14:43:34Z,近90天有提交,81.46,2026-11-07T07:41:51+00:00
-Narcooo/inkos,InkOS,automation,创作 Agent / 工作台,True,AGPL-3.0,verified,11022,6,131,2026-10-24T05:19:57Z,近90天有提交,81.2,2026-11-07T07:41:51+00:00
-LiPu-jpg/Openwrite,Openwrite,automation,创作引擎,False,Apache-2.0,verified,928,121,252,2026-11-07T02:48:04Z,近90天有提交,79.84,2026-11-07T07:41:51+00:00
-eternityspring/shuohao-skills,shuohao-skills,screenplay,短剧制作技能包,True,Apache-2.0,verified,6178,19,107,2026-10-26T03:32:47Z,近90天有提交,78.53,2026-11-07T07:41:51+00:00
-syrizelink/OpenFic,OpenFic,workspace,跨平台应用,False,Apache-2.0,verified,1290,40,148,2026-10-28T12:45:55Z,近90天有提交,75.48,2026-11-07T07:41:51+00:00
-looplj/reveric,Reveric 幻界,workspace,本地优先桌面创作工作台,True,AGPL-3.0 + Section 7 署名要求,custom,707,117,117,2026-11-07T06:58:55Z,近90天有提交,74.65,2026-11-07T07:41:51+00:00
-lingfengQAQ/webnovel-writer,webnovel-writer,skills,Agent 插件 / 技能,False,GPL-3.0,verified,7884,7,18,2026-11-07T06:08:03Z,近90天有提交,72.73,2026-11-07T07:41:51+00:00
-PenglongHuang/chinese-novelist-skill,chinese-novelist,skills,Agent Skill,True,MIT,verified,4669,21,30,2026-11-01T13:40:52Z,近90天有提交,72.14,2026-11-07T07:41:51+00:00
-lujih/webnovel-writer-opencode,webnovel-writer-opencode,skills,OpenCode 移植 / 扩展,False,GPL-3.0,verified,226,114,190,2026-11-01T14:55:51Z,近90天有提交,71.89,2026-11-07T07:41:51+00:00
-yilujian/easy-writing,易创 easy-writing,workspace,桌面应用,True,AGPL-3.0,verified,842,12,33,2026-11-03T13:08:50Z,近90天有提交,67.23,2026-11-07T07:41:51+00:00
-YILING0013/AI_NovelGenerator,AI Novel Generator,workspace,本地工作台,False,AGPL-3.0,verified,6426,5,5,2026-11-05T07:39:01Z,近90天有提交,65.0,2026-11-07T07:41:51+00:00
-heider-x/vela,Vela,workspace,桌面 IDE,False,GPL-3.0,verified,588,5,28,2026-10-19T09:48:06Z,近90天有提交,61.38,2026-11-07T07:41:51+00:00
-bbaz123/novel-studio,Novel Studio,workspace,本地 Web 工作台,False,MIT,verified,7,81,189,2026-10-25T12:16:08Z,近90天有提交,58.45,2026-11-07T07:41:51+00:00
-op7418/Humanizer-zh,Humanizer-zh,revision,中文润色 Skill,False,MIT,verified,22180,0,1,2026-09-23T02:24:26Z,近90天有提交,53.8,2026-11-07T07:41:51+00:00
-VanGong1999/juben,juben / ai-juben,screenplay,剧本 Agent 平台,True,MIT,verified,181,5,5,2026-10-19T08:52:17Z,近90天有提交,48.42,2026-11-07T07:41:51+00:00
-xiaoshengxianjun/51mazi,51mazi 我要码字,workspace,桌面应用,False,MIT,verified,493,0,13,2026-08-31T15:01:15Z,近90天有提交,48.19,2026-11-07T07:41:51+00:00
-iLearn-Lab/NovelClaw,NovelClaw,workspace,自托管工作台,False,MIT,verified,373,3,3,2026-10-12T09:36:56Z,近90天有提交,47.13,2026-11-07T07:41:51+00:00
-usagifufu/FuFu-Novel-Writing,FuFu 小说创作助手,skills,WorkBuddy 技能包,False,待核验,unverified,4,3,12,2026-10-19T09:42:12Z,近90天有提交,40.29,2026-11-07T07:41:51+00:00
-Hao0321/ai-short-drama,ai-short-drama,screenplay,编剧 Skill,False,MIT,verified,80,0,2,2026-08-13T09:24:39Z,近90天有提交,31.08,2026-11-07T07:41:51+00:00
-Yuriloll/qifeng-writing,qifeng-writing,revision,中文写作 Skill,True,MIT,verified,40,0,2,2026-08-31T06:41:53Z,近90天有提交,30.83,2026-11-07T07:41:51+00:00
-notnotype/llmlint,llmlint,revision,文本规则检查器,False,AGPL-3.0,verified,13,0,3,2026-08-15T04:27:11Z,近90天有提交,26.79,2026-11-07T07:41:51+00:00
-Dankular/Storyteller,novel-harness / Storyteller,automation,写作 Harness,False,待核验,unverified,0,0,7,2026-09-12T14:43:59Z,近90天有提交,25.17,2026-11-07T07:41:51+00:00
-NarratorAI-Studio/narrator-ai-cli-skill,Narrator AI CLI Skill,screenplay,CLI 配套 Skill,True,MIT,verified,3178,0,0,2026-07-05T14:10:20Z,91–365天未提交,34.27,2026-11-07T07:41:51+00:00
-FlickeringLamp/ai-novelist,青烛 ai-novelist,workspace,桌面创作工具,False,MIT,verified,225,0,0,2026-07-25T09:14:13Z,91–365天未提交,26.62,2026-11-07T07:41:51+00:00
-LAY-lgtm/novel-writing-framework,novel-writing-framework,skills,方法论 / Agent 技能,True,MIT,verified,267,0,0,2026-05-31T13:05:38Z,91–365天未提交,23.66,2026-11-07T07:41:51+00:00
-Doriandarko/kimi-writer,Kimi Writing Agent,automation,CLI / Agent,False,MIT + 商用署名条款,custom,597,0,0,2025-11-08T18:48:31Z,91–365天未提交,22.65,2026-11-07T07:41:51+00:00
-jiaw-Zh/long-novel-writer,long-novel-writer,skills,长篇写作 Skill,False,待核验,unverified,94,0,0,2026-05-15T00:47:17Z,91–365天未提交,19.35,2026-11-07T07:41:51+00:00
-giapnguyen74/xnovelist,xnovelist,workspace,浏览器本地应用,False,MIT,verified,12,0,0,2026-06-08T14:28:12Z,91–365天未提交,13.54,2026-11-07T07:41:51+00:00
-MXD706/agnes,Agnes Creative OS,workspace,本地工作台,False,待核验,unverified,3,0,0,2026-05-27T03:33:30Z,91–365天未提交,8.85,2026-11-07T07:41:51+00:00
-AxolDad/novelist,Novelist Agent,automation,Agent 系统 / Alpha,False,待核验,unverified,2,0,0,2026-01-06T17:22:52Z,91–365天未提交,4.66,2026-11-07T07:41:51+00:00
-MaoXiaoYuZ/Long-Novel-GPT,Long-Novel-GPT,automation,长篇生成器 / Agent,False,待核验,unverified,1254,0,0,2025-11-05T03:18:41Z,超过365天未提交,25.21,2026-11-07T07:41:51+00:00
-EQ-bench/longform-writing-bench,Longform Writing Bench,evaluation,研究 / 评测工具,False,待核验,unverified,47,0,0,2025-10-26T00:55:18Z,超过365天未提交,13.83,2026-11-07T07:41:51+00:00
+conorbronsdon/avoid-ai-writing,avoid-ai-writing,revision,Agent Skill / 检查工具,True,MIT,verified,5478,73,499,2026-11-05T08:27:04Z,近90天有提交,89.09,2026-11-08T07:51:39+00:00
+ExplosiveCoderflome/AI-Novel-Writing-Assistant,Biz Novel Studio,workspace,桌面 / 自托管工作台,True,AGPL-3.0 + 商用附加说明,custom,3396,163,609,2026-11-06T12:50:23Z,近90天有提交,87.76,2026-11-08T07:51:39+00:00
+EthanYoQ/Pagekin,书童 Pagekin,workspace,桌面应用,True,GPL-3.0,verified,2441,2392,3177,2026-11-08T06:52:37Z,近90天有提交,87.09,2026-11-08T07:51:39+00:00
+zenstory-ai/drama-skills,drama-skills,screenplay,短剧技能包,False,MIT,verified,3937,82,346,2026-11-08T04:35:30Z,近90天有提交,86.66,2026-11-08T07:51:39+00:00
+Nanako0129/sepia,Sepia,revision,Agent Skill,True,MIT,verified,3681,71,389,2026-11-03T05:53:46Z,近90天有提交,85.75,2026-11-08T07:51:39+00:00
+zenstory-ai/oh-story-claudecode,Oh Story,skills,Agent 技能包,False,MIT,verified,8412,72,148,2026-11-07T16:34:18Z,近90天有提交,84.4,2026-11-08T07:51:39+00:00
+blader/humanizer,Humanizer,revision,英文润色 Skill,False,MIT,verified,66079,5,60,2026-10-28T07:17:33Z,近90天有提交,83.82,2026-11-08T07:51:39+00:00
+yuanbw2025/storyforge,StoryForge 故事熔炉,workspace,创作工作台,False,MIT,verified,999,1296,2253,2026-11-07T08:45:22Z,近90天有提交,83.73,2026-11-08T07:51:39+00:00
+alfredxw/denova,Denova,workspace,创作平台,True,Apache-2.0,verified,989,110,455,2026-11-07T12:02:55Z,近90天有提交,83.21,2026-11-08T07:51:39+00:00
+notnotype/neuro-book,NeuroBook,workspace,创作 IDE / 预览版,False,AGPL-3.0,verified,777,4195,5103,2026-11-07T15:46:01Z,近90天有提交,82.94,2026-11-08T07:51:39+00:00
+sigpanic/goink,Goink,workspace,桌面应用,False,AGPL-3.0,verified,508,229,541,2026-11-06T14:43:34Z,近90天有提交,81.18,2026-11-08T07:51:39+00:00
+Narcooo/inkos,InkOS,automation,创作 Agent / 工作台,True,AGPL-3.0,verified,11046,6,131,2026-10-24T05:19:57Z,近90天有提交,80.97,2026-11-08T07:51:39+00:00
+LiPu-jpg/Openwrite,Openwrite,automation,创作引擎,False,Apache-2.0,verified,935,120,252,2026-11-07T02:48:04Z,近90天有提交,79.59,2026-11-08T07:51:39+00:00
+eternityspring/shuohao-skills,shuohao-skills,screenplay,短剧制作技能包,True,Apache-2.0,verified,6249,14,105,2026-10-26T03:32:47Z,近90天有提交,78.22,2026-11-08T07:51:39+00:00
+syrizelink/OpenFic,OpenFic,workspace,跨平台应用,False,Apache-2.0,verified,1290,39,146,2026-10-28T12:45:55Z,近90天有提交,75.16,2026-11-08T07:51:39+00:00
+looplj/reveric,Reveric 幻界,workspace,本地优先桌面创作工作台,True,AGPL-3.0 + Section 7 署名要求,custom,719,120,120,2026-11-07T16:26:55Z,近90天有提交,74.68,2026-11-08T07:51:39+00:00
+lingfengQAQ/webnovel-writer,webnovel-writer,skills,Agent 插件 / 技能,False,GPL-3.0,verified,7900,7,18,2026-11-07T06:08:03Z,近90天有提交,72.46,2026-11-08T07:51:39+00:00
+PenglongHuang/chinese-novelist-skill,chinese-novelist,skills,Agent Skill,True,MIT,verified,4680,21,30,2026-11-01T13:40:52Z,近90天有提交,71.89,2026-11-08T07:51:39+00:00
+lujih/webnovel-writer-opencode,webnovel-writer-opencode,skills,OpenCode 移植 / 扩展,False,GPL-3.0,verified,226,114,190,2026-11-01T14:55:51Z,近90天有提交,71.62,2026-11-08T07:51:39+00:00
+yilujian/easy-writing,易创 easy-writing,workspace,桌面应用,True,AGPL-3.0,verified,847,7,33,2026-11-03T13:08:50Z,近90天有提交,66.99,2026-11-08T07:51:39+00:00
+YILING0013/AI_NovelGenerator,AI Novel Generator,workspace,本地工作台,False,AGPL-3.0,verified,6428,5,5,2026-11-05T07:39:01Z,近90天有提交,64.73,2026-11-08T07:51:39+00:00
+heider-x/vela,Vela,workspace,桌面 IDE,False,GPL-3.0,verified,590,5,24,2026-10-19T09:48:06Z,近90天有提交,60.33,2026-11-08T07:51:39+00:00
+bbaz123/novel-studio,Novel Studio,workspace,本地 Web 工作台,False,MIT,verified,7,78,189,2026-10-25T12:16:08Z,近90天有提交,58.21,2026-11-08T07:51:39+00:00
+op7418/Humanizer-zh,Humanizer-zh,revision,中文润色 Skill,False,MIT,verified,22240,0,1,2026-09-23T02:24:26Z,近90天有提交,53.64,2026-11-08T07:51:39+00:00
+VanGong1999/juben,juben / ai-juben,screenplay,剧本 Agent 平台,True,MIT,verified,181,5,5,2026-10-19T08:52:17Z,近90天有提交,48.2,2026-11-08T07:51:39+00:00
+xiaoshengxianjun/51mazi,51mazi 我要码字,workspace,桌面应用,False,MIT,verified,494,0,13,2026-08-31T15:01:15Z,近90天有提交,48.07,2026-11-08T07:51:39+00:00
+iLearn-Lab/NovelClaw,NovelClaw,workspace,自托管工作台,False,MIT,verified,373,3,3,2026-10-12T09:36:56Z,近90天有提交,46.92,2026-11-08T07:51:39+00:00
+usagifufu/FuFu-Novel-Writing,FuFu 小说创作助手,skills,WorkBuddy 技能包,False,待核验,unverified,4,3,12,2026-10-19T09:42:12Z,近90天有提交,40.07,2026-11-08T07:51:39+00:00
+Yuriloll/qifeng-writing,qifeng-writing,revision,中文写作 Skill,True,MIT,verified,40,0,2,2026-08-31T06:41:53Z,近90天有提交,30.7,2026-11-08T07:51:39+00:00
+Hao0321/ai-short-drama,ai-short-drama,screenplay,编剧 Skill,False,MIT,verified,81,0,1,2026-08-13T09:24:39Z,近90天有提交,28.73,2026-11-08T07:51:39+00:00
+notnotype/llmlint,llmlint,revision,文本规则检查器,False,AGPL-3.0,verified,13,0,3,2026-08-15T04:27:11Z,近90天有提交,26.68,2026-11-08T07:51:39+00:00
+Dankular/Storyteller,novel-harness / Storyteller,automation,写作 Harness,False,待核验,unverified,0,0,7,2026-09-12T14:43:59Z,近90天有提交,25.02,2026-11-08T07:51:39+00:00
+NarratorAI-Studio/narrator-ai-cli-skill,Narrator AI CLI Skill,screenplay,CLI 配套 Skill,True,MIT,verified,3181,0,0,2026-07-05T14:10:20Z,91–365天未提交,34.2,2026-11-08T07:51:39+00:00
+FlickeringLamp/ai-novelist,青烛 ai-novelist,workspace,桌面创作工具,False,MIT,verified,226,0,0,2026-07-25T09:14:13Z,91–365天未提交,26.55,2026-11-08T07:51:39+00:00
+LAY-lgtm/novel-writing-framework,novel-writing-framework,skills,方法论 / Agent 技能,True,MIT,verified,267,0,0,2026-05-31T13:05:38Z,91–365天未提交,23.61,2026-11-08T07:51:39+00:00
+Doriandarko/kimi-writer,Kimi Writing Agent,automation,CLI / Agent,False,MIT + 商用署名条款,custom,597,0,0,2025-11-08T18:48:31Z,91–365天未提交,22.65,2026-11-08T07:51:39+00:00
+jiaw-Zh/long-novel-writer,long-novel-writer,skills,长篇写作 Skill,False,待核验,unverified,94,0,0,2026-05-15T00:47:17Z,91–365天未提交,19.31,2026-11-08T07:51:39+00:00
+giapnguyen74/xnovelist,xnovelist,workspace,浏览器本地应用,False,MIT,verified,12,0,0,2026-06-08T14:28:12Z,91–365天未提交,13.49,2026-11-08T07:51:39+00:00
+MXD706/agnes,Agnes Creative OS,workspace,本地工作台,False,待核验,unverified,3,0,0,2026-05-27T03:33:30Z,91–365天未提交,8.81,2026-11-08T07:51:39+00:00
+AxolDad/novelist,Novelist Agent,automation,Agent 系统 / Alpha,False,待核验,unverified,2,0,0,2026-01-06T17:22:52Z,91–365天未提交,4.65,2026-11-08T07:51:39+00:00
+MaoXiaoYuZ/Long-Novel-GPT,Long-Novel-GPT,automation,长篇生成器 / Agent,False,待核验,unverified,1254,0,0,2025-11-05T03:18:41Z,超过365天未提交,25.21,2026-11-08T07:51:39+00:00
+EQ-bench/longform-writing-bench,Longform Writing Bench,evaluation,研究 / 评测工具,False,待核验,unverified,47,0,0,2025-10-26T00:55:18Z,超过365天未提交,13.82,2026-11-08T07:51:39+00:00
