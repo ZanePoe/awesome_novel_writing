@@ -9,7 +9,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面 / 自托管工作台。
 - 适用边界：原名 AI Novel Writing Assistant；许可需同时核验核心与商业组件。
-- 维护状态：近90天有提交；30 天提交 163 次，90 天提交 609 次。
+- 维护状态：近90天有提交；30 天提交 168 次，90 天提交 608 次。
 - 许可：[AGPL-3.0 + 商用附加说明](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE)；存在附加许可说明。LICENSE 同时列出 AGPL 与服务型商用另行授权说明；按作者原文记录，不将其简化为无附加条件的 AGPL。
 - 功能核验：2026-11-05；[来源 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7)。
 
@@ -19,7 +19,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：原名 AI Novel Writer；模型需另配，桌面主产品与 DSH 开发预览插件分开看。
-- 维护状态：近90天有提交；30 天提交 2392 次，90 天提交 3177 次。
+- 维护状态：近90天有提交；30 天提交 2602 次，90 天提交 3386 次。
 - 许可：[GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17)。
 
@@ -29,7 +29,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作工作台。
 - 适用边界：兼含剧本、漫画和互动世界，不能把全部功能都当作正文写作能力。
-- 维护状态：近90天有提交；30 天提交 1296 次，90 天提交 2253 次。
+- 维护状态：近90天有提交；30 天提交 1278 次，90 天提交 2247 次。
 - 许可：[MIT](https://api.github.com/repos/yuanbw2025/storyforge/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15)。
 
@@ -39,7 +39,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作平台。
 - 适用边界：兼含角色扮演；游戏体验功能不等同长篇小说自动生成能力。
-- 维护状态：近90天有提交；30 天提交 110 次，90 天提交 455 次。
+- 维护状态：近90天有提交；30 天提交 108 次，90 天提交 454 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/alfredxw/denova/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58)。
 
@@ -49,7 +49,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作 IDE / 预览版。
 - 适用边界：当前 v2 正在重建；AI 写作工作室等列在路线图，不按旧版功能宣称已完成。
-- 维护状态：近90天有提交；30 天提交 4195 次，90 天提交 5103 次。
+- 维护状态：近90天有提交；30 天提交 4144 次，90 天提交 5103 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26)。
 
@@ -59,19 +59,9 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：需要配置模型；“实时决策”是项目设计描述，尚未实测质量。
-- 维护状态：近90天有提交；30 天提交 229 次，90 天提交 541 次。
+- 维护状态：近90天有提交；30 天提交 219 次，90 天提交 543 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6)。
-
-## [OpenFic](https://github.com/syrizelink/OpenFic)
-
-用设定、角色和可定制 Prompt / Agent 工作流支持长篇共创。
-
-- 分类：小说创作软件与工作台；形态：跨平台应用。
-- 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
-- 维护状态：近90天有提交；30 天提交 39 次，90 天提交 146 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
 
 ## [Reveric 幻界](https://github.com/looplj/reveric)
 
@@ -79,9 +69,19 @@
 
 - 分类：小说创作软件与工作台；形态：本地优先桌面创作工作台。
 - 适用边界：默认分支为 unstable；项目采用 BYOK，文稿本地保存不代表调用远程文本、图像、音频或视频模型时数据不会外发。
-- 维护状态：近90天有提交；30 天提交 120 次，90 天提交 120 次。
+- 维护状态：近90天有提交；30 天提交 124 次，90 天提交 124 次。
 - 许可：[AGPL-3.0 + Section 7 署名要求](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES)；存在附加许可说明。修改版界面需保留 Based on Reveric by looplj. 和原项目链接；另提供商业许可路径，第三方材料依各自许可。
 - 功能核验：2026-11-06；[来源 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [来源 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91)。
+
+## [OpenFic](https://github.com/syrizelink/OpenFic)
+
+用设定、角色和可定制 Prompt / Agent 工作流支持长篇共创。
+
+- 分类：小说创作软件与工作台；形态：跨平台应用。
+- 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
+- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 145 次。
+- 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
+- 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
 
 ## [易创 easy-writing](https://github.com/yilujian/easy-writing)
 
@@ -119,7 +119,7 @@
 
 - 分类：小说创作软件与工作台；形态：本地 Web 工作台。
 - 适用边界：默认分支为 Experimental-Version-v1.0；不能把实验分支等同稳定发行版。
-- 维护状态：近90天有提交；30 天提交 78 次，90 天提交 189 次。
+- 维护状态：近90天有提交；30 天提交 77 次，90 天提交 189 次。
 - 许可：[MIT](https://api.github.com/repos/bbaz123/novel-studio/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/bbaz123/novel-studio/blob/fda67b0a19b9819c8e61ea62a06a4f9ea456ada2/README.md#L5)。
 
@@ -139,7 +139,7 @@
 
 - 分类：小说创作软件与工作台；形态：自托管工作台。
 - 适用边界：多 Agent 是工作流机制，不代表已验证的整本质量优势。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 3 次。
+- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 3 次。
 - 许可：[MIT](https://api.github.com/repos/iLearn-Lab/NovelClaw/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/iLearn-Lab/NovelClaw/blob/eac2fda3534205f5c70732e653b6f07a575f5ac9/README.md#L13)。
 
@@ -189,7 +189,7 @@
 
 - 分类：自动写作 Agent 与创作引擎；形态：创作引擎。
 - 适用边界：这是写作引擎；具体运行方式和所需模型以仓库当前配置为准。
-- 维护状态：近90天有提交；30 天提交 120 次，90 天提交 252 次。
+- 维护状态：近90天有提交；30 天提交 120 次，90 天提交 253 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10)。
 
@@ -202,16 +202,6 @@
 - 维护状态：近90天有提交；30 天提交 0 次，90 天提交 7 次。
 - 许可：[待核验](https://api.github.com/repos/Dankular/Storyteller/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
 - 功能核验：2026-11-05；[来源 1](https://github.com/Dankular/Storyteller/blob/cc7d3da8af30c9f3417987848e0ce36cf88cfea1/README.md#L3)。
-
-## [Kimi Writing Agent](https://github.com/Doriandarko/kimi-writer)
-
-使用模型规划、写作、管理文件并从上下文摘要恢复长篇创作。
-
-- 分类：自动写作 Agent 与创作引擎；形态：CLI / Agent。
-- 适用边界：默认围绕 kimi-k2-thinking；不把作者演示当成跨模型测评。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT + 商用署名条款](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/LICENSE)；存在附加许可说明。LICENSE 含显式商业使用署名要求，GitHub 未识别为标准 SPDX。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/README.md#L3)。
 
 ## [Novelist Agent](https://github.com/AxolDad/novelist)
 
@@ -233,13 +223,23 @@
 - 许可：[待核验](https://api.github.com/repos/MaoXiaoYuZ/Long-Novel-GPT/license)；许可待核验。GitHub SPDX 识别；不推断模型与示例作品授权。
 - 功能核验：2026-11-05；[来源 1](https://github.com/MaoXiaoYuZ/Long-Novel-GPT/blob/107c31e54686947a6d00404e332475a60b66e630/readme.md#L19)。
 
+## [Kimi Writing Agent](https://github.com/Doriandarko/kimi-writer)
+
+使用模型规划、写作、管理文件并从上下文摘要恢复长篇创作。
+
+- 分类：自动写作 Agent 与创作引擎；形态：CLI / Agent。
+- 适用边界：默认围绕 kimi-k2-thinking；不把作者演示当成跨模型测评。
+- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT + 商用署名条款](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/LICENSE)；存在附加许可说明。LICENSE 含显式商业使用署名要求，GitHub 未识别为标准 SPDX。
+- 功能核验：2026-11-05；[来源 1](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/README.md#L3)。
+
 ## [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode)
 
 覆盖网文研究、拆文、长短篇写作与修订的技能工作流。
 
 - 分类：长篇创作技能与方法框架；形态：Agent 技能包。
 - 适用边界：运行在已有 Agent 中；不把资料采集和文本生成效果混为一谈。
-- 维护状态：近90天有提交；30 天提交 72 次，90 天提交 148 次。
+- 维护状态：近90天有提交；30 天提交 75 次，90 天提交 152 次。
 - 许可：[MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8)。
 
@@ -269,7 +269,7 @@
 
 - 分类：长篇创作技能与方法框架；形态：OpenCode 移植 / 扩展。
 - 适用边界：是 webnovel-writer 的明确衍生实现；单独记录宿主差异，不当作无关系项目。
-- 维护状态：近90天有提交；30 天提交 114 次，90 天提交 190 次。
+- 维护状态：近90天有提交；30 天提交 106 次，90 天提交 190 次。
 - 许可：[GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1)。
 
@@ -309,7 +309,7 @@
 
 - 分类：文风修订、去模板化与质量检查；形态：Agent Skill / 检查工具。
 - 适用边界：通用写作修订；降低模式化表达不代表证明文本作者身份。
-- 维护状态：近90天有提交；30 天提交 73 次，90 天提交 499 次。
+- 维护状态：近90天有提交；30 天提交 70 次，90 天提交 499 次。
 - 许可：[MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5)。
 
@@ -319,7 +319,7 @@
 
 - 分类：文风修订、去模板化与质量检查；形态：Agent Skill。
 - 适用边界：小说修订与专业文章模式分开；不把去 AI 味视为检测器规避保证。
-- 维护状态：近90天有提交；30 天提交 71 次，90 天提交 389 次。
+- 维护状态：近90天有提交；30 天提交 67 次，90 天提交 389 次。
 - 许可：[MIT](https://api.github.com/repos/Nanako0129/sepia/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [来源 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7)。
 
@@ -379,7 +379,7 @@
 
 - 分类：剧本、短剧改编与影视解说；形态：短剧制作技能包。
 - 适用边界：主方向是小说改编和短剧制作；图像、视频生成有额外工具依赖。
-- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 105 次。
+- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 104 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/eternityspring/shuohao-skills/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md#L5)。
 
