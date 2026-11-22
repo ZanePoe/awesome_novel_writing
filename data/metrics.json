@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-21T08:42:10+00:00",
+  "as_of": "2026-11-22T08:41:30+00:00",
   "window_days": [
     30,
     90
@@ -9,56 +9,56 @@
     "EthanYoQ/Pagekin": {
       "canonical_repo": "EthanYoQ/Pagekin",
       "url": "https://github.com/EthanYoQ/Pagekin",
-      "stars": 2755,
-      "forks": 333,
+      "stars": 2780,
+      "forks": 334,
       "archived": false,
       "disabled": false,
       "license_spdx": "GPL-3.0",
       "license_name": "GNU General Public License v3.0",
       "default_branch": "master",
-      "head_sha": "4e5f014b3eaf1fb0d6d25b31c030a372820c81b5",
-      "last_commit_at": "2026-11-21T07:47:08Z",
-      "commits_30d": 2783,
-      "commits_90d": 4828,
-      "pushed_at": "2026-11-21T07:47:11Z",
-      "updated_at": "2026-11-21T07:51:55Z",
+      "head_sha": "1d7e536891d12237d4da7f347d862095716a33c7",
+      "last_commit_at": "2026-11-22T07:51:37Z",
+      "commits_30d": 3023,
+      "commits_90d": 5066,
+      "pushed_at": "2026-11-22T08:28:04Z",
+      "updated_at": "2026-11-22T08:21:38Z",
       "latest_release": {
         "tagName": "v1.5.0",
         "publishedAt": "2026-11-18T03:25:38Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ExplosiveCoderflome/AI-Novel-Writing-Assistant": {
       "canonical_repo": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
       "url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
-      "stars": 3517,
-      "forks": 663,
+      "stars": 3526,
+      "forks": 665,
       "archived": false,
       "disabled": false,
       "license_spdx": "NOASSERTION",
       "license_name": "Other",
       "default_branch": "main",
-      "head_sha": "abe02960646357761589c3a3e38914633bb05cbb",
-      "last_commit_at": "2026-11-21T07:52:31Z",
-      "commits_30d": 360,
-      "commits_90d": 856,
-      "pushed_at": "2026-11-21T08:02:56Z",
-      "updated_at": "2026-11-21T08:21:22Z",
+      "head_sha": "9520ea8782e980f7fd51bb74738598746802f389",
+      "last_commit_at": "2026-11-22T02:56:46Z",
+      "commits_30d": 373,
+      "commits_90d": 828,
+      "pushed_at": "2026-11-22T07:01:14Z",
+      "updated_at": "2026-11-22T08:20:40Z",
       "latest_release": {
-        "tagName": "v0.8.10",
-        "publishedAt": "2026-11-20T07:14:03Z",
+        "tagName": "v0.8.11",
+        "publishedAt": "2026-11-21T10:00:29Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "alfredxw/denova": {
       "canonical_repo": "alfredxw/denova",
       "url": "https://github.com/alfredxw/denova",
-      "stars": 1045,
-      "forks": 162,
+      "stars": 1050,
+      "forks": 161,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
@@ -67,22 +67,22 @@
       "head_sha": "19bc07b2b41dad023040d10c826f248a1ea65315",
       "last_commit_at": "2026-11-19T09:03:17Z",
       "commits_30d": 42,
-      "commits_90d": 383,
+      "commits_90d": 373,
       "pushed_at": "2026-11-19T09:03:29Z",
-      "updated_at": "2026-11-20T09:47:43Z",
+      "updated_at": "2026-11-22T05:30:30Z",
       "latest_release": {
         "tagName": "v0.8.0",
         "publishedAt": "2026-11-18T13:41:13Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "yilujian/easy-writing": {
       "canonical_repo": "yilujian/easy-writing",
       "url": "https://github.com/yilujian/easy-writing",
-      "stars": 922,
-      "forks": 163,
+      "stars": 940,
+      "forks": 170,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
@@ -93,20 +93,20 @@
       "commits_30d": 4,
       "commits_90d": 33,
       "pushed_at": "2026-11-03T13:21:30Z",
-      "updated_at": "2026-11-21T08:30:19Z",
+      "updated_at": "2026-11-22T07:17:38Z",
       "latest_release": {
         "tagName": "v2.1.1",
         "publishedAt": "2026-11-03T13:34:26Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "YILING0013/AI_NovelGenerator": {
       "canonical_repo": "YILING0013/AI_NovelGenerator",
       "url": "https://github.com/YILING0013/AI_NovelGenerator",
-      "stars": 6515,
-      "forks": 1127,
+      "stars": 6518,
+      "forks": 1128,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
@@ -117,15 +117,15 @@
       "commits_30d": 1,
       "commits_90d": 5,
       "pushed_at": "2026-11-05T07:39:13Z",
-      "updated_at": "2026-11-21T03:27:53Z",
+      "updated_at": "2026-11-22T05:51:09Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "syrizelink/OpenFic": {
       "canonical_repo": "syrizelink/OpenFic",
       "url": "https://github.com/syrizelink/OpenFic",
-      "stars": 1315,
+      "stars": 1316,
       "forks": 144,
       "archived": false,
       "disabled": false,
@@ -135,45 +135,45 @@
       "head_sha": "2972107875822fc55d67cae8c8ec3705ec9ee763",
       "last_commit_at": "2026-11-16T10:54:55Z",
       "commits_30d": 31,
-      "commits_90d": 114,
-      "pushed_at": "2026-11-21T07:20:51Z",
-      "updated_at": "2026-11-20T11:41:09Z",
+      "commits_90d": 112,
+      "pushed_at": "2026-11-22T08:14:53Z",
+      "updated_at": "2026-11-21T15:16:21Z",
       "latest_release": {
         "tagName": "v0.13.0",
         "publishedAt": "2026-10-28T12:03:19Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "yuanbw2025/storyforge": {
       "canonical_repo": "yuanbw2025/storyforge",
       "url": "https://github.com/yuanbw2025/storyforge",
-      "stars": 1043,
+      "stars": 1045,
       "forks": 176,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
       "license_name": "MIT License",
       "default_branch": "main",
-      "head_sha": "cafb43592749b6d95268920b06bd8e43bb9aac95",
-      "last_commit_at": "2026-11-21T07:25:32Z",
-      "commits_30d": 1311,
-      "commits_90d": 3022,
-      "pushed_at": "2026-11-21T07:25:33Z",
-      "updated_at": "2026-11-20T20:47:17Z",
+      "head_sha": "b549b62d89ec156384a8171e17da3251dc046934",
+      "last_commit_at": "2026-11-22T06:12:43Z",
+      "commits_30d": 1256,
+      "commits_90d": 3021,
+      "pushed_at": "2026-11-22T08:18:35Z",
+      "updated_at": "2026-11-22T08:01:22Z",
       "latest_release": {
         "tagName": "v4.0.8",
         "publishedAt": "2026-11-19T16:02:36Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "notnotype/neuro-book": {
       "canonical_repo": "notnotype/neuro-book",
       "url": "https://github.com/notnotype/neuro-book",
-      "stars": 792,
+      "stars": 794,
       "forks": 77,
       "archived": false,
       "disabled": false,
@@ -182,16 +182,16 @@
       "default_branch": "master",
       "head_sha": "c176da7c4946ead1f5555c2bfcd5a4873bac6d75",
       "last_commit_at": "2026-11-20T13:18:42Z",
-      "commits_30d": 4987,
-      "commits_90d": 7409,
+      "commits_30d": 4840,
+      "commits_90d": 7401,
       "pushed_at": "2026-11-20T13:19:09Z",
-      "updated_at": "2026-11-20T15:00:30Z",
+      "updated_at": "2026-11-21T21:54:43Z",
       "latest_release": {
         "tagName": "v0.15.0",
         "publishedAt": "2026-11-20T12:58:06Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "heider-x/vela": {
@@ -215,14 +215,14 @@
         "publishedAt": "2026-04-21T09:49:12Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "sigpanic/goink": {
       "canonical_repo": "sigpanic/goink",
       "url": "https://github.com/sigpanic/goink",
-      "stars": 546,
-      "forks": 89,
+      "stars": 549,
+      "forks": 90,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
@@ -230,16 +230,16 @@
       "default_branch": "master",
       "head_sha": "22a5eefd18bfee58e0df2576bfc297c461e9ae06",
       "last_commit_at": "2026-11-19T13:39:43Z",
-      "commits_30d": 156,
+      "commits_30d": 149,
       "commits_90d": 425,
       "pushed_at": "2026-11-19T13:40:10Z",
-      "updated_at": "2026-11-21T05:33:36Z",
+      "updated_at": "2026-11-22T02:36:35Z",
       "latest_release": {
         "tagName": "v1.9.0",
         "publishedAt": "2026-11-19T13:02:20Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "xiaoshengxianjun/51mazi": {
@@ -263,7 +263,7 @@
         "publishedAt": "2026-08-24T15:55:43Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "iLearn-Lab/NovelClaw": {
@@ -283,7 +283,7 @@
       "pushed_at": "2026-10-12T09:37:45Z",
       "updated_at": "2026-11-17T05:26:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "FlickeringLamp/ai-novelist": {
@@ -307,7 +307,7 @@
         "publishedAt": "2026-02-25T18:05:02Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "bbaz123/novel-studio": {
@@ -331,7 +331,7 @@
         "publishedAt": "2026-10-25T12:19:34Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "giapnguyen74/xnovelist": {
@@ -351,7 +351,7 @@
       "pushed_at": "2026-06-08T14:28:22Z",
       "updated_at": "2026-11-02T13:12:41Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MXD706/agnes": {
@@ -375,14 +375,14 @@
         "publishedAt": "2026-05-27T03:41:20Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Narcooo/inkos": {
       "canonical_repo": "Narcooo/inkos",
       "url": "https://github.com/Narcooo/inkos",
-      "stars": 11377,
-      "forks": 2049,
+      "stars": 11387,
+      "forks": 2051,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
@@ -393,13 +393,13 @@
       "commits_30d": 1,
       "commits_90d": 108,
       "pushed_at": "2026-10-24T05:30:14Z",
-      "updated_at": "2026-11-21T08:21:21Z",
+      "updated_at": "2026-11-22T07:31:24Z",
       "latest_release": {
         "tagName": "v1.8.0",
         "publishedAt": "2026-08-17T04:15:34Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Doriandarko/kimi-writer": {
@@ -419,7 +419,7 @@
       "pushed_at": "2026-01-29T16:24:05Z",
       "updated_at": "2026-11-20T23:58:39Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "AxolDad/novelist": {
@@ -439,7 +439,7 @@
       "pushed_at": "2026-01-06T17:23:00Z",
       "updated_at": "2026-01-22T00:19:41Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Dankular/Storyteller": {
@@ -459,14 +459,14 @@
       "pushed_at": "2026-10-26T22:57:16Z",
       "updated_at": "2026-09-12T14:44:54Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "LiPu-jpg/Openwrite": {
       "canonical_repo": "LiPu-jpg/Openwrite",
       "url": "https://github.com/LiPu-jpg/Openwrite",
-      "stars": 1005,
-      "forks": 139,
+      "stars": 1009,
+      "forks": 140,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
@@ -474,23 +474,23 @@
       "default_branch": "main",
       "head_sha": "9fa0ef8e2ecc87f2acb684fe14b9c8ba8d69a5c7",
       "last_commit_at": "2026-11-20T15:59:16Z",
-      "commits_30d": 106,
-      "commits_90d": 227,
+      "commits_30d": 100,
+      "commits_90d": 222,
       "pushed_at": "2026-11-20T16:04:44Z",
-      "updated_at": "2026-11-21T07:59:41Z",
+      "updated_at": "2026-11-22T03:03:03Z",
       "latest_release": {
         "tagName": "v0.2.40",
         "publishedAt": "2026-11-19T03:42:51Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "PenglongHuang/chinese-novelist-skill": {
       "canonical_repo": "PenglongHuang/chinese-novelist-skill",
       "url": "https://github.com/PenglongHuang/chinese-novelist-skill",
-      "stars": 5126,
-      "forks": 709,
+      "stars": 5380,
+      "forks": 742,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -499,46 +499,46 @@
       "head_sha": "d1fb0ca5737ded47934b366b10b8d50b52557e57",
       "last_commit_at": "2026-11-15T09:24:34Z",
       "commits_30d": 16,
-      "commits_90d": 34,
+      "commits_90d": 30,
       "pushed_at": "2026-11-15T09:24:35Z",
-      "updated_at": "2026-11-21T07:01:39Z",
+      "updated_at": "2026-11-22T08:35:23Z",
       "latest_release": {
         "tagName": "v2.3.2",
         "publishedAt": "2026-10-29T16:33:11Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zenstory-ai/oh-story-claudecode": {
       "canonical_repo": "zenstory-ai/oh-story-claudecode",
       "url": "https://github.com/zenstory-ai/oh-story-claudecode",
-      "stars": 8806,
-      "forks": 1238,
+      "stars": 8824,
+      "forks": 1241,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
       "license_name": "MIT License",
       "default_branch": "main",
-      "head_sha": "3e5a4a1c7a78a51f0eef91b3340a34e2cee0f050",
-      "last_commit_at": "2026-11-20T04:48:11Z",
-      "commits_30d": 63,
-      "commits_90d": 157,
-      "pushed_at": "2026-11-20T04:48:12Z",
-      "updated_at": "2026-11-21T08:21:29Z",
+      "head_sha": "e5a8b98657c05ddb3d53b77d5afe696a63d79985",
+      "last_commit_at": "2026-11-22T06:51:21Z",
+      "commits_30d": 69,
+      "commits_90d": 164,
+      "pushed_at": "2026-11-22T06:55:57Z",
+      "updated_at": "2026-11-22T07:58:30Z",
       "latest_release": {
-        "tagName": "v0.10.5",
-        "publishedAt": "2026-11-13T06:27:36Z",
+        "tagName": "v0.11.0",
+        "publishedAt": "2026-11-22T06:56:29Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "lingfengQAQ/webnovel-writer": {
       "canonical_repo": "lingfengQAQ/webnovel-writer",
       "url": "https://github.com/lingfengQAQ/webnovel-writer",
-      "stars": 8042,
-      "forks": 1299,
+      "stars": 8044,
+      "forks": 1301,
       "archived": false,
       "disabled": false,
       "license_spdx": "GPL-3.0",
@@ -546,22 +546,22 @@
       "default_branch": "master",
       "head_sha": "04e485d0d4d34524b83e219be5d0482557c53334",
       "last_commit_at": "2026-11-19T13:44:09Z",
-      "commits_30d": 4,
+      "commits_30d": 3,
       "commits_90d": 18,
       "pushed_at": "2026-11-19T13:44:13Z",
-      "updated_at": "2026-11-21T08:10:44Z",
+      "updated_at": "2026-11-22T08:27:28Z",
       "latest_release": {
         "tagName": "scriptor-v8.4.2",
         "publishedAt": "2026-11-19T06:34:19Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "LAY-lgtm/novel-writing-framework": {
       "canonical_repo": "LAY-lgtm/novel-writing-framework",
       "url": "https://github.com/LAY-lgtm/novel-writing-framework",
-      "stars": 276,
+      "stars": 278,
       "forks": 30,
       "archived": false,
       "disabled": false,
@@ -573,9 +573,9 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2026-05-31T14:05:04Z",
-      "updated_at": "2026-11-18T15:32:15Z",
+      "updated_at": "2026-11-22T08:23:04Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "usagifufu/FuFu-Novel-Writing": {
@@ -595,7 +595,7 @@
       "pushed_at": "2026-10-19T09:42:25Z",
       "updated_at": "2026-10-26T13:56:36Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "lujih/webnovel-writer-opencode": {
@@ -619,7 +619,7 @@
         "publishedAt": "2026-11-01T14:55:56Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "jiaw-Zh/long-novel-writer": {
@@ -639,14 +639,14 @@
       "pushed_at": "2026-06-18T02:35:29Z",
       "updated_at": "2026-11-18T14:14:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "conorbronsdon/avoid-ai-writing": {
       "canonical_repo": "conorbronsdon/avoid-ai-writing",
       "url": "https://github.com/conorbronsdon/avoid-ai-writing",
-      "stars": 5773,
-      "forks": 481,
+      "stars": 5926,
+      "forks": 493,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -657,20 +657,20 @@
       "commits_30d": 44,
       "commits_90d": 503,
       "pushed_at": "2026-11-21T00:16:22Z",
-      "updated_at": "2026-11-21T03:27:42Z",
+      "updated_at": "2026-11-22T08:27:31Z",
       "latest_release": {
         "tagName": "v3.39.0",
         "publishedAt": "2026-11-17T02:31:04Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Nanako0129/sepia": {
       "canonical_repo": "Nanako0129/sepia",
       "url": "https://github.com/Nanako0129/sepia",
-      "stars": 3914,
-      "forks": 241,
+      "stars": 3922,
+      "forks": 242,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -681,13 +681,13 @@
       "commits_30d": 61,
       "commits_90d": 389,
       "pushed_at": "2026-11-03T05:53:57Z",
-      "updated_at": "2026-11-21T07:18:29Z",
+      "updated_at": "2026-11-22T07:55:14Z",
       "latest_release": {
         "tagName": "v0.13.0",
         "publishedAt": "2026-11-03T05:54:00Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Yuriloll/qifeng-writing": {
@@ -707,14 +707,14 @@
       "pushed_at": "2026-08-31T06:41:59Z",
       "updated_at": "2026-11-03T19:22:04Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "op7418/Humanizer-zh": {
       "canonical_repo": "op7418/Humanizer-zh",
       "url": "https://github.com/op7418/Humanizer-zh",
-      "stars": 23459,
-      "forks": 1442,
+      "stars": 23517,
+      "forks": 1444,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -725,16 +725,16 @@
       "commits_30d": 0,
       "commits_90d": 1,
       "pushed_at": "2026-09-23T02:24:28Z",
-      "updated_at": "2026-11-21T08:27:26Z",
+      "updated_at": "2026-11-22T08:10:58Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "blader/humanizer": {
       "canonical_repo": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
-      "stars": 71766,
-      "forks": 5616,
+      "stars": 72093,
+      "forks": 5643,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -745,13 +745,13 @@
       "commits_30d": 27,
       "commits_90d": 71,
       "pushed_at": "2026-11-19T18:53:14Z",
-      "updated_at": "2026-11-21T08:36:55Z",
+      "updated_at": "2026-11-22T08:37:44Z",
       "latest_release": {
         "tagName": "v4.0.0",
         "publishedAt": "2026-11-10T01:35:15Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "notnotype/llmlint": {
@@ -771,14 +771,14 @@
       "pushed_at": "2026-08-15T08:28:59Z",
       "updated_at": "2026-11-06T10:21:26Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "eternityspring/shuohao-skills": {
       "canonical_repo": "eternityspring/shuohao-skills",
       "url": "https://github.com/eternityspring/shuohao-skills",
-      "stars": 6894,
-      "forks": 979,
+      "stars": 6929,
+      "forks": 981,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
@@ -789,15 +789,15 @@
       "commits_30d": 6,
       "commits_90d": 63,
       "pushed_at": "2026-11-09T14:58:55Z",
-      "updated_at": "2026-11-21T07:39:31Z",
+      "updated_at": "2026-11-22T08:14:24Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "NarratorAI-Studio/narrator-ai-cli-skill": {
       "canonical_repo": "NarratorAI-Studio/narrator-ai-cli-skill",
       "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
-      "stars": 3312,
+      "stars": 3316,
       "forks": 442,
       "archived": false,
       "disabled": false,
@@ -809,57 +809,57 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2026-07-05T14:10:21Z",
-      "updated_at": "2026-11-21T08:35:29Z",
+      "updated_at": "2026-11-21T22:00:42Z",
       "latest_release": {
         "tagName": "v1.0.0",
         "publishedAt": "2026-04-02T02:33:13Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "VanGong1999/juben": {
       "canonical_repo": "VanGong1999/juben",
       "url": "https://github.com/VanGong1999/juben",
-      "stars": 190,
-      "forks": 55,
+      "stars": 192,
+      "forks": 56,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
       "license_name": "MIT License",
       "default_branch": "main",
-      "head_sha": "5f56075fecbaa780d5158274f387332fc71de7f0",
-      "last_commit_at": "2026-10-19T08:52:17Z",
-      "commits_30d": 0,
-      "commits_90d": 5,
-      "pushed_at": "2026-10-19T08:52:54Z",
-      "updated_at": "2026-11-20T15:19:52Z",
+      "head_sha": "250d47b6bf1ce0105c278293ea4557222f2fe299",
+      "last_commit_at": "2026-11-22T06:39:41Z",
+      "commits_30d": 2,
+      "commits_90d": 7,
+      "pushed_at": "2026-11-22T06:39:41Z",
+      "updated_at": "2026-11-22T05:29:50Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zenstory-ai/drama-skills": {
       "canonical_repo": "zenstory-ai/drama-skills",
       "url": "https://github.com/zenstory-ai/drama-skills",
-      "stars": 4586,
-      "forks": 785,
+      "stars": 4620,
+      "forks": 792,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
       "license_name": "MIT License",
       "default_branch": "main",
-      "head_sha": "71078642cc86e64505f0a09e8d3db60f36b75a0a",
-      "last_commit_at": "2026-11-20T04:48:05Z",
-      "commits_30d": 53,
-      "commits_90d": 205,
-      "pushed_at": "2026-11-20T04:48:06Z",
-      "updated_at": "2026-11-21T07:54:38Z",
+      "head_sha": "7fed9dfcd33c5a3134ff1b51709dd826488b5aab",
+      "last_commit_at": "2026-11-22T07:11:39Z",
+      "commits_30d": 59,
+      "commits_90d": 206,
+      "pushed_at": "2026-11-22T07:28:17Z",
+      "updated_at": "2026-11-22T08:12:59Z",
       "latest_release": {
-        "tagName": "v0.12.1",
-        "publishedAt": "2026-11-16T07:17:42Z",
+        "tagName": "v0.13.0",
+        "publishedAt": "2026-11-22T07:28:49Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Hao0321/ai-short-drama": {
@@ -883,7 +883,7 @@
         "publishedAt": "2026-08-13T09:24:59Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "EQ-bench/longform-writing-bench": {
@@ -903,7 +903,7 @@
       "pushed_at": "2025-10-26T00:55:31Z",
       "updated_at": "2026-11-19T11:43:57Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MaoXiaoYuZ/Long-Novel-GPT": {
@@ -923,31 +923,31 @@
       "pushed_at": "2025-11-05T03:19:26Z",
       "updated_at": "2026-11-21T02:36:16Z",
       "latest_release": null,
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     },
     "looplj/reveric": {
       "canonical_repo": "looplj/reveric",
       "url": "https://github.com/looplj/reveric",
-      "stars": 930,
-      "forks": 229,
+      "stars": 945,
+      "forks": 231,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
       "license_name": "GNU Affero General Public License v3.0",
       "default_branch": "unstable",
-      "head_sha": "b75ec8e888b808e3b2a4b6dbf6f6cae19fd7a9e5",
-      "last_commit_at": "2026-11-21T03:37:32Z",
-      "commits_30d": 236,
-      "commits_90d": 236,
-      "pushed_at": "2026-11-21T03:37:40Z",
-      "updated_at": "2026-11-21T07:15:24Z",
+      "head_sha": "3328daff027db481d979a233eb5d94aded84cce3",
+      "last_commit_at": "2026-11-22T05:43:06Z",
+      "commits_30d": 250,
+      "commits_90d": 250,
+      "pushed_at": "2026-11-22T05:43:13Z",
+      "updated_at": "2026-11-22T08:02:07Z",
       "latest_release": {
-        "tagName": "v0.10.3",
-        "publishedAt": "2026-11-20T18:02:29Z",
+        "tagName": "v0.10.4",
+        "publishedAt": "2026-11-22T05:43:15Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-21T08:42:10+00:00",
+      "collected_at": "2026-11-22T08:41:30+00:00",
       "source": "https://api.github.com/graphql"
     }
   }

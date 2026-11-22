@@ -22,7 +22,7 @@ flowchart LR
 
 ## 当前收录
 
-**42 个项目，覆盖全部 14 个去重后的参考项目。** 功能核验：2026-11-06；指标快照：`2026-11-21T08:42:10+00:00`（UTC）。
+**42 个项目，覆盖全部 14 个去重后的参考项目。** 功能核验：2026-11-06；指标快照：`2026-11-22T08:41:30+00:00`（UTC）。
 
 每类先按维护状态分层，再综合 star（40%）、90 天提交活动（35%）和最近默认分支提交（25%）排序。归档项目后置。**维护分不代表小说质量、文学水平或一键成书成功率。**
 
@@ -43,31 +43,31 @@ flowchart LR
 
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) ★ · 许可注意 | 围绕世界、角色、逐章写作与检查组织整本小说生产。 | 桌面 / 自托管工作台 | 3,517 | 856 | 2026-11-21 | 88.4 | AGPL-3.0 + 商用附加说明 |
-| [书童 Pagekin](https://github.com/EthanYoQ/Pagekin) ★ | 从设定、章节蓝图到正文、审稿与修订的长篇写作工作台。 | 桌面应用 | 2,755 | 4,828 | 2026-11-21 | 87.5 | GPL-3.0 |
-| [StoryForge 故事熔炉](https://github.com/yuanbw2025/storyforge) | 覆盖小说创作、故事改编与互动体验的本地优先叙事工具。 | 创作工作台 | 1,043 | 3,022 | 2026-11-21 | 84.1 | MIT |
-| [NeuroBook](https://github.com/notnotype/neuro-book) | 用编辑器、项目文件与可扩展工具组织长篇写作。 | 创作 IDE / 预览版 | 792 | 7,409 | 2026-11-20 | 83.0 | AGPL-3.0 |
-| [Denova](https://github.com/alfredxw/denova) ★ | 把小说、互动故事、资料库和 Agent 工具放进同一工作区。 | 创作平台 | 1,045 | 383 | 2026-11-19 | 82.1 | Apache-2.0 |
-| [Goink](https://github.com/sigpanic/goink) | 结合 Agent 写作决策、结构化记忆和写后状态检查的写作系统。 | 桌面应用 | 546 | 425 | 2026-11-19 | 80.5 | AGPL-3.0 |
-| [Reveric 幻界](https://github.com/looplj/reveric) ★ · 许可注意 | 以智能体连接长篇小说、剧本改编、分镜、3D 导演台和剪辑流程的桌面创作工作台。 | 本地优先桌面创作工作台 | 930 | 236 | 2026-11-21 | 79.5 | AGPL-3.0 + Section 7 署名要求 |
-| [OpenFic](https://github.com/syrizelink/OpenFic) | 用设定、角色和可定制 Prompt / Agent 工作流支持长篇共创。 | 跨平台应用 | 1,315 | 114 | 2026-11-16 | 75.3 | Apache-2.0 |
-| [易创 easy-writing](https://github.com/yilujian/easy-writing) ★ | 本地章节编辑、码字统计、AI 辅助创作与作品管理。 | 桌面应用 | 922 | 33 | 2026-11-03 | 64.1 | AGPL-3.0 |
-| [AI Novel Generator](https://github.com/YILING0013/AI_NovelGenerator) | 把人物、关系、故事计划和正文放在项目里，生成候选后由人审阅保存。 | 本地工作台 | 6,515 | 5 | 2026-11-05 | 61.5 | AGPL-3.0 |
-| [Novel Studio](https://github.com/bbaz123/novel-studio) | 编辑器结合故事设定、角色状态、伏笔管理与连续性检查。 | 本地 Web 工作台 | 8 | 191 | 2026-11-15 | 60.7 | MIT |
-| [Vela](https://github.com/heider-x/vela) | 把大纲、起草、重写和审阅与本地 RAG 资料库结合。 | 桌面 IDE | 593 | 21 | 2026-10-19 | 56.9 | GPL-3.0 |
-| [NovelClaw](https://github.com/iLearn-Lab/NovelClaw) | 以章节草稿、可检查运行、审稿和可编辑记忆组织长期创作。 | 自托管工作台 | 374 | 3 | 2026-10-12 | 44.4 | MIT |
-| [51mazi 我要码字](https://github.com/xiaoshengxianjun/51mazi) | 小说编辑与创作辅助工具，包含 AI 写作及创作素材能力。 | 桌面应用 | 498 | 3 | 2026-08-31 | 39.5 | MIT |
+| [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) ★ · 许可注意 | 围绕世界、角色、逐章写作与检查组织整本小说生产。 | 桌面 / 自托管工作台 | 3,526 | 828 | 2026-11-22 | 88.3 | AGPL-3.0 + 商用附加说明 |
+| [书童 Pagekin](https://github.com/EthanYoQ/Pagekin) ★ | 从设定、章节蓝图到正文、审稿与修订的长篇写作工作台。 | 桌面应用 | 2,780 | 5,066 | 2026-11-22 | 87.5 | GPL-3.0 |
+| [StoryForge 故事熔炉](https://github.com/yuanbw2025/storyforge) | 覆盖小说创作、故事改编与互动体验的本地优先叙事工具。 | 创作工作台 | 1,045 | 3,021 | 2026-11-22 | 84.1 | MIT |
+| [NeuroBook](https://github.com/notnotype/neuro-book) | 用编辑器、项目文件与可扩展工具组织长篇写作。 | 创作 IDE / 预览版 | 794 | 7,401 | 2026-11-20 | 82.7 | AGPL-3.0 |
+| [Denova](https://github.com/alfredxw/denova) ★ | 把小说、互动故事、资料库和 Agent 工具放进同一工作区。 | 创作平台 | 1,050 | 373 | 2026-11-19 | 81.7 | Apache-2.0 |
+| [Goink](https://github.com/sigpanic/goink) | 结合 Agent 写作决策、结构化记忆和写后状态检查的写作系统。 | 桌面应用 | 549 | 425 | 2026-11-19 | 80.2 | AGPL-3.0 |
+| [Reveric 幻界](https://github.com/looplj/reveric) ★ · 许可注意 | 以智能体连接长篇小说、剧本改编、分镜、3D 导演台和剪辑流程的桌面创作工作台。 | 本地优先桌面创作工作台 | 945 | 250 | 2026-11-22 | 79.9 | AGPL-3.0 + Section 7 署名要求 |
+| [OpenFic](https://github.com/syrizelink/OpenFic) | 用设定、角色和可定制 Prompt / Agent 工作流支持长篇共创。 | 跨平台应用 | 1,316 | 112 | 2026-11-16 | 75.0 | Apache-2.0 |
+| [易创 easy-writing](https://github.com/yilujian/easy-writing) ★ | 本地章节编辑、码字统计、AI 辅助创作与作品管理。 | 桌面应用 | 940 | 33 | 2026-11-03 | 63.9 | AGPL-3.0 |
+| [AI Novel Generator](https://github.com/YILING0013/AI_NovelGenerator) | 把人物、关系、故事计划和正文放在项目里，生成候选后由人审阅保存。 | 本地工作台 | 6,518 | 5 | 2026-11-05 | 61.3 | AGPL-3.0 |
+| [Novel Studio](https://github.com/bbaz123/novel-studio) | 编辑器结合故事设定、角色状态、伏笔管理与连续性检查。 | 本地 Web 工作台 | 8 | 191 | 2026-11-15 | 60.4 | MIT |
+| [Vela](https://github.com/heider-x/vela) | 把大纲、起草、重写和审阅与本地 RAG 资料库结合。 | 桌面 IDE | 593 | 21 | 2026-10-19 | 56.7 | GPL-3.0 |
+| [NovelClaw](https://github.com/iLearn-Lab/NovelClaw) | 以章节草稿、可检查运行、审稿和可编辑记忆组织长期创作。 | 自托管工作台 | 374 | 3 | 2026-10-12 | 44.3 | MIT |
+| [51mazi 我要码字](https://github.com/xiaoshengxianjun/51mazi) | 小说编辑与创作辅助工具，包含 AI 写作及创作素材能力。 | 桌面应用 | 498 | 3 | 2026-08-31 | 39.4 | MIT |
 | [青烛 ai-novelist](https://github.com/FlickeringLamp/ai-novelist) | 探索工具调用与人在回路的 AI 文本共创。 | 桌面创作工具 | 227 | 0 | 2026-07-25 | 25.5 | MIT |
-| [xnovelist](https://github.com/giapnguyen74/xnovelist) | 在浏览器本地组织文稿，自选模型提供 AI 写作辅助。 | 浏览器本地应用 | 12 | 0 | 2026-06-08 | 12.9 | MIT |
-| [Agnes Creative OS](https://github.com/MXD706/agnes) · 许可注意 | 覆盖世界观、角色、剧情、章节、审查与长期记忆的小说工作台。 | 本地工作台 | 3 | 0 | 2026-05-27 | 8.3 | 待核验 |
+| [xnovelist](https://github.com/giapnguyen74/xnovelist) | 在浏览器本地组织文稿，自选模型提供 AI 写作辅助。 | 浏览器本地应用 | 12 | 0 | 2026-06-08 | 12.8 | MIT |
+| [Agnes Creative OS](https://github.com/MXD706/agnes) · 许可注意 | 覆盖世界观、角色、剧情、章节、审查与长期记忆的小说工作台。 | 本地工作台 | 3 | 0 | 2026-05-27 | 8.2 | 待核验 |
 
 ### 自动写作 Agent 与创作引擎
 
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Openwrite](https://github.com/LiPu-jpg/Openwrite) | 以 AI 工作流组织小说创作、文风处理和内容审核。 | 创作引擎 | 1,005 | 227 | 2026-11-20 | 79.4 | Apache-2.0 |
-| [InkOS](https://github.com/Narcooo/inkos) ★ | 支持故事规划、写作、审稿和修订的创作 Agent 系统。 | 创作 Agent / 工作台 | 11,377 | 108 | 2026-10-24 | 77.2 | AGPL-3.0 |
-| [novel-harness / Storyteller](https://github.com/Dankular/Storyteller) · 许可注意 | 用故事设定、情节点、伏笔账本与连续性记录支持长篇分章写作。 | 写作 Harness | 0 | 7 | 2026-09-12 | 23.2 | 待核验 |
+| [Openwrite](https://github.com/LiPu-jpg/Openwrite) | 以 AI 工作流组织小说创作、文风处理和内容审核。 | 创作引擎 | 1,009 | 222 | 2026-11-20 | 79.0 | Apache-2.0 |
+| [InkOS](https://github.com/Narcooo/inkos) ★ | 支持故事规划、写作、审稿和修订的创作 Agent 系统。 | 创作 Agent / 工作台 | 11,387 | 108 | 2026-10-24 | 77.0 | AGPL-3.0 |
+| [novel-harness / Storyteller](https://github.com/Dankular/Storyteller) · 许可注意 | 用故事设定、情节点、伏笔账本与连续性记录支持长篇分章写作。 | 写作 Harness | 0 | 7 | 2026-09-12 | 23.1 | 待核验 |
 | [Novelist Agent](https://github.com/AxolDad/novelist) · 许可注意 | 用数据库记忆与多路审稿机制维护长篇中的人物、情节和语调。 | Agent 系统 / Alpha | 2 | 0 | 2026-01-06 | 4.5 | 待核验 |
 | [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT) · 许可注意 | 以大纲、章节与正文的分层扩写组织长篇小说生成。 | 长篇生成器 / Agent | 1,257 | 0 | 2025-11-05 | 25.2 | 待核验 |
 | [Kimi Writing Agent](https://github.com/Doriandarko/kimi-writer) · 许可注意 | 使用模型规划、写作、管理文件并从上下文摘要恢复长篇创作。 | CLI / Agent | 596 | 0 | 2025-11-08 | 22.6 | MIT + 商用署名条款 |
@@ -76,34 +76,34 @@ flowchart LR
 
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode) | 覆盖网文研究、拆文、长短篇写作与修订的技能工作流。 | Agent 技能包 | 8,806 | 157 | 2026-11-20 | 84.7 | MIT |
-| [chinese-novelist](https://github.com/PenglongHuang/chinese-novelist-skill) ★ | 通过问答、创作记忆和章节约束辅助中文小说创作。 | Agent Skill | 5,126 | 34 | 2026-11-15 | 73.1 | MIT |
-| [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 用分层规划、故事状态与检索支持长篇网文连载。 | Agent 插件 / 技能 | 8,042 | 18 | 2026-11-19 | 72.3 | GPL-3.0 |
-| [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode) | 将长篇网文工作流适配到 OpenCode，并增加写作管理能力。 | OpenCode 移植 / 扩展 | 227 | 190 | 2026-11-01 | 68.5 | GPL-3.0 |
-| [FuFu 小说创作助手](https://github.com/usagifufu/FuFu-Novel-Writing) · 许可注意 | 组织研究、世界观、大纲、伏笔、章节和审校的长篇写作流程。 | WorkBuddy 技能包 | 4 | 12 | 2026-10-19 | 37.4 | 待核验 |
-| [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) ★ | 把大纲、逐章写作、自检和平台适配整理成工程化写作方法。 | 方法论 / Agent 技能 | 276 | 0 | 2026-05-31 | 23.2 | MIT |
+| [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode) | 覆盖网文研究、拆文、长短篇写作与修订的技能工作流。 | Agent 技能包 | 8,824 | 164 | 2026-11-22 | 85.3 | MIT |
+| [chinese-novelist](https://github.com/PenglongHuang/chinese-novelist-skill) ★ | 通过问答、创作记忆和章节约束辅助中文小说创作。 | Agent Skill | 5,380 | 30 | 2026-11-15 | 72.3 | MIT |
+| [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 用分层规划、故事状态与检索支持长篇网文连载。 | Agent 插件 / 技能 | 8,044 | 18 | 2026-11-19 | 72.1 | GPL-3.0 |
+| [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode) | 将长篇网文工作流适配到 OpenCode，并增加写作管理能力。 | OpenCode 移植 / 扩展 | 227 | 190 | 2026-11-01 | 68.3 | GPL-3.0 |
+| [FuFu 小说创作助手](https://github.com/usagifufu/FuFu-Novel-Writing) · 许可注意 | 组织研究、世界观、大纲、伏笔、章节和审校的长篇写作流程。 | WorkBuddy 技能包 | 4 | 12 | 2026-10-19 | 37.2 | 待核验 |
+| [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) ★ | 把大纲、逐章写作、自检和平台适配整理成工程化写作方法。 | 方法论 / Agent 技能 | 278 | 0 | 2026-05-31 | 23.1 | MIT |
 | [long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer) · 许可注意 | 围绕分层摘要和故事事实管理组织长期连载。 | 长篇写作 Skill | 96 | 0 | 2026-05-15 | 18.9 | 待核验 |
 
 ### 文风修订、去模板化与质量检查
 
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | 诊断并改写模板化 AI 文风，提供仅检测和原地编辑等模式。 | Agent Skill / 检查工具 | 5,773 | 503 | 2026-11-18 | 89.3 | MIT |
-| [Humanizer](https://github.com/blader/humanizer) | 根据常见 AI 写作特征检查并改写文本。 | 英文润色 Skill | 71,766 | 71 | 2026-11-19 | 87.5 | MIT |
-| [Sepia](https://github.com/Nanako0129/sepia) ★ | 先修复小说叙事结构，再处理词句；其他文体按场合采用规则。 | Agent Skill | 3,914 | 389 | 2026-11-03 | 82.8 | MIT |
-| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 以中文化规则识别和修订机械、空泛的 AI 表达模式。 | 中文润色 Skill | 23,459 | 1 | 2026-09-23 | 51.8 | MIT |
-| [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | 诊断中文推文和文章的事实、结构、叙事与语言问题。 | 中文写作 Skill | 40 | 2 | 2026-08-31 | 29.1 | MIT |
-| [llmlint](https://github.com/notnotype/llmlint) | 用规则扫描写作痕迹，为修订提供可定位的问题。 | 文本规则检查器 | 13 | 0 | 2026-08-15 | 17.6 | AGPL-3.0 |
+| [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | 诊断并改写模板化 AI 文风，提供仅检测和原地编辑等模式。 | Agent Skill / 检查工具 | 5,926 | 503 | 2026-11-18 | 89.1 | MIT |
+| [Humanizer](https://github.com/blader/humanizer) | 根据常见 AI 写作特征检查并改写文本。 | 英文润色 Skill | 72,093 | 71 | 2026-11-19 | 87.2 | MIT |
+| [Sepia](https://github.com/Nanako0129/sepia) ★ | 先修复小说叙事结构，再处理词句；其他文体按场合采用规则。 | Agent Skill | 3,922 | 389 | 2026-11-03 | 82.5 | MIT |
+| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 以中文化规则识别和修订机械、空泛的 AI 表达模式。 | 中文润色 Skill | 23,517 | 1 | 2026-09-23 | 51.7 | MIT |
+| [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | 诊断中文推文和文章的事实、结构、叙事与语言问题。 | 中文写作 Skill | 40 | 2 | 2026-08-31 | 29.0 | MIT |
+| [llmlint](https://github.com/notnotype/llmlint) | 用规则扫描写作痕迹，为修订提供可定位的问题。 | 文本规则检查器 | 13 | 0 | 2026-08-15 | 17.5 | AGPL-3.0 |
 
 ### 剧本、短剧改编与影视解说
 
 | 项目 | 用途 | 形态 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [drama-skills](https://github.com/zenstory-ai/drama-skills) | 围绕短剧故事开发、剧本、资产与分镜组织创作流程。 | 短剧技能包 | 4,586 | 205 | 2026-11-20 | 84.0 | MIT |
-| [shuohao-skills](https://github.com/eternityspring/shuohao-skills) ★ | 从小说改编大纲、人物和剧本延伸到场面调度与分镜交付。 | 短剧制作技能包 | 6,894 | 63 | 2026-11-09 | 76.1 | Apache-2.0 |
-| [juben / ai-juben](https://github.com/VanGong1999/juben) ★ | 以专业 Agent 工作流辅助影视策划、剧本创作与评估。 | 剧本 Agent 平台 | 190 | 5 | 2026-10-19 | 45.7 | MIT |
-| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | 指导 Agent 调用 CLI 完成影视解说制作。 | CLI 配套 Skill | 3,312 | 0 | 2026-07-05 | 33.5 | MIT |
-| [ai-short-drama](https://github.com/Hao0321/ai-short-drama) | 面向 AI 短剧的剧情设计与剧本创作技能。 | 编剧 Skill | 84 | 0 | 2026-08-13 | 23.7 | MIT |
+| [drama-skills](https://github.com/zenstory-ai/drama-skills) | 围绕短剧故事开发、剧本、资产与分镜组织创作流程。 | 短剧技能包 | 4,620 | 206 | 2026-11-22 | 84.3 | MIT |
+| [shuohao-skills](https://github.com/eternityspring/shuohao-skills) ★ | 从小说改编大纲、人物和剧本延伸到场面调度与分镜交付。 | 短剧制作技能包 | 6,929 | 63 | 2026-11-09 | 75.8 | Apache-2.0 |
+| [juben / ai-juben](https://github.com/VanGong1999/juben) ★ | 以专业 Agent 工作流辅助影视策划、剧本创作与评估。 | 剧本 Agent 平台 | 192 | 7 | 2026-11-22 | 55.0 | MIT |
+| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | 指导 Agent 调用 CLI 完成影视解说制作。 | CLI 配套 Skill | 3,316 | 0 | 2026-07-05 | 33.5 | MIT |
+| [ai-short-drama](https://github.com/Hao0321/ai-short-drama) | 面向 AI 短剧的剧情设计与剧本创作技能。 | 编剧 Skill | 84 | 0 | 2026-08-13 | 23.6 | MIT |
 
 ### 创意写作评测工具
 
