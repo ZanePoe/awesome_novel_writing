@@ -1,6 +1,6 @@
 """Generate the multilingual novel-writing catalogue and transparent GitHub rankings."""
 from __future__ import annotations
-import argparse,csv,io,json,re
+import argparse,csv,io,json,re,unicodedata
 from datetime import datetime
 from pathlib import Path
 from ranking import dt,age_days,score,tier,rank,table
@@ -33,12 +33,11 @@ def prefix(locale,depth=0):
     """`../` count from a generated file to the repository root; depth 1 means the file sits in that locale's docs/. A mirror root is two levels down (locales/<lang>/), English sits at the root."""
     return ('../'*(2+depth)) if locale!=DEFAULT else ('../'*depth)
 def anchor(title):
-    """GitHub's github-slugger rule: lowercase, drop ASCII punctuation and U+2000-206F/U+2E00-2E7F, spaces to hyphens. Other scripts (CJK punctuation included, Devanagari marks included) survive."""
-    drop=set('\\\'!"#$%&()*+,./:;<=>?@[]^`{|}~')
+    """GitHub's README heading anchor: lowercase, spaces to hyphens, keep letters/digits/marks/_/- (Devanagari matras survive), drop punctuation such as 、 and . (verified against live github.com heading ids)."""
     out=[]
     for ch in title.strip().lower():
-        if ch in drop or '\u2000'<=ch<='\u206f' or '\u2e00'<=ch<='\u2e7f':continue
-        out.append('-' if ch==' ' else ch)
+        if ch==' ':out.append('-')
+        elif ch.isalnum() or ch in '_-' or unicodedata.category(ch) in ('Mn','Mc','Me'):out.append(ch)
     return ''.join(out)
 def switcher(langs,locale):
     items=[]
