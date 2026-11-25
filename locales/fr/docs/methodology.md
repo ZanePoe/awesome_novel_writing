@@ -39,6 +39,6 @@ Une évaluation de capacités devrait figer modèle, budget, sujet de récit, lo
 
 ## Mises à jour et gestion des pannes
 
-Le rafraîchissement des métriques dépend de l'authentification `gh` ou de `GH_TOKEN`. L'instantané n'est remplacé de façon atomique qu'après réussite de tous les lots ; en cas d'échec partiel de l'API, de dépôt inaccessible ou de branche par défaut manquante, l'ancien fichier est conservé et la tâche échoue, afin de ne pas écrire un inconnu comme zéro.
+Le rafraîchissement des métriques dépend de l'authentification `gh` ou de `GH_TOKEN`. L'instantané n'est remplacé de façon atomique qu'après réussite de tous les lots. Seule exception : un dépôt que GitHub ne résout plus (renommé ou supprimé) conserve son enregistrement précédent, marqué `missing_upstream` avec un horodatage `missing_since`, afin qu'un projet disparu ne bloque pas la mise à jour quotidienne. Les limites de débit, les pannes de transport, les réponses API partielles ou un dépôt sans branche par défaut interrompent toujours l'exécution et laissent l'ancien fichier intact, afin de ne pas écrire un inconnu comme zéro.
 
 Les fonctionnalités et les licences sont des données revues par un humain, avec leur propre date de vérification et des sources figées sur des commits. Le rafraîchissement quotidien ne met à jour que les métriques ; il ne confirme aucune nouvelle fonctionnalité ni ne réinterprète une licence. Les renommages, suppressions et changements de licence demandent une revue du mainteneur.

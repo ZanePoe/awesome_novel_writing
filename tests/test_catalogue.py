@@ -56,4 +56,30 @@ class IntegrityTests(unittest.TestCase):
         with patch.object(refresh_metrics.subprocess,'run',return_value=response):
             with self.assertRaises(RuntimeError):refresh_metrics.fetch_batch(['x/repo'],datetime.now(timezone.utc))
 
+    def test_vanished_repository_is_carried_forward(self):
+        from datetime import datetime,timezone
+        from types import SimpleNamespace
+        now=datetime.now(timezone.utc).replace(microsecond=0)
+        previous={'x/gone':{'canonical_repo':'x/gone','url':'https://github.com/x/gone','stars':10,'forks':1,'archived':False,'disabled':False,'license_spdx':'MIT','license_name':'MIT License','default_branch':'main','head_sha':'a'*40,'last_commit_at':'2026-11-01T00:00:00Z','commits_30d':1,'commits_90d':2,'pushed_at':'2026-11-01T00:00:00Z','updated_at':'2026-11-01T00:00:00Z','latest_release':None,'collected_at':'2026-11-20T00:00:00+00:00','source':'https://api.github.com/graphql'}}
+        failed=SimpleNamespace(returncode=1,stdout='',stderr="gh: Could not resolve to a Repository with the name 'x/gone'.")
+        live={'nameWithOwner':'x/live','url':'https://github.com/x/live','stargazerCount':3,'forkCount':1,'isArchived':False,'isDisabled':False,'licenseInfo':None,'pushedAt':'2026-11-24T00:00:00Z','updatedAt':'2026-11-24T00:00:00Z','defaultBranchRef':{'name':'main','target':{'oid':'b'*40,'committedDate':'2026-11-24T00:00:00Z','c30':{'totalCount':1},'c90':{'totalCount':2}}},'releases':{'nodes':[]}}
+        ok=SimpleNamespace(returncode=0,stdout=json.dumps({'data':{'r0':live}}),stderr='')
+        with patch.object(refresh_metrics.subprocess,'run',side_effect=[failed,ok]) as run:
+            out=refresh_metrics.fetch_batch(['x/gone','x/live'],now,previous)
+        self.assertEqual(sorted(out),['x/gone','x/live'])
+        self.assertTrue(out['x/gone']['missing_upstream'])
+        self.assertEqual(out['x/gone']['collected_at'],'2026-11-20T00:00:00+00:00','carried record keeps its own collection time')
+        self.assertEqual(out['x/gone']['head_sha'],'a'*40,'carried record keeps its numbers untouched')
+        self.assertEqual(out['x/gone']['missing_since'],now.isoformat())
+        self.assertNotIn('missing_upstream',out['x/live'])
+        self.assertEqual(run.call_count,2)
+
+    def test_vanished_repository_without_history_still_fails(self):
+        from datetime import datetime,timezone
+        from types import SimpleNamespace
+        failed=SimpleNamespace(returncode=1,stdout='',stderr="gh: Could not resolve to a Repository with the name 'x/gone'.")
+        with patch.object(refresh_metrics.subprocess,'run',return_value=failed):
+            with self.assertRaises(RuntimeError):
+                refresh_metrics.fetch_batch(['x/gone'],datetime.now(timezone.utc),{'x/other':{'head_sha':'c'*40}})
+
 if __name__=='__main__':unittest.main()

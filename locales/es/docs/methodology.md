@@ -39,6 +39,6 @@ Para una evaluación de capacidad haría falta fijar modelo, presupuesto, tema d
 
 ## Actualización y gestión de fallos
 
-El refresco de métricas depende de la sesión de `gh` o de `GH_TOKEN`. La instantánea se reemplaza de forma atómica solo cuando todos los lotes terminan; si la API falla parcialmente, un repositorio queda inaccesible o no tiene rama predeterminada, se conserva el archivo anterior y la tarea se marca como fallo, para no escribir un cero donde hay desconocimiento.
+El refresco de métricas depende de la sesión de `gh` o de `GH_TOKEN`. La instantánea se reemplaza de forma atómica solo cuando todos los lotes terminan. La única excepción es un repositorio que GitHub ya no resuelve (renombrado o borrado): su registro anterior se conserva y se marca con `missing_upstream` y una marca de tiempo `missing_since`, de modo que un proyecto desaparecido no rompe la actualización diaria. Los límites de tasa, los fallos de transporte, las respuestas parciales de la API o un repositorio sin rama predeterminada siguen interrumpiendo la ejecución y conservan el archivo anterior, para no escribir un cero donde hay desconocimiento.
 
 Las funciones y las licencias son datos revisados a mano, con su propia fecha de verificación y fuentes fijadas a un commit. El refresco diario solo actualiza métricas: no confirma funciones nuevas ni reinterpreta licencias. Los cambios de nombre, las eliminaciones y los cambios de licencia requieren una nueva revisión del mantenedor.

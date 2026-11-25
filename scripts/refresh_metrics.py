@@ -4,12 +4,24 @@ import argparse
 from datetime import datetime, timedelta, timezone
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def fetch_batch(repos: list[str], now: datetime) -> dict:
+MISSING = re.compile(r"Could not resolve to a Repository with the name '([\w.-]+/[\w.-]+)'")
+
+def carry_forward(repo: str, previous: dict, now: datetime) -> dict:
+    record = dict(previous.get(repo) or {})
+    if 'head_sha' not in record:
+        raise RuntimeError(f'{repo}: no repository and no previous snapshot; remove it from data/projects.json')
+    record['missing_upstream'] = True
+    record['missing_since'] = now.isoformat()
+    return record
+
+def fetch_batch(repos: list[str], now: datetime, previous: dict | None = None) -> dict:
+    previous = previous or {}
     since30 = (now - timedelta(days=30)).isoformat()
     since90 = (now - timedelta(days=90)).isoformat()
     fields = []
@@ -28,6 +40,13 @@ def fetch_batch(repos: list[str], now: datetime) -> dict:
     p = subprocess.run(['gh', 'api', 'graphql', '--input', '-'], input=payload,
                        capture_output=True, text=True, encoding='utf-8', timeout=120)
     if p.returncode:
+        gone = [r for r in repos if r in MISSING.findall(p.stderr or '')]
+        if gone and previous:
+            carried = {r: carry_forward(r, previous, now) for r in gone}
+            rest = [r for r in repos if r not in carried]
+            if not rest:
+                return carried
+            return {**fetch_batch(rest, now, previous), **carried}
         raise RuntimeError('GitHub query failed: ' + p.stderr.strip())
     response = json.loads(p.stdout)
     if response.get('errors'):
@@ -61,11 +80,20 @@ def main():
     args = parser.parse_args()
     projects = json.loads((ROOT / 'data/projects.json').read_text(encoding='utf-8'))
     repos = [p['repo'] for p in projects]
+    previous = {}
+    if args.output.exists():
+        try:
+            previous = json.loads(args.output.read_text(encoding='utf-8')).get('repositories', {})
+        except (ValueError, OSError):
+            previous = {}
     now = datetime.now(timezone.utc).replace(microsecond=0)
     result = {}
     for start in range(0, len(repos), 8):
-        result.update(fetch_batch(repos[start:start+8], now))
+        result.update(fetch_batch(repos[start:start+8], now, previous))
         print(f'Fetched {len(result)}/{len(repos)} repositories', file=sys.stderr)
+    missing = sorted(r for r, v in result.items() if v.get('missing_upstream'))
+    if missing:
+        print(f'Carried forward {len(missing)} vanished repositories: ' + ', '.join(missing), file=sys.stderr)
     snapshot = {'schema_version': 1, 'as_of': now.isoformat(), 'window_days': [30, 90], 'repositories': result}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temp = args.output.with_suffix('.tmp')

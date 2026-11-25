@@ -39,6 +39,6 @@ A capability evaluation would need fixed models, budgets, story prompts, target 
 
 ## Updates and failure handling
 
-Metric refreshes require `gh` login or `GH_TOKEN`. The snapshot is replaced atomically only after all batches succeed; on partial API failure, an inaccessible repository or a missing default branch, the old file is kept and the job fails, so unknown values are never written as zeros.
+Metric refreshes require `gh` login or `GH_TOKEN`. The snapshot is replaced atomically only after all batches succeed. The one exception is a repository GitHub can no longer resolve (renamed away or deleted): its previous record is carried forward and marked `missing_upstream` with a `missing_since` timestamp, so a single vanished project cannot break the daily refresh. Rate limits, transport failures, partial API responses or a repository without a default branch still abort the run and keep the old file, so unknown values are never written as zeros.
 
 Feature and license data are manually reviewed and carry their own review date and pinned-commit source. The daily refresh only updates metrics; it does not auto-confirm new features or reinterpret licenses. Renames, removals and license changes require a maintainer's recheck.
