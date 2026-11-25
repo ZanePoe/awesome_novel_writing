@@ -1026,7 +1026,7 @@
       "status": "unverified",
       "label": "待核验",
       "source": "https://api.github.com/repos/MaoXiaoYuZ/Long-Novel-GPT/license",
-      "note": "GitHub SPDX 识别；不推断模型与示例作品授权。"
+      "note": "未获得明确的开放许可证识别，保留核验缺口；不推断模型与示例作品授权。"
     }
   },
   {

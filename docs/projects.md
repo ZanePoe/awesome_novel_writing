@@ -1,424 +1,424 @@
-# 项目说明与证据
+# Project notes and evidence
 
-文档核验不等于实机测评。来源固定到核验时的 commit，自动刷新 star 不会把功能或许可重新标为已审查。
+Documentation review is not hands-on testing. Sources are pinned to the commit reviewed at the time; automatic star refreshes do not mark features or licenses as re-reviewed.
 
 
 ## [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant)
 
-围绕世界、角色、逐章写作与检查组织整本小说生产。
+Organizes whole-novel production around worldbuilding, characters, chapter-by-chapter writing and checks.
 
-- 分类：小说创作软件与工作台；形态：桌面 / 自托管工作台。
-- 适用边界：原名 AI Novel Writing Assistant；许可需同时核验核心与商业组件。
-- 维护状态：近90天有提交；30 天提交 489 次，90 天提交 916 次。
-- 许可：[AGPL-3.0 + 商用附加说明](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE)；存在附加许可说明。LICENSE 同时列出 AGPL 与服务型商用另行授权说明；按作者原文记录，不将其简化为无附加条件的 AGPL。
-- 功能核验：2026-11-05；[来源 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7)。
+- Category: Novel-writing software and workbenches; form: Desktop / self-hosted workbench.
+- Applicability boundary: Formerly AI Novel Writing Assistant; licensing must be verified for both the core and the commercial components.
+- Maintenance status: Commits in the last 90 days; 489 commits in the last 30 days, 916 in the last 90 days.
+- License: [AGPL-3.0 + commercial addendum](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE); Additional license terms present. The LICENSE lists AGPL plus a note that service-style commercial use is authorized separately; recorded as the author states it, not simplified into unconditional AGPL.
+- Feature review: 2026-11-05; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
-## [书童 Pagekin](https://github.com/EthanYoQ/Pagekin)
+## [Pagekin](https://github.com/EthanYoQ/Pagekin)
 
-从设定、章节蓝图到正文、审稿与修订的长篇写作工作台。
+Long-form writing workbench covering settings, chapter blueprints, drafting, review and revision.
 
-- 分类：小说创作软件与工作台；形态：桌面应用。
-- 适用边界：原名 AI Novel Writer；模型需另配，桌面主产品与 DSH 开发预览插件分开看。
-- 维护状态：近90天有提交；30 天提交 2951 次，90 天提交 5145 次。
-- 许可：[GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17)。
+- Category: Novel-writing software and workbenches; form: Desktop app.
+- Applicability boundary: Formerly AI Novel Writer; models must be supplied separately, and the desktop flagship product and the DSH development-preview plugin should be viewed separately.
+- Maintenance status: Commits in the last 90 days; 2951 commits in the last 30 days, 5145 in the last 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17).
 
-## [StoryForge 故事熔炉](https://github.com/yuanbw2025/storyforge)
+## [StoryForge](https://github.com/yuanbw2025/storyforge)
 
-覆盖小说创作、故事改编与互动体验的本地优先叙事工具。
+Local-first storytelling tool covering novel creation, story adaptation and interactive experiences.
 
-- 分类：小说创作软件与工作台；形态：创作工作台。
-- 适用边界：兼含剧本、漫画和互动世界，不能把全部功能都当作正文写作能力。
-- 维护状态：近90天有提交；30 天提交 1365 次，90 天提交 3131 次。
-- 许可：[MIT](https://api.github.com/repos/yuanbw2025/storyforge/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15)。
+- Category: Novel-writing software and workbenches; form: Creation workbench.
+- Applicability boundary: Also includes screenplays, comics and interactive worlds; not every feature should be read as prose-writing capability.
+- Maintenance status: Commits in the last 90 days; 1365 commits in the last 30 days, 3131 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
 ## [NeuroBook](https://github.com/notnotype/neuro-book)
 
-用编辑器、项目文件与可扩展工具组织长篇写作。
+Organizes long-form writing with an editor, project files and extensible tools.
 
-- 分类：小说创作软件与工作台；形态：创作 IDE / 预览版。
-- 适用边界：当前 v2 正在重建；AI 写作工作室等列在路线图，不按旧版功能宣称已完成。
-- 维护状态：近90天有提交；30 天提交 5076 次，90 天提交 7911 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26)。
+- Category: Novel-writing software and workbenches; form: Creation IDE / preview.
+- Applicability boundary: v2 is currently being rebuilt; the AI writing studio and more are listed on the roadmap, not claimed as done from old-version features.
+- Maintenance status: Commits in the last 90 days; 5076 commits in the last 30 days, 7911 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
 ## [Denova](https://github.com/alfredxw/denova)
 
-把小说、互动故事、资料库和 Agent 工具放进同一工作区。
+Puts novels, interactive stories, a lore library and agent tools in one workspace.
 
-- 分类：小说创作软件与工作台；形态：创作平台。
-- 适用边界：兼含角色扮演；游戏体验功能不等同长篇小说自动生成能力。
-- 维护状态：近90天有提交；30 天提交 46 次，90 天提交 368 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/alfredxw/denova/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58)。
+- Category: Novel-writing software and workbenches; form: Creation platform.
+- Applicability boundary: Also covers role-play; role-play experience features are not the same as automatic long-form novel generation.
+- Maintenance status: Commits in the last 90 days; 46 commits in the last 30 days, 368 in the last 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/alfredxw/denova/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58).
 
-## [Reveric 幻界](https://github.com/looplj/reveric)
+## [Reveric](https://github.com/looplj/reveric)
 
-以智能体连接长篇小说、剧本改编、分镜、3D 导演台和剪辑流程的桌面创作工作台。
+Desktop creation workbench that connects long-form novels, screenplay adaptation, storyboarding, a 3D director's desk and editing through agents.
 
-- 分类：小说创作软件与工作台；形态：本地优先桌面创作工作台。
-- 适用边界：默认分支为 unstable；项目采用 BYOK，文稿本地保存不代表调用远程文本、图像、音频或视频模型时数据不会外发。
-- 维护状态：近90天有提交；30 天提交 254 次，90 天提交 260 次。
-- 许可：[AGPL-3.0 + Section 7 署名要求](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES)；存在附加许可说明。修改版界面需保留 Based on Reveric by looplj. 和原项目链接；另提供商业许可路径，第三方材料依各自许可。
-- 功能核验：2026-11-06；[来源 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [来源 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91)。
+- Category: Novel-writing software and workbenches; form: Local-first desktop creation workbench.
+- Applicability boundary: The default branch is unstable; the project is BYOK, and local manuscript storage does not mean data stays local when remote text, image, audio or video models are called.
+- Maintenance status: Commits in the last 90 days; 254 commits in the last 30 days, 260 in the last 90 days.
+- License: [AGPL-3.0 + Section 7 attribution](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES); Additional license terms present. Modified interfaces must keep "Based on Reveric by looplj." and the original project link; a commercial-licensing path is also offered, and third-party materials follow their own licenses.
+- Feature review: 2026-11-06; [Source 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [Source 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91).
 
 ## [Goink](https://github.com/sigpanic/goink)
 
-结合 Agent 写作决策、结构化记忆和写后状态检查的写作系统。
+Writing system combining agent writing decisions, structured memory and post-writing state checks.
 
-- 分类：小说创作软件与工作台；形态：桌面应用。
-- 适用边界：需要配置模型；“实时决策”是项目设计描述，尚未实测质量。
-- 维护状态：近90天有提交；30 天提交 127 次，90 天提交 416 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6)。
+- Category: Novel-writing software and workbenches; form: Desktop app.
+- Applicability boundary: Requires model configuration; "real-time decisions" is the project's design description, and output quality has not been independently measured.
+- Maintenance status: Commits in the last 90 days; 127 commits in the last 30 days, 416 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
 ## [OpenFic](https://github.com/syrizelink/OpenFic)
 
-用设定、角色和可定制 Prompt / Agent 工作流支持长篇共创。
+Supports long-form co-creation with settings, characters and customizable Prompt/Agent workflows.
 
-- 分类：小说创作软件与工作台；形态：跨平台应用。
-- 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
-- 维护状态：近90天有提交；30 天提交 24 次，90 天提交 108 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
+- Category: Novel-writing software and workbenches; form: Cross-platform app.
+- Applicability boundary: The project explicitly does not target getting a whole novel automatically from a single prompt.
+- Maintenance status: Commits in the last 90 days; 24 commits in the last 30 days, 108 in the last 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
-## [易创 easy-writing](https://github.com/yilujian/easy-writing)
+## [Easy Writing](https://github.com/yilujian/easy-writing)
 
-本地章节编辑、码字统计、AI 辅助创作与作品管理。
+Local chapter editing, word-count statistics, AI-assisted creation and work management.
 
-- 分类：小说创作软件与工作台；形态：桌面应用。
-- 适用边界：基础写作可离线；AI 调用和联网功能的运行条件另计。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 33 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/yilujian/easy-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/yilujian/easy-writing/blob/75b5b1f3704fa9ff8df42557b9bf7ec348b9135c/README.md#L3)。
+- Category: Novel-writing software and workbenches; form: Desktop app.
+- Applicability boundary: Core writing works offline; the runtime conditions for AI calls and online features are counted separately.
+- Maintenance status: Commits in the last 90 days; 4 commits in the last 30 days, 33 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/yilujian/easy-writing/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/yilujian/easy-writing/blob/75b5b1f3704fa9ff8df42557b9bf7ec348b9135c/README.md#L3).
 
 ## [Novel Studio](https://github.com/bbaz123/novel-studio)
 
-编辑器结合故事设定、角色状态、伏笔管理与连续性检查。
+Editor combined with story settings, character state, foreshadowing management and continuity checks.
 
-- 分类：小说创作软件与工作台；形态：本地 Web 工作台。
-- 适用边界：默认分支为 Experimental-Version-v1.0；不能把实验分支等同稳定发行版。
-- 维护状态：近90天有提交；30 天提交 6 次，90 天提交 194 次。
-- 许可：[MIT](https://api.github.com/repos/bbaz123/novel-studio/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/bbaz123/novel-studio/blob/fda67b0a19b9819c8e61ea62a06a4f9ea456ada2/README.md#L5)。
+- Category: Novel-writing software and workbenches; form: Local web workbench.
+- Applicability boundary: The default branch is Experimental-Version-v1.0; the experimental branch must not be equated with a stable release.
+- Maintenance status: Commits in the last 90 days; 6 commits in the last 30 days, 194 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/bbaz123/novel-studio/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/bbaz123/novel-studio/blob/fda67b0a19b9819c8e61ea62a06a4f9ea456ada2/README.md#L5).
 
 ## [AI Novel Generator](https://github.com/YILING0013/AI_NovelGenerator)
 
-把人物、关系、故事计划和正文放在项目里，生成候选后由人审阅保存。
+Keeps characters, relationships, story plans and manuscripts in a project; candidate text is generated, then reviewed and saved by the author.
 
-- 分类：小说创作软件与工作台；形态：本地工作台。
-- 适用边界：按当前 README 记录；不是沿用旧版本的一键整本生成宣传。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 5 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/YILING0013/AI_NovelGenerator/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/YILING0013/AI_NovelGenerator/blob/a61674fad4dd6c4c5fa9a2ad2f12b667109e628a/README.md#L13)。
+- Category: Novel-writing software and workbenches; form: Local workbench.
+- Applicability boundary: Recorded per the current README; not the old version's one-click whole-book generation claim.
+- Maintenance status: Commits in the last 90 days; 1 commits in the last 30 days, 5 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/YILING0013/AI_NovelGenerator/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/YILING0013/AI_NovelGenerator/blob/a61674fad4dd6c4c5fa9a2ad2f12b667109e628a/README.md#L13).
 
 ## [Vela](https://github.com/heider-x/vela)
 
-把大纲、起草、重写和审阅与本地 RAG 资料库结合。
+Combines outlining, drafting, rewriting and review with a local RAG library.
 
-- 分类：小说创作软件与工作台；形态：桌面 IDE。
-- 适用边界：本地保存不意味着调用远程模型时稿件不会外发。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 21 次。
-- 许可：[GPL-3.0](https://api.github.com/repos/heider-x/vela/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/heider-x/vela/blob/4ab34640d33d9bb560c313fac8788a83aba18884/README.md#L22)。
+- Category: Novel-writing software and workbenches; form: Desktop IDE.
+- Applicability boundary: Local storage does not mean manuscripts stay private when a remote model is called.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 21 in the last 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/heider-x/vela/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/heider-x/vela/blob/4ab34640d33d9bb560c313fac8788a83aba18884/README.md#L22).
 
 ## [NovelClaw](https://github.com/iLearn-Lab/NovelClaw)
 
-以章节草稿、可检查运行、审稿和可编辑记忆组织长期创作。
+Organizes long-running creation with chapter drafts, inspectable runs, review and editable memory.
 
-- 分类：小说创作软件与工作台；形态：自托管工作台。
-- 适用边界：多 Agent 是工作流机制，不代表已验证的整本质量优势。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/iLearn-Lab/NovelClaw/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/iLearn-Lab/NovelClaw/blob/eac2fda3534205f5c70732e653b6f07a575f5ac9/README.md#L13)。
+- Category: Novel-writing software and workbenches; form: Self-hosted workbench.
+- Applicability boundary: Multi-agent is a workflow mechanism, not a verified whole-book quality advantage.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 3 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/iLearn-Lab/NovelClaw/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/iLearn-Lab/NovelClaw/blob/eac2fda3534205f5c70732e653b6f07a575f5ac9/README.md#L13).
 
-## [51mazi 我要码字](https://github.com/xiaoshengxianjun/51mazi)
+## [51mazi](https://github.com/xiaoshengxianjun/51mazi)
 
-小说编辑与创作辅助工具，包含 AI 写作及创作素材能力。
+Novel editor and creation-assistance tool with AI writing and writing-material features.
 
-- 分类：小说创作软件与工作台；形态：桌面应用。
-- 适用边界：传统编辑、AI 文本和图像能力分别依赖不同配置。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 1 次。
-- 许可：[MIT](https://api.github.com/repos/xiaoshengxianjun/51mazi/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/xiaoshengxianjun/51mazi/blob/5a5f9d002cad1435e130de8bd1826d3cf46da592/README.md#L1)。
+- Category: Novel-writing software and workbenches; form: Desktop app.
+- Applicability boundary: Traditional editing, AI text and image features each depend on different configuration.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 1 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/xiaoshengxianjun/51mazi/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/xiaoshengxianjun/51mazi/blob/5a5f9d002cad1435e130de8bd1826d3cf46da592/README.md#L1).
 
-## [青烛 ai-novelist](https://github.com/FlickeringLamp/ai-novelist)
+## [QingZhu](https://github.com/FlickeringLamp/ai-novelist)
 
-探索工具调用与人在回路的 AI 文本共创。
+Explores AI text co-creation through tool calling and human-in-the-loop review.
 
-- 分类：小说创作软件与工作台；形态：桌面创作工具。
-- 适用边界：官方标注部分 Agent 能力处于早期，不提供预制的一键成书。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/FlickeringLamp/ai-novelist/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/FlickeringLamp/ai-novelist/blob/fe09caf699c961e1ce7ca7c4e4dd78313a4de7c9/README.md#L6)。
+- Category: Novel-writing software and workbenches; form: Desktop creation tool.
+- Applicability boundary: The project labels parts of its agent capability as early-stage; it provides no preset one-click book.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/FlickeringLamp/ai-novelist/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/FlickeringLamp/ai-novelist/blob/fe09caf699c961e1ce7ca7c4e4dd78313a4de7c9/README.md#L6).
 
 ## [xnovelist](https://github.com/giapnguyen74/xnovelist)
 
-在浏览器本地组织文稿，自选模型提供 AI 写作辅助。
+Organizes manuscripts locally in the browser while you supply models for AI writing assistance.
 
-- 分类：小说创作软件与工作台；形态：浏览器本地应用。
-- 适用边界：浏览器存储与备份需自行管理；远程模型与本地模型的数据路径不同。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/giapnguyen74/xnovelist/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/giapnguyen74/xnovelist/blob/7abd8c1252fdf65120feeef3c977fc3283c08bfc/README.md#L21)。
+- Category: Novel-writing software and workbenches; form: Browser-local app.
+- Applicability boundary: Browser storage and backups are self-managed; remote and local models take different data paths.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/giapnguyen74/xnovelist/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/giapnguyen74/xnovelist/blob/7abd8c1252fdf65120feeef3c977fc3283c08bfc/README.md#L21).
 
 ## [Agnes Creative OS](https://github.com/MXD706/agnes)
 
-覆盖世界观、角色、剧情、章节、审查与长期记忆的小说工作台。
+Novel workbench spanning worldbuilding, characters, plot, chapters, review and long-term memory.
 
-- 分类：小说创作软件与工作台；形态：本地工作台。
-- 适用边界：仓库明确未声明许可，保留作可见源码线索。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://api.github.com/repos/MXD706/agnes/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/MXD706/agnes/blob/f328b918f2b75e40bb3d04d0ed3ec80ba989a0c1/README.md#L7)。
+- Category: Novel-writing software and workbenches; form: Local workbench.
+- Applicability boundary: The repository explicitly declares no license; kept as a visible-source lead.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/MXD706/agnes/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/MXD706/agnes/blob/f328b918f2b75e40bb3d04d0ed3ec80ba989a0c1/README.md#L7).
 
 ## [Openwrite](https://github.com/LiPu-jpg/Openwrite)
 
-以 AI 工作流组织小说创作、文风处理和内容审核。
+Organizes novel creation, style processing and content review through AI workflows.
 
-- 分类：自动写作 Agent 与创作引擎；形态：创作引擎。
-- 适用边界：这是写作引擎；具体运行方式和所需模型以仓库当前配置为准。
-- 维护状态：近90天有提交；30 天提交 100 次，90 天提交 218 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10)。
+- Category: Automated writing agents and creation engines; form: Creation engine.
+- Applicability boundary: A writing engine; actual operation and required models follow the repository's current configuration.
+- Maintenance status: Commits in the last 90 days; 100 commits in the last 30 days, 218 in the last 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10).
 
 ## [InkOS](https://github.com/Narcooo/inkos)
 
-支持故事规划、写作、审稿和修订的创作 Agent 系统。
+Creation-agent system supporting story planning, writing, review and revision.
 
-- 分类：自动写作 Agent 与创作引擎；形态：创作 Agent / 工作台。
-- 适用边界：小说、剧本、互动内容与翻译都在范围内；模型和人工审核仍影响结果。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 98 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6)。
+- Category: Automated writing agents and creation engines; form: Creation agent / workbench.
+- Applicability boundary: Novels, screenplays, interactive content and translation are all in scope; models and human review still shape the results.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 98 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6).
 
 ## [novel-harness / Storyteller](https://github.com/Dankular/Storyteller)
 
-用故事设定、情节点、伏笔账本与连续性记录支持长篇分章写作。
+Supports chaptered long-form writing with story settings, plot points, a foreshadowing ledger and continuity records.
 
-- 分类：自动写作 Agent 与创作引擎；形态：写作 Harness。
-- 适用边界：当前 README 名称为 novel-harness，仓库仍为 Storyteller；保留同一条目。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 7 次。
-- 许可：[待核验](https://api.github.com/repos/Dankular/Storyteller/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Dankular/Storyteller/blob/cc7d3da8af30c9f3417987848e0ce36cf88cfea1/README.md#L3)。
+- Category: Automated writing agents and creation engines; form: Writing harness.
+- Applicability boundary: The current README name is novel-harness while the repository is still Storyteller; kept as one entry.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 7 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/Dankular/Storyteller/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Dankular/Storyteller/blob/cc7d3da8af30c9f3417987848e0ce36cf88cfea1/README.md#L3).
 
 ## [Novelist Agent](https://github.com/AxolDad/novelist)
 
-用数据库记忆与多路审稿机制维护长篇中的人物、情节和语调。
+Maintains characters, plot and voice across a long novel using database memory and multi-reviewer mechanisms.
 
-- 分类：自动写作 Agent 与创作引擎；形态：Agent 系统 / Alpha。
-- 适用边界：作者标注 Alpha；审稿代理投票不等同真人文学质量验证。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://api.github.com/repos/AxolDad/novelist/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/AxolDad/novelist/blob/e8a73582117e111a7fec1d233fcba846175619f8/README.md#L10)。
+- Category: Automated writing agents and creation engines; form: Agent system / alpha.
+- Applicability boundary: Labelled Alpha by the author; reviewer-agent votes are not human literary-quality validation.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/AxolDad/novelist/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/AxolDad/novelist/blob/e8a73582117e111a7fec1d233fcba846175619f8/README.md#L10).
 
 ## [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT)
 
-以大纲、章节与正文的分层扩写组织长篇小说生成。
+Organizes long-novel generation through layered expansion of outlines, chapters and text.
 
-- 分类：自动写作 Agent 与创作引擎；形态：长篇生成器 / Agent。
-- 适用边界：README 的一键完整长篇与部分规划能力仍列在后续计划；保留早期分层生成路线，不据此声称自动成书已实现。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://api.github.com/repos/MaoXiaoYuZ/Long-Novel-GPT/license)；许可待核验。GitHub SPDX 识别；不推断模型与示例作品授权。
-- 功能核验：2026-11-05；[来源 1](https://github.com/MaoXiaoYuZ/Long-Novel-GPT/blob/107c31e54686947a6d00404e332475a60b66e630/readme.md#L19)。
+- Category: Automated writing agents and creation engines; form: Long-form generator / agent.
+- Applicability boundary: The README's one-click complete novel and parts of the planning capability are still listed in the follow-up plan; the early layered-generation route is recorded without claiming automated book completion.
+- Maintenance status: No commits for over 365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/MaoXiaoYuZ/Long-Novel-GPT/license); License unverified. GitHub reports no license file, so the license stays unverified; no inference is made about model or sample-work licensing.
+- Feature review: 2026-11-05; [Source 1](https://github.com/MaoXiaoYuZ/Long-Novel-GPT/blob/107c31e54686947a6d00404e332475a60b66e630/readme.md#L19).
 
 ## [Kimi Writing Agent](https://github.com/Doriandarko/kimi-writer)
 
-使用模型规划、写作、管理文件并从上下文摘要恢复长篇创作。
+Uses a model to plan, write, manage files and recover long-form work from context summaries.
 
-- 分类：自动写作 Agent 与创作引擎；形态：CLI / Agent。
-- 适用边界：默认围绕 kimi-k2-thinking；不把作者演示当成跨模型测评。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT + 商用署名条款](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/LICENSE)；存在附加许可说明。LICENSE 含显式商业使用署名要求，GitHub 未识别为标准 SPDX。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/README.md#L3)。
+- Category: Automated writing agents and creation engines; form: CLI / agent.
+- Applicability boundary: Built around kimi-k2-thinking by default; the author's demos are not treated as a cross-model benchmark.
+- Maintenance status: No commits for over 365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT + commercial attribution clause](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/LICENSE); Additional license terms present. The LICENSE contains an explicit commercial-use attribution requirement; GitHub did not identify it as a standard SPDX license.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Doriandarko/kimi-writer/blob/1a97fd5696ad78d373c6defe53279f69ae1b7dfb/README.md#L3).
 
 ## [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode)
 
-覆盖网文研究、拆文、长短篇写作与修订的技能工作流。
+Skill workflows covering web-novel research, teardown, long- and short-form writing and revision.
 
-- 分类：长篇创作技能与方法框架；形态：Agent 技能包。
-- 适用边界：运行在已有 Agent 中；不把资料采集和文本生成效果混为一谈。
-- 维护状态：近90天有提交；30 天提交 73 次，90 天提交 163 次。
-- 许可：[MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8)。
+- Category: Long-form creation skills and method frameworks; form: Agent skill pack.
+- Applicability boundary: Runs inside an existing agent; material harvesting and text-generation quality are not conflated.
+- Maintenance status: Commits in the last 90 days; 73 commits in the last 30 days, 163 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8).
 
 ## [chinese-novelist](https://github.com/PenglongHuang/chinese-novelist-skill)
 
-通过问答、创作记忆和章节约束辅助中文小说创作。
+Assists Chinese-language novel creation through Q&A, creation memory and chapter constraints.
 
-- 分类：长篇创作技能与方法框架；形态：Agent Skill。
-- 适用边界：依赖外部 Agent 与模型；章节数量承诺不当作实测完成率。
-- 维护状态：近90天有提交；30 天提交 16 次，90 天提交 30 次。
-- 许可：[MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5)。
+- Category: Long-form creation skills and method frameworks; form: Agent Skill.
+- Applicability boundary: Depends on an external agent and models; chapter-count promises are not taken as measured completion rates.
+- Maintenance status: Commits in the last 90 days; 16 commits in the last 30 days, 30 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5).
 
 ## [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer)
 
-用分层规划、故事状态与检索支持长篇网文连载。
+Supports long serialized web-novel writing with layered planning, story state and retrieval.
 
-- 分类：长篇创作技能与方法框架；形态：Agent 插件 / 技能。
-- 适用边界：分支与宿主版本有差异，分类按核验默认分支，不按开发分支宣传。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 18 次。
-- 许可：[GPL-3.0](https://api.github.com/repos/lingfengQAQ/webnovel-writer/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/lingfengQAQ/webnovel-writer/blob/b38056ec3ae288af613c0af162d648e4a4e8825c/README.md#L15)。
+- Category: Long-form creation skills and method frameworks; form: Agent plugin / skill.
+- Applicability boundary: Branches and host versions differ; classification follows the verified default branch, not development-branch claims.
+- Maintenance status: Commits in the last 90 days; 3 commits in the last 30 days, 18 in the last 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/lingfengQAQ/webnovel-writer/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/lingfengQAQ/webnovel-writer/blob/b38056ec3ae288af613c0af162d648e4a4e8825c/README.md#L15).
 
 ## [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)
 
-将长篇网文工作流适配到 OpenCode，并增加写作管理能力。
+Adapts the long-form web-novel workflow to OpenCode and adds writing-management features.
 
-- 分类：长篇创作技能与方法框架；形态：OpenCode 移植 / 扩展。
-- 适用边界：是 webnovel-writer 的明确衍生实现；单独记录宿主差异，不当作无关系项目。
-- 维护状态：近90天有提交；30 天提交 20 次，90 天提交 190 次。
-- 许可：[GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1)。
+- Category: Long-form creation skills and method frameworks; form: OpenCode port / extension.
+- Applicability boundary: An explicit derivative of webnovel-writer; the host difference is recorded instead of treating it as an unrelated project.
+- Maintenance status: Commits in the last 90 days; 20 commits in the last 30 days, 190 in the last 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1).
 
-## [FuFu 小说创作助手](https://github.com/usagifufu/FuFu-Novel-Writing)
+## [FuFu](https://github.com/usagifufu/FuFu-Novel-Writing)
 
-组织研究、世界观、大纲、伏笔、章节和审校的长篇写作流程。
+Long-form writing flow organizing research, worldbuilding, outlines, foreshadowing, chapters and review.
 
-- 分类：长篇创作技能与方法框架；形态：WorkBuddy 技能包。
-- 适用边界：依赖宿主 Agent，引用或融合其他项目方法不表示实际效果已被本目录测过。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 12 次。
-- 许可：[待核验](https://api.github.com/repos/usagifufu/FuFu-Novel-Writing/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/usagifufu/FuFu-Novel-Writing/blob/7441bfd6c27e2d79be8a3b09d566910e58cbcfc8/README.md#L1)。
+- Category: Long-form creation skills and method frameworks; form: WorkBuddy skill pack.
+- Applicability boundary: Depends on a host agent; citing or merging other projects' methods does not mean this catalogue has tested their results.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 12 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/usagifufu/FuFu-Novel-Writing/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/usagifufu/FuFu-Novel-Writing/blob/7441bfd6c27e2d79be8a3b09d566910e58cbcfc8/README.md#L1).
 
 ## [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework)
 
-把大纲、逐章写作、自检和平台适配整理成工程化写作方法。
+Turns outlining, chapter-by-chapter writing, self-checks and platform adaptation into an engineered writing method.
 
-- 分类：长篇创作技能与方法框架；形态：方法论 / Agent 技能。
-- 适用边界：以文档和规则为主；不是独立桌面软件或保证收益的系统。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/LAY-lgtm/novel-writing-framework/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/LAY-lgtm/novel-writing-framework/blob/76291596ae91047743fc620b9647971f034acf7a/README.md#L5)。
+- Category: Long-form creation skills and method frameworks; form: Methodology / agent skill.
+- Applicability boundary: Mostly documents and rules; not a standalone desktop app or a guaranteed-income system.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/LAY-lgtm/novel-writing-framework/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/LAY-lgtm/novel-writing-framework/blob/76291596ae91047743fc620b9647971f034acf7a/README.md#L5).
 
 ## [long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer)
 
-围绕分层摘要和故事事实管理组织长期连载。
+Organizes long serialization around layered summaries and story-fact management.
 
-- 分类：长篇创作技能与方法框架；形态：长篇写作 Skill。
-- 适用边界：目标字数只是设计目标，不等于已经完成统一压力测试。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://api.github.com/repos/jiaw-Zh/long-novel-writer/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/jiaw-Zh/long-novel-writer/blob/ec1604e414bfafece8142f469b05a960d21b3a9a/README.md#L1)。
+- Category: Long-form creation skills and method frameworks; form: Long-form writing Skill.
+- Applicability boundary: Target word counts are design goals, not a completed uniform stress test.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/jiaw-Zh/long-novel-writer/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/jiaw-Zh/long-novel-writer/blob/ec1604e414bfafece8142f469b05a960d21b3a9a/README.md#L1).
 
 ## [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
 
-诊断并改写模板化 AI 文风，提供仅检测和原地编辑等模式。
+Diagnoses and rewrites templated AI style, with detect-only and in-place edit modes.
 
-- 分类：文风修订、去模板化与质量检查；形态：Agent Skill / 检查工具。
-- 适用边界：通用写作修订；降低模式化表达不代表证明文本作者身份。
-- 维护状态：近90天有提交；30 天提交 45 次，90 天提交 502 次。
-- 许可：[MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5)。
+- Category: Style revision, de-templating and quality checks; form: Agent Skill / checker.
+- Applicability boundary: General-purpose writing revision; reducing formulaic patterns does not prove a text's authorship.
+- Maintenance status: Commits in the last 90 days; 45 commits in the last 30 days, 502 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5).
 
 ## [Humanizer](https://github.com/blader/humanizer)
 
-根据常见 AI 写作特征检查并改写文本。
+Checks and rewrites text against common AI writing features.
 
-- 分类：文风修订、去模板化与质量检查；形态：英文润色 Skill。
-- 适用边界：主要是通用英文文风修订，不单独评估小说质量。
-- 维护状态：近90天有提交；30 天提交 26 次，90 天提交 70 次。
-- 许可：[MIT](https://api.github.com/repos/blader/humanizer/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/README.md#L8)。
+- Category: Style revision, de-templating and quality checks; form: English polishing Skill.
+- Applicability boundary: Mainly general English style revision; novel quality is not separately evaluated.
+- Maintenance status: Commits in the last 90 days; 26 commits in the last 30 days, 70 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/blader/humanizer/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/README.md#L8).
 
 ## [Sepia](https://github.com/Nanako0129/sepia)
 
-先修复小说叙事结构，再处理词句；其他文体按场合采用规则。
+Repairs novel narrative structure before touching wording; rules for other genres apply by occasion.
 
-- 分类：文风修订、去模板化与质量检查；形态：Agent Skill。
-- 适用边界：小说修订与专业文章模式分开；不把去 AI 味视为检测器规避保证。
-- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 389 次。
-- 许可：[MIT](https://api.github.com/repos/Nanako0129/sepia/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [来源 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7)。
+- Category: Style revision, de-templating and quality checks; form: Agent Skill.
+- Applicability boundary: Novel revision and professional-article modes are kept separate; removing AI flavor is not a detector-evasion guarantee.
+- Maintenance status: Commits in the last 90 days; 61 commits in the last 30 days, 389 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/Nanako0129/sepia/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Source 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
 
 ## [Humanizer-zh](https://github.com/op7418/Humanizer-zh)
 
-以中文化规则识别和修订机械、空泛的 AI 表达模式。
+Identifies and revises mechanical, vague AI expression patterns using Chinese-language rules.
 
-- 分类：文风修订、去模板化与质量检查；形态：中文润色 Skill。
-- 适用边界：通用润色规则，不替代小说情节与人物塑造。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 1 次。
-- 许可：[MIT](https://api.github.com/repos/op7418/Humanizer-zh/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/README.md#L1)。
+- Category: Style revision, de-templating and quality checks; form: Chinese polishing Skill.
+- Applicability boundary: General polishing rules; does not replace plot and character work in fiction.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 1 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/op7418/Humanizer-zh/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/README.md#L1).
 
 ## [qifeng-writing](https://github.com/Yuriloll/qifeng-writing)
 
-诊断中文推文和文章的事实、结构、叙事与语言问题。
+Diagnoses factual, structural, narrative and language issues in Chinese posts and articles.
 
-- 分类：文风修订、去模板化与质量检查；形态：中文写作 Skill。
-- 适用边界：官方明确纯小说仍需专门分库；作为相邻表达工具保留。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[MIT](https://api.github.com/repos/Yuriloll/qifeng-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/README.md#L3)。
+- Category: Style revision, de-templating and quality checks; form: Chinese-writing Skill.
+- Applicability boundary: The project states that pure fiction still needs dedicated methods; kept as an adjacent expression tool.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 2 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/Yuriloll/qifeng-writing/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/README.md#L3).
 
 ## [llmlint](https://github.com/notnotype/llmlint)
 
-用规则扫描写作痕迹，为修订提供可定位的问题。
+Scans writing traces with rules, providing locatable issues for revision.
 
-- 分类：文风修订、去模板化与质量检查；形态：文本规则检查器。
-- 适用边界：规则命中是修改线索，不是可靠的 AI 作者鉴定。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/notnotype/llmlint/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/notnotype/llmlint/blob/7b0e5a0ff50d25f2cc13c8fc303e9d6973ee673c/README.md#L1)。
+- Category: Style revision, de-templating and quality checks; form: Text rule linter.
+- Applicability boundary: Rule hits are revision leads, not reliable AI-authorship identification.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/notnotype/llmlint/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/notnotype/llmlint/blob/7b0e5a0ff50d25f2cc13c8fc303e9d6973ee673c/README.md#L1).
 
 ## [drama-skills](https://github.com/zenstory-ai/drama-skills)
 
-围绕短剧故事开发、剧本、资产与分镜组织创作流程。
+Organizes creation around short-drama story development, scripts, assets and storyboards.
 
-- 分类：剧本、短剧改编与影视解说；形态：短剧技能包。
-- 适用边界：保留与小说改编相关部分；视频生成成本不包含在文本工具本身。
-- 维护状态：近90天有提交；30 天提交 60 次，90 天提交 188 次。
-- 许可：[MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5)。
+- Category: Screenplays, short-drama adaptation and film narration; form: Short-drama skill pack.
+- Applicability boundary: The parts related to novel adaptation are kept; video-generation costs are not part of the text tool itself.
+- Maintenance status: Commits in the last 90 days; 60 commits in the last 30 days, 188 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5).
 
 ## [shuohao-skills](https://github.com/eternityspring/shuohao-skills)
 
-从小说改编大纲、人物和剧本延伸到场面调度与分镜交付。
+Extends from novel-adapted outlines, characters and screenplays to scene direction and storyboard delivery.
 
-- 分类：剧本、短剧改编与影视解说；形态：短剧制作技能包。
-- 适用边界：主方向是小说改编和短剧制作；图像、视频生成有额外工具依赖。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 58 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/eternityspring/shuohao-skills/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md#L5)。
+- Category: Screenplays, short-drama adaptation and film narration; form: Short-drama production skill pack.
+- Applicability boundary: The main direction is novel adaptation and short-drama production; image and video generation add extra tool dependencies.
+- Maintenance status: Commits in the last 90 days; 4 commits in the last 30 days, 58 in the last 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/eternityspring/shuohao-skills/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md#L5).
 
 ## [juben / ai-juben](https://github.com/VanGong1999/juben)
 
-以专业 Agent 工作流辅助影视策划、剧本创作与评估。
+Assists film planning, screenplay creation and evaluation through professional agent workflows.
 
-- 分类：剧本、短剧改编与影视解说；形态：剧本 Agent 平台。
-- 适用边界：用户已确认对应 ai-juben；与同名剧本杀游戏分开。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 7 次。
-- 许可：[MIT](https://api.github.com/repos/VanGong1999/juben/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/VanGong1999/juben/blob/5f56075fecbaa780d5158274f387332fc71de7f0/README.md#L1)。
+- Category: Screenplays, short-drama adaptation and film narration; form: Screenplay agent platform.
+- Applicability boundary: Confirmed by the user as the project formerly listed as ai-juben; kept separate from same-name murder-mystery games.
+- Maintenance status: Commits in the last 90 days; 2 commits in the last 30 days, 7 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/VanGong1999/juben/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/VanGong1999/juben/blob/5f56075fecbaa780d5158274f387332fc71de7f0/README.md#L1).
 
 ## [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill)
 
-指导 Agent 调用 CLI 完成影视解说制作。
+Guides an agent to drive a CLI for film-narration production.
 
-- 分类：剧本、短剧改编与影视解说；形态：CLI 配套 Skill。
-- 适用边界：是解说视频工具的技能说明，非原创长篇小说生成器。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/NarratorAI-Studio/narrator-ai-cli-skill/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/4b17c6f2175bd532c92db778a847f8fb6bdd3177/README.md#L9)。
+- Category: Screenplays, short-drama adaptation and film narration; form: Companion CLI Skill.
+- Applicability boundary: Skill instructions for a narration-video tool, not an original long-form novel generator.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/NarratorAI-Studio/narrator-ai-cli-skill/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/4b17c6f2175bd532c92db778a847f8fb6bdd3177/README.md#L9).
 
 ## [ai-short-drama](https://github.com/Hao0321/ai-short-drama)
 
-面向 AI 短剧的剧情设计与剧本创作技能。
+Plot design and screenplay creation skills for AI short dramas.
 
-- 分类：剧本、短剧改编与影视解说；形态：编剧 Skill。
-- 适用边界：短剧与长篇网文的结构目标不同，分组比较。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/Hao0321/ai-short-drama/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
-- 功能核验：2026-11-05；[来源 1](https://github.com/Hao0321/ai-short-drama/blob/a1a00d3949fedd74edb6830a79d189a2c76920db/README.md#L1)。
+- Category: Screenplays, short-drama adaptation and film narration; form: Screenwriting Skill.
+- Applicability boundary: Short dramas and long web novels have different structural goals; compare them in separate groups.
+- Maintenance status: No commits for 91–365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [MIT](https://api.github.com/repos/Hao0321/ai-short-drama/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/Hao0321/ai-short-drama/blob/a1a00d3949fedd74edb6830a79d189a2c76920db/README.md#L1).
 
 ## [Longform Writing Bench](https://github.com/EQ-bench/longform-writing-bench)
 
-评测模型的创意规划、修改与短中篇故事生成。
+Evaluates model creative planning, revision and short-to-medium story generation.
 
-- 分类：创意写作评测工具；形态：研究 / 评测工具。
-- 适用边界：是评测框架，不是写作产品；模型成绩不用于本仓库维护排名。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://api.github.com/repos/EQ-bench/longform-writing-bench/license)；许可待核验。未获得明确的开放许可证识别，保留核验缺口。
-- 功能核验：2026-11-05；[来源 1](https://github.com/EQ-bench/longform-writing-bench/blob/34f60a028c3f973c19cde98dc5a9e8f9875a87e3/README.md#L3)。
+- Category: Creative writing evaluation tools; form: Research / evaluation tool.
+- Applicability boundary: An evaluation framework, not a writing product; model scores are not used in this catalogue's maintenance ranking.
+- Maintenance status: No commits for over 365 days; 0 commits in the last 30 days, 0 in the last 90 days.
+- License: [Unverified](https://api.github.com/repos/EQ-bench/longform-writing-bench/license); License unverified. No clear open-license identification was obtained; the verification gap is kept.
+- Feature review: 2026-11-05; [Source 1](https://github.com/EQ-bench/longform-writing-bench/blob/34f60a028c3f973c19cde98dc5a9e8f9875a87e3/README.md#L3).

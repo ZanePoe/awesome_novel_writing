@@ -1,36 +1,36 @@
-# 范围与分类
+# Scope and taxonomy
 
-## 收录对象
+## What gets included
 
-纳入直接帮助小说构思、人物与世界设定、长篇分章生成、故事状态维护、修订、剧本改编的工具。用户提供的相邻项目保留并标注边界，例如通用文章修订与影视解说。
+Tools that directly help with novel conception, character and worldbuilding, long-form chaptered generation, story-state maintenance, revision and screenplay adaptation are in scope. User-provided adjacent projects are kept with their boundaries labeled — for example, general article revision and film narration.
 
-不因 star 少而排除项目。每项至少有可定位仓库、可核验的用途来源和明确分类。只有宣传页、纯阅读器、小说下载站、普通小说 CMS、与写作无关的通用模型 API 不进入核心目录。仓库未声明许可时仍可列作线索，但不会默认视为开放授权。
+A project is never excluded for having few stars. Every entry at least has an identifiable repository, a verifiable source for its purpose, and a clear category. Promotional pages, pure readers, novel download sites, generic novel CMSes and general model APIs unrelated to writing do not enter the core catalogue. A repository with no declared license can still be listed as a lead, but it is never defaulted to an open license.
 
-## 六个主分类
+## The six primary categories
 
-| 主分类 | 判定标准 | 典型输入与输出 |
+| Primary category | Decision criterion | Typical input and output |
 | --- | --- | --- |
-| 小说创作软件与工作台 | 主要入口是编辑器或项目工作区，人在写作和审阅中持续参与 | 灵感/原稿 → 设定、计划、候选章节、修订稿 |
-| 自动写作 Agent 与创作引擎 | 主要价值是可执行的生成、审稿、状态管理或文件操作流程 | 目标/大纲 → 多步运行和章节产物 |
-| 长篇创作技能与方法框架 | 主要交付物是供外部 Agent 使用的 Skill、提示词、规则或流程文档 | 用户素材 + 宿主 Agent → 按方法执行的写作过程 |
-| 文风修订与质量检查 | 主要工作是诊断或改写已有文本 | 文稿 → 问题定位、改写建议或修订稿 |
-| 剧本、短剧改编与影视解说 | 输出偏向剧本、单集结构、场景、分镜或解说 | 小说/故事/影片 → 剧本或解说生产材料 |
-| 创意写作评测工具 | 主要目标是评测模型或方法，而非提供作者日常编辑器 | 模型与任务 → 评测产物 |
+| Novel-writing software and workbenches | The main entry point is an editor or project workspace, with the author continuously involved in writing and review | Inspiration/manuscript → settings, plans, candidate chapters, revised drafts |
+| Automated writing agents and creation engines | The main value is executable generation, review, state management or file-operation flows | Goal/outline → multi-step runs and chapter artifacts |
+| Long-form creation skills and method frameworks | The main deliverable is Skills, prompts, rules or process documents for an external agent to use | User material + host agent → a writing process executed per the method |
+| Style revision, de-templating and quality checks | The main job is diagnosing or rewriting existing text | Manuscript → located issues, rewrite suggestions or revised drafts |
+| Screenplays, short-drama adaptation and film narration | Output leans toward scripts, episode structure, scenes, storyboards or narration | Novel/story/film → script or narration production material |
+| Creative writing evaluation tools | The main goal is evaluating models or methods, not providing an everyday editor for authors | Models and tasks → evaluation artifacts |
 
-每项只有一个主类别，避免重复统计；形态字段进一步说明桌面应用、Web 工作台、CLI、Skill、方法论或评测框架。多功能项目按主要入口和产物分类，并不表示其只能覆盖一个环节。
+Each entry has exactly one primary category to avoid double counting; the form field further specifies desktop app, web workbench, CLI, Skill, methodology or evaluation framework. Multi-feature projects are categorized by their main entry point and output, which does not mean they only cover one stage.
 
-## 需要区分的边界
+## Boundaries that must be kept apart
 
-- Skill 是让宿主按流程工作的资源，不是一个内置模型的独立软件。
-- 长期记忆、RAG、人物状态表和伏笔账本分别记录不同信息；出现这些词不代表矛盾已被消除。
-- “能生成很多章”与“这些章节达到可出版质量”不是同一结论。
-- 去模板化、修复叙事结构、语法润色和文学编辑各有目标；规则命中不能证明文本由 AI 写成。
-- 本地保存文稿不等于使用远程模型时完全不传输稿件。
-- 短剧改编、原创剧本、影视解说不是同一种写作任务，条目说明保留区别。
-- 开发中的新分支、预览版和路线图不自动继承旧版本或演示视频的全部能力。
+- A Skill is a resource that makes a host agent follow a workflow; it is not standalone software with a built-in model.
+- Long-term memory, RAG, character state tables and foreshadowing ledgers record different things; the presence of these terms does not mean contradictions have been eliminated.
+- "Can generate many chapters" and "those chapters are publishable quality" are not the same conclusion.
+- De-templating, narrative-structure repair, grammar polishing and literary editing each have different goals; a rule hit cannot prove a text was written by AI.
+- Storing drafts locally does not mean manuscripts are never transmitted when a remote model is called.
+- Short-drama adaptation, original screenplays and film narration are not the same writing task, and the entries keep them distinct.
+- An in-progress branch, a preview release and a roadmap do not automatically inherit the full capabilities of an older version or a demo video.
 
-## 本轮参考项目映射
+## Reference-project mapping for this round
 
-13 个去重参考项目全部收录。`Denova` 对应 `alfredxw/denova`，易创对应 `yilujian/easy-writing`，用户确认 `ai-juben` 对应 `VanGong1999/juben`。重复的 `Nanako0129/sepia -g` 视为同一项目，`-g` 不属于仓库名称，也不触发安装。
+All deduplicated reference projects are included. `Denova` maps to `alfredxw/denova`, Easy Writing maps to `yilujian/easy-writing`, and the user confirmed `ai-juben` maps to `VanGong1999/juben`. The duplicated `Nanako0129/sepia -g` is treated as the same project: `-g` is not part of the repository name and does not trigger an install.
 
-原始参考与定位结果见 [seed-references.json](../data/seed-references.json)。功能证据和许可说明见 [项目详表](projects.md)。
+The original references and mapping results are in [seed-references.json](../data/seed-references.json). Feature evidence and license notes are in the [project details](projects.md).

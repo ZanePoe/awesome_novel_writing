@@ -1,44 +1,44 @@
-# 排序方法与验证范围
+# Ranking method and validation scope
 
-沿用 [awesome_bot](https://github.com/ZanePoe/awesome_bot) 的可复算指标口径，主目录按类别分别排序。软件、Skill 和评测工具不是同一类产品，不拿维护分当写作效果总榜。
+The recomputable metric definitions follow [awesome_bot](https://github.com/ZanePoe/awesome_bot), and the main catalogue is ranked separately per category. Software, Skills and evaluation tools are different kinds of products; the maintenance score is not a leaderboard of writing quality.
 
-## 原始数据
+## Raw data
 
-通过 GitHub GraphQL API 读取 `stargazerCount`、默认分支 SHA 和提交日期、30/90 天提交计数、归档状态与许可证识别结果。采集的完整数据保存在 `data/metrics.json`，首版快照另存以便追溯。
+`stargazerCount`, the default-branch SHA and commit dates, 30/90-day commit counts, archive state and license identification are read through the GitHub GraphQL API. The full collected data is stored in `data/metrics.json`, and the first snapshot is kept separately for traceability.
 
-`commits_30d` 和 `commits_90d` 使用默认分支历史的 `history.totalCount`，窗口起止固定在同一次 UTC 采集时刻。不会把第一页提交数误写成总提交数。
+`commits_30d` and `commits_90d` use `history.totalCount` over default-branch history, with window start and end fixed at the same UTC collection moment. First-page commit counts are never written up as total commit counts.
 
-最近更新使用默认分支 HEAD 的 `committedDate`。`pushed_at` 与 `updated_at` 另存，但不拿仓库元数据变化或其他分支 push 冒充默认分支更新。默认分支不一定叫 main，实验分支会如实计入并标明。
+The last-update field uses the default branch HEAD's `committedDate`. `pushed_at` and `updated_at` are stored separately, but repository metadata changes or pushes to other branches are never passed off as default-branch updates. The default branch is not necessarily called main, and experimental branches are counted as they are and labeled.
 
-`latest_release` 记录最近创建的 release 节点及是否预发布。没有 release 的 Skill 不因此被判定为弃坑。
+`latest_release` records the most recently created release node and whether it is a prerelease. A Skill without any release is not judged abandoned because of that.
 
-## 维护层与公式
+## Maintenance tiers and formula
 
-先按四层排序：近 90 天有默认分支提交；91–365 天未提交；超过 365 天未提交；归档、disabled 或明确历史项目。
+Projects are first sorted into four tiers: commits on the default branch within the last 90 days; no commits for 91–365 days; no commits for over 365 days; and archived, disabled or explicitly historical projects.
 
-层内综合分：
+Within a tier, the combined score is:
 
 ```text
 P = min(1, ln(1 + stars) / ln(1 + 100000))
 A = min(1, ln(1 + commits_90d) / ln(1 + 500))
 R = exp(-max(0, days_since_default_branch_HEAD) / 90)
-维护分 = 100 × (0.40 × P + 0.35 × A + 0.25 × R)
+maintenance_score = 100 × (0.40 × P + 0.35 × A + 0.25 × R)
 ```
 
-star 占 40%，90 天提交活动占 35%，新鲜度占 25%。对数与封顶减轻超大项目优势；固定锚点让新增条目不会改变旧条目的分数。同分比较 star，再按仓库名稳定排序。
+Stars carry 40%, 90-day commit activity 35% and freshness 25%. Logarithms and caps reduce the advantage of very large projects; fixed anchors keep existing entries' scores unchanged when new entries are added. Ties compare stars, then sort stably by repository name.
 
-[排序视图](rankings.md) 同时提供综合分、star、90 天活动和最新提交四种视图，均先按维护层排序。想完全按原始数值排序，可使用 [CSV](../data/rankings.csv)。
+The [ranking views](rankings.md) provide the balanced score, stars, 90-day activity and latest-commit views, all grouped by maintenance tier first. To sort purely by raw values, use the [CSV](../data/rankings.csv).
 
-## 局限
+## Limitations
 
-提交量包含合并、机器人和文档更新，monorepo 的总活动也不等于小说模块的活动。Skill 规则稳定后可能很少提交，因此低活跃分不代表无效。新项目可能有大量提交而用户很少；老项目可能有大量 star 而当前维护较少。
+Commit counts include merges, bots and documentation updates, and a monorepo's total activity is not the same as activity in its novel-related modules. Once a Skill's rules are stable it may rarely commit, so a low activity score does not mean it is ineffective. A new project can have many commits and few users; an old project can have many stars and little current maintenance.
 
-本轮核验仓库文档、版本边界、许可与 GitHub 元数据，没有安装所有软件，也没有运行统一写作试题。无法据此声称某项目最会写小说、能稳定维持百万字质量或能提高签约收益。
+This round validated repository documentation, version boundaries, licenses and GitHub metadata. Not all software was installed, and no uniform writing exam was run. Nothing here supports claiming a project writes the best novels, sustains million-word quality reliably, or improves signing revenue.
 
-如需能力评测，应固定模型、预算、故事题、目标长度与版本，比较设定一致性、人物行为、伏笔回收、重复度、人工修订量和生成成本。作者自报的“数百万字”“多 Agent 提升”不与其他项目的数字直接混排。
+A capability evaluation would need fixed models, budgets, story prompts, target lengths and versions, comparing setting consistency, character behavior, foreshadow payoff, repetition, amount of manual revision and generation cost. Authors' self-reported "millions of words" or "multi-agent improvements" are not mixed into cross-project numeric comparisons.
 
-## 更新和故障处理
+## Updates and failure handling
 
-指标刷新依赖 `gh` 登录或 `GH_TOKEN`。所有批次成功后才原子替换快照；API 部分失败、仓库不可访问或缺少默认分支时保留旧文件并让任务失败，避免把未知写成零。
+Metric refreshes require `gh` login or `GH_TOKEN`. The snapshot is replaced atomically only after all batches succeed; on partial API failure, an inaccessible repository or a missing default branch, the old file is kept and the job fails, so unknown values are never written as zeros.
 
-功能与许可是人工审核的数据，具有单独核验日期和固定提交来源。每日刷新仅更新指标，不自动确认新功能或重新解释许可证。重命名、删除和许可变化需要维护者复查。
+Feature and license data are manually reviewed and carry their own review date and pinned-commit source. The daily refresh only updates metrics; it does not auto-confirm new features or reinterpret licenses. Renames, removals and license changes require a maintainer's recheck.

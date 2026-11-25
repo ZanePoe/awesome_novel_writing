@@ -1,0 +1,67 @@
+{
+  "language": "zh",
+  "language_name": "简体中文",
+  "list_separator": "、",
+  "categories": {
+    "workspace": "小说创作软件与工作台",
+    "automation": "自动写作 Agent 与创作引擎",
+    "skills": "长篇创作技能与方法框架",
+    "revision": "文风修订、去模板化与质量检查",
+    "screenplay": "剧本、短剧改编与影视解说",
+    "evaluation": "创意写作评测工具"
+  },
+  "scopes": {
+    "core": "核心",
+    "adjacent": "相邻",
+    "historical": "历史"
+  },
+  "license_status": {
+    "verified": "开放许可证已核验",
+    "unverified": "许可待核验",
+    "custom": "存在附加许可说明",
+    "source_available": "受限源码许可"
+  },
+  "modes": {
+    "balanced": "综合维护分",
+    "stars": "Star 优先",
+    "activity": "90 天提交优先",
+    "recent": "最近默认分支提交优先"
+  },
+  "tiers": [
+    "近90天有提交",
+    "91–365天未提交",
+    "超过365天未提交",
+    "归档 / 历史"
+  ],
+  "tags": {
+    "baseline": "★",
+    "archived": "归档/历史",
+    "license": "许可注意"
+  },
+  "headers": {
+    "categories": ["分类", "数量", "排序靠前的项目"],
+    "detail": ["项目", "用途", "形态", "Stars", "90天提交", "最近提交 UTC", "维护分", "许可"],
+    "rankings": ["项目", "分类", "维护层", "Stars", "90天提交", "最近提交 UTC", "维护分"]
+  },
+  "sections": {
+    "current": "当前收录",
+    "toc": "分类目录",
+    "choose": "如何选择",
+    "data": "排序、数据与维护",
+    "thanks": "许可与致谢",
+    "detail_title": "项目说明与证据",
+    "rankings_title": "排序视图"
+  },
+  "templates": {
+    "current": "**{total} 个项目，覆盖全部 {seeds} 个去重后的参考项目。** 功能核验：{reviewed}；指标快照：`{as_of}`（UTC）。\n\n每类先按维护状态分层，再综合 star（40%）、90 天提交活动（35%）和最近默认分支提交（25%）排序。归档项目后置。**维护分不代表小说质量、文学水平或一键成书成功率。**",
+    "toc_note": "`★` 表示用户提供的参考项目。每项只有一个主分类；软件、Skill、方法框架与评测工具分开比较。功能介绍来自公开文档，未安装执行第三方项目。",
+    "detail_intro": "文档核验不等于实机测评。来源固定到核验时的 commit，自动刷新 star 不会把功能或许可重新标为已审查。",
+    "rankings_intro": "快照：`{as_of}`。这是维护元数据排序，不是写作能力比赛。所有视图先按活跃、较久未更新、长期未更新、归档/历史分层，再按该视图指标降序。同分比较 star 与仓库名。\n\n[公式和限制](methodology.md) · [CSV 原始排序数据]({R}data/rankings.csv)",
+    "entry": "- 分类：{category}；形态：{form}。\n- 适用边界：{boundary}\n- 维护状态：{maintenance}；30 天提交 {commits_30d} 次，90 天提交 {commits_90d} 次。\n- 许可：[{license}]({license_source})；{license_status}。{license_note}\n- 功能核验：{reviewed_at}；{sources}。",
+    "source_link": "来源 {index}",
+    "choose": "- 想先打开软件写作：看小说工作台，比较编辑与审稿体验、模型配置和备份方式。\n- 想把分章写作做成可重复流程：看创作 Agent 与长篇技能，优先检查状态、伏笔和修订机制。\n- 已经有正文，需要改稿：看 Sepia、avoid-ai-writing 等修订工具；一般文章规则不一定适合小说。\n- 想把小说改成短剧：看剧本与改编分类；影视解说不等于原创剧本。\n\n更具体的边界与来源见 [项目详表](docs/projects.md)，创作环节与分类见 [分类标准](docs/taxonomy.md)。",
+    "data": "- [综合 / Star / 活跃度 / 最近提交排序](docs/rankings.md)\n- [排序公式与局限](docs/methodology.md)\n- [检索过程、项目更名和种子映射](docs/research.md)\n- [数据 JSON]({R}data/projects.json) · [指标 JSON]({R}data/metrics.json) · [排序 CSV]({R}data/rankings.csv)\n- [贡献指南](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py   # 需要 gh 登录或 GH_TOKEN\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions 每日刷新已收录仓库的指标与排序。新增项目、分类、功能及许可判断经过人工核验后更新。API 查询不完整时保留上一份完整快照。",
+    "thanks": "本目录原创整理与脚本采用 [MIT]({R}LICENSE)，链接到的项目依各自许可。公开源码、README 的开源宣称和 GitHub 识别出的许可证需要结合项目附加说明阅读。未核验的许可不会默认写成 MIT。\n\n排序与更新实现沿用 [awesome_bot](https://github.com/ZanePoe/awesome_bot)。发现线索参考 [Awesome Novel Tools](https://github.com/yutingzhao1991/awesome-novel-tools) 和 [Awesome Novel Skills](https://github.com/UnderleveledBuilder/awesome-novel-skills)，最终介绍回到原始仓库核验。",
+    "records_note": "[变更记录]({R}record/) 保留核验当时的原文（中文），用于审计每条判断的来源和当时的措辞。"
+  }
+}

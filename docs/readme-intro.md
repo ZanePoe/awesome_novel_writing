@@ -1,21 +1,21 @@
 # awesome_novel_writing
 
-**AI 小说写作、长篇创作 Agent、写作技能、文风修订与剧本改编项目合集。**
+**A curated collection of AI novel-writing apps, long-form creation agents, writing skills, style-revision tools and screenplay-adaptation projects.**
 
 Curated AI novel-writing apps, long-form fiction agents, writing skills, revision tools, and screenplay workflows — with evidence-linked descriptions and reproducible GitHub maintenance rankings.
 
-从灵感、设定与大纲，到章节、连续性检查、修订和改编，按实际创作环节寻找工具。收录重心是 GitHub 上可查看实现的项目，同时明确标注许可待核验与附加许可条件。
+Find tools by the actual creation workflow: from inspiration, settings and outlines to chapters, continuity checks, revision and adaptation. The focus is on projects whose implementation is inspectable on GitHub, while unverified licenses and additional license terms are labeled explicitly.
 
-[分类目录](#分类目录) · [项目详表](docs/projects.md) · [排序视图](docs/rankings.md) · [方法](docs/methodology.md) · [检索记录](docs/research.md) · [贡献](CONTRIBUTING.md)
+[Category index](#category-index) · [Project details](docs/projects.md) · [Ranking views](docs/rankings.md) · [Method](docs/methodology.md) · [Research log](docs/research.md) · [Contributing](CONTRIBUTING.md)
 
 ```mermaid
 flowchart LR
-    A[灵感 / 世界观 / 人物] --> B[大纲 / 章节计划]
-    B --> C[章节写作]
-    C --> D[事实 / 伏笔 / 连续性检查]
-    D --> E[文风修订 / 人工审稿]
+    A[Inspiration / worldbuilding / characters] --> B[Outline / chapter plan]
+    B --> C[Chapter writing]
+    C --> D[Facts / foreshadowing / continuity check]
+    D --> E[Style revision / human review]
     E --> C
-    E --> F[剧本改编 / 影视解说]
+    E --> F[Screenplay adaptation / film narration]
 ```
 
-图示是选型路径，各项目的覆盖范围不同。首版为精选起点，不声称穷尽全部项目；star 和开发活动不等于作品质量。
+The diagram is a selection path; individual projects cover different scopes. The first release is a curated starting point and does not claim to list every project; stars and development activity do not equal the quality of finished fiction.

@@ -1,83 +1,83 @@
-# 检索记录与收录判断
+# Research log and inclusion decisions
 
-2026-11-05 完成首版：41 个项目、6 个分类，13 个去重参考项目全部覆盖。2026-11-06 根据用户补充收录 Reveric，当前为 42 个项目、14 个参考项目。本轮关注项目与实现，没有把相关论文扩展为独立论文清单。
+The first release was completed on 2026-11-05: 41 projects across 6 categories, covering all 13 deduplicated reference projects. On 2026-11-06, Reveric was added from a user supplement, bringing the totals to 42 projects and 14 reference projects. This round focused on projects and implementations; related papers were not expanded into a separate paper list.
 
-## 从参考项目归纳的检索轴
+## Search axes derived from the reference projects
 
-| 方向 | 英文关键词 | 中文关键词 |
+| Direction | English keywords | Chinese keywords |
 | --- | --- | --- |
-| 完整创作工具 | AI novel writer, writing workspace, fiction IDE, local-first | AI 小说写作、小说工作台、桌面码字软件 |
-| 长篇自动化 | long-form fiction, writing agent, novel generator, harness | 长篇生成、分章写作、写作 Agent |
-| 状态与连续性 | story bible, character state, foreshadowing, continuity, RAG | 世界观、人物状态、伏笔、连贯性、长期记忆 |
-| Agent 资源 | novel writing skill, workflow, prompt framework | 小说 Skill、网文技能、方法框架 |
-| 修订 | narrative revision, humanizer, style lint, editing | 叙事修复、去模板化、文风、审稿 |
-| 改编 | screenplay, short drama, story adaptation, narration | 剧本、短剧、小说改编、影视解说 |
+| Complete creation tools | AI novel writer, writing workspace, fiction IDE, local-first | AI 小说写作、小说工作台、桌面码字软件 |
+| Long-form automation | long-form fiction, writing agent, novel generator, harness | 长篇生成、分章写作、写作 Agent |
+| State and continuity | story bible, character state, foreshadowing, continuity, RAG | 世界观、人物状态、伏笔、连贯性、长期记忆 |
+| Agent resources | novel writing skill, workflow, prompt framework | 小说 Skill、网文技能、方法框架 |
+| Revision | narrative revision, humanizer, style lint, editing | 叙事修复、去模板化、文风、审稿 |
+| Adaptation | screenplay, short drama, story adaptation, narration | 剧本、短剧、小说改编、影视解说 |
 
-## 三轮检索
+## Three search rounds
 
-| 轮次 | 批次 | 结果条数 | 新增来源 | 新增来源率 |
+| Round | Batches | Results | New sources | New-source rate |
 | --- | --- | --- | --- | --- |
 | 1 | 15 | 331 | 300 | 90.6% |
 | 2 | 4 | 127 | 90 | 70.9% |
 | 3 | 3 | 17 | 15 | 88.2% |
 
-共 22 个检索或核验批次，包含网页检索、GitHub 原生搜索、精选目录链接采集，以及仓库与指标批量核验。来源数是检索台账的 URL 数量，不是已收录项目数，也不是每个候选都相关。
+There were 22 search or verification batches in total, including web search, GitHub native search, curated-directory link harvesting, and bulk verification of repositories and metrics. The source count is the number of URLs in the search ledger — not the number of included projects, and not every candidate was relevant.
 
-第一轮从全部参考项目出发，覆盖定义、原始来源、精选目录、仓库、对比、评测、边界与近期变化八个方向。GitHub 搜索 `小说` 会混入阅读器、下载器、CMS 和书单，按创作目标剔除；`easy-writing` 也会混入同名开发框架，不能仅按搜索排名收录。
+Round 1 started from all reference projects and covered eight directions: definitions, original sources, curated directories, repositories, comparisons, evaluations, boundaries and recent changes. A GitHub search for `小说` mixes in readers, downloaders, CMSes and book lists, which were filtered out against the creation-focused goal; `easy-writing` also collides with a same-named development framework, so search rank alone cannot justify inclusion.
 
-第二轮补入 Oh Story、webnovel-writer、NovelClaw、OpenFic 等方向，读取官方 README，识别应用、技能和方法论的差异。精选目录用于发现线索，不直接照抄其 star、会议信息或效果结论。
+Round 2 added directions such as Oh Story, webnovel-writer, NovelClaw and OpenFic, reading official READMEs and telling apart applications, skills and methodologies. Curated directories served as leads; their stars, conference information or effectiveness claims were not copied over.
 
-第三轮核验更名、许可证例外、用户提供的 Sepia 中文 README，并补入 Long-Novel-GPT。通过 GitHub GraphQL 统一采集最终项目的指标，固定功能来源提交。
+Round 3 verified renames and license exceptions, reviewed the user-provided Chinese README of Sepia, and added Long-Novel-GPT. Final-project metrics were collected uniformly via the GitHub GraphQL API, with feature sources pinned to commits.
 
-停止原因是预设三轮检索上限，不是“已经穷尽”。第三轮仍有新发现。垂直题材、交互式小说、翻译、本地写作模型及全部行业短剧工具尚未全面展开。纯小说阅读、采集或发布工具未作为写作工具强行填充清单。
+The stopping reason was the preset three-round limit, not "everything has been found" — round 3 still produced new discoveries. Vertical genres, interactive fiction, translation, local writing models and the industry's short-drama tooling were not exhaustively explored. Pure novel-reading, scraping or publishing tools were not force-fitted into the list as writing tools.
 
-## 参考项目、名称与去重
+## Reference projects, names and deduplication
 
-| 用户名称 / 旧称 | 当前收录 |
+| User-provided name / former name | Currently listed as |
 | --- | --- |
 | Denova | [alfredxw/denova](https://github.com/alfredxw/denova) |
 | 易创 easy-writing | [yilujian/easy-writing](https://github.com/yilujian/easy-writing) |
-| ai-juben | [VanGong1999/juben](https://github.com/VanGong1999/juben)，经用户确认 |
-| AI Novel Writer | [书童 Pagekin](https://github.com/EthanYoQ/Pagekin)，仓库已重命名，旧地址自动重定向 |
-| AI Novel Writing Assistant | [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant)，同一仓库 |
-| Storyteller | [Dankular/Storyteller](https://github.com/Dankular/Storyteller)，README 当前名 novel-harness |
-| 重复的 Sepia 与 `-g` | 同一仓库只计一项，未安装技能 |
+| ai-juben | [VanGong1999/juben](https://github.com/VanGong1999/juben), confirmed by the user |
+| AI Novel Writer | [Pagekin](https://github.com/EthanYoQ/Pagekin); the repository was renamed and the old address redirects automatically |
+| AI Novel Writing Assistant | [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant), same repository |
+| Storyteller | [Dankular/Storyteller](https://github.com/Dankular/Storyteller); the README's current name is novel-harness |
+| Duplicate Sepia entries with `-g` | Counted once per repository; the skill was not installed |
 
-所有种子映射保存在 [seed-references.json](../data/seed-references.json)。canonical repo 是项目去重键，仓库重命名不新增项目。OpenCode 移植版因宿主与功能不同单列，并说明与上游关系；未收录无明确差异的同内容 fork。
+All seed mappings are stored in [seed-references.json](../data/seed-references.json). The canonical repository is the deduplication key, and a rename does not add a project. OpenCode ports are listed separately because their host and features differ, with the upstream relationship stated; same-content forks without an explainable difference were not included.
 
-## 原始文档纠错
+## Corrections to the original documents
 
-- [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) 明确以中文文章和推文为中心，纯小说仍需专门方法，因此归入相邻修订工具。
-- [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) 指导调用影视解说 CLI，不写成原创长篇生成器。
-- [NeuroBook](https://github.com/notnotype/neuro-book) 当前 v2 正在重建，部分 AI 工作室能力列于路线图；目录保留预览版边界。
-- [Novel Studio](https://github.com/bbaz123/novel-studio) 的默认分支为实验线，指标确实取该分支，未强行使用旧 main。
-- [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT) 的部分一键成书能力仍列在计划，不能把首页口号当成已完成验收。
-- [Reveric](https://github.com/looplj/reveric) 当前默认分支为 `unstable`；目录按该分支核验。其 `NOTICES` 依据 AGPLv3 第 7 条要求修改版保留项目署名和链接，并提供商业许可路径。
+- [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) is explicitly centered on Chinese articles and posts, and pure fiction still needs dedicated methods, so it sits in the adjacent revision tools group.
+- [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) instructs calling a film-narration CLI; it is not described as an original long-form generator.
+- [NeuroBook](https://github.com/notnotype/neuro-book) is rebuilding on v2, and some AI-studio capabilities are listed on the roadmap; the catalogue keeps the preview-version boundary.
+- [Novel Studio](https://github.com/bbaz123/novel-studio) has an experimental default branch; the metrics do come from that branch instead of forcing an older main.
+- Some of [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT)'s one-click book capabilities remain in the plan; landing-page slogans are not treated as completed acceptance.
+- [Reveric](https://github.com/looplj/reveric) currently uses the `unstable` default branch, and the catalogue reviews that branch. Its `NOTICES` file, under AGPLv3 Section 7, requires modified versions to keep the project attribution and the original-project link, and a commercial-licensing path is offered.
 
-## 许可证核验
+## License verification
 
-GitHub SPDX 识别与人工例外检查分开保存。Biz Novel Studio 的 LICENSE 同时包含 AGPL 和服务型商业授权说明；Kimi Writer 的 LICENSE 是带额外商业署名条件的文本。两者保留原文链接，不简化成普通 AGPL/MIT。
+GitHub SPDX identification and manual exception checks are stored separately. The LICENSE of Biz Novel Studio contains AGPL plus service-style commercial-authorization notes; the Kimi Writer LICENSE is a text with an extra commercial attribution condition. Both keep their original license links and are not simplified into plain AGPL/MIT.
 
-Agnes 明确表示未声明许可；部分小型写作 Harness、Skill 和评测仓库未定位到完整许可证。README 徽章或一句 MIT 声明不足以把它们自动标成许可已核验。具体状态见 [项目详表](projects.md)。本目录记录作者条款，不作跨项目可商用保证。
+Agnes explicitly states that no license is declared; for some small writing harnesses, Skills and evaluation repositories no complete license text was located. A README badge or a one-line MIT claim is not enough to mark such entries as license-verified. Current status appears in the [project details](projects.md). This catalogue records the authors' terms and makes no cross-project commercial-use guarantee.
 
-## 内容工厂
+## Content-factory search
 
-沿用 `content-factory-search-api`，通过 curl 调用结构化检索；日期范围 **2026-08-05 至 2026-11-05**，查询 `小说` 与 `inkos OR sepia OR 小说写作`。两组返回成功 JSON，但结果数组为空。未执行全历史检索，也未把空结果解释为这些项目不存在。
+The `content-factory-search-api` was reused, calling structured search via curl; the date range was **2026-08-05 to 2026-11-05** with the queries `小说` and `inkos OR sepia OR 小说写作`. Both calls returned valid JSON, but the result arrays were empty. A full-history search was not run, and the empty results were not interpreted as these projects not existing.
 
-没有返回内容时未进行向量计算。最终收录依据 GitHub 原始仓库；私有搜索地址、密钥和内部正文不进入公开仓库。
+When nothing was returned, no vector computation was performed. Final inclusion relies on the original GitHub repositories; private search addresses, keys and internal article bodies never enter the public repository.
 
-## 验证与局限
+## Validation and limits
 
-功能介绍依据官方文档，未安装运行全部软件，未用统一模型、预算和故事题做盲评。各作者关于章节数量、百万字、AI 去味与多 Agent 的宣传不用于能力排名。此轮没有组件消融实验，不能判断“移除记忆后质量下降多少”。
+Feature descriptions are based on official documentation; not all software was installed or run, and no blind evaluation used a fixed model, budget and story prompt. Authors' claims about chapter counts, million-word output, AI-flavor removal or multi-agent gains are not used for capability ranking. This round ran no ablation experiments, so it cannot judge "how much quality drops after removing memory".
 
-完成项目/种子完整性校验、排序边界测试、API 失败保留旧快照测试和生成文件一致性检查。详细指标口径见 [methodology.md](methodology.md)。
+Completed: project/seed completeness checks, ranking boundary tests, the stale-snapshot-on-API-failure test, and generated-file consistency checks. Full metric definitions are in [methodology.md](methodology.md).
 
-公开审计材料：
+Public audit material:
 
-- [检索日志](../research/search-log.json)：查询、轮次和结果统计。
-- [收录决策](../research/decisions.json)：用途、边界、固定提交和许可核验。
-- [基线覆盖](../research/coverage.json)：14 个参考链接全部覆盖。
-- [首版指标](../research/initial-metrics.json) 与 [当前指标](../data/metrics.json)：初始与持续更新分开。
-- [状态](../research/status.json) 与 [完整性结果](../research/verification.json)：停止原因和已知空结果。
+- [Search log](../research/search-log.json): queries, rounds and result counts.
+- [Inclusion decisions](../research/decisions.json): purpose, boundary, pinned commits and license verification.
+- [Baseline coverage](../research/coverage.json): all 14 reference links covered.
+- [Initial metrics](../research/initial-metrics.json) and [current metrics](../data/metrics.json): the baseline and the ongoing refresh are kept apart.
+- [Status](../research/status.json) and [verification results](../research/verification.json): stopping reasons and known empty results.
 
-完整来源文本和工具日志留在本地。公开研究统计包含 84 条判断和 123 条指标，内容可通过上述决策和快照回查。
+Full source texts and tool logs stay local. The public research statistics contain 84 judgments and 123 metric records, traceable through the decision and snapshot files above.

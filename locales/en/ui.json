@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "list_separator": ", ",
+  "categories": {
+    "workspace": "Novel-writing software and workbenches",
+    "automation": "Automated writing agents and creation engines",
+    "skills": "Long-form creation skills and method frameworks",
+    "revision": "Style revision, de-templating and quality checks",
+    "screenplay": "Screenplays, short-drama adaptation and film narration",
+    "evaluation": "Creative writing evaluation tools"
+  },
+  "scopes": {
+    "core": "Core",
+    "adjacent": "Adjacent",
+    "historical": "Historical"
+  },
+  "license_status": {
+    "verified": "Open license verified",
+    "unverified": "License unverified",
+    "custom": "Additional license terms present",
+    "source_available": "Restricted source license"
+  },
+  "modes": {
+    "balanced": "Balanced maintenance score",
+    "stars": "Stars priority",
+    "activity": "90-day commits priority",
+    "recent": "Most recent default-branch commit priority"
+  },
+  "tiers": [
+    "Commits in the last 90 days",
+    "No commits for 91–365 days",
+    "No commits for over 365 days",
+    "Archived / historical"
+  ],
+  "tags": {
+    "baseline": "★",
+    "archived": "Archived/historical",
+    "license": "License caution"
+  },
+  "headers": {
+    "categories": ["Category", "Count", "Top-ranked projects"],
+    "detail": ["Project", "Purpose", "Form", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score", "License"],
+    "rankings": ["Project", "Category", "Maintenance tier", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score"]
+  },
+  "sections": {
+    "current": "Current coverage",
+    "toc": "Category index",
+    "choose": "How to choose",
+    "data": "Rankings, data and maintenance",
+    "thanks": "Licenses and acknowledgements",
+    "detail_title": "Project notes and evidence",
+    "rankings_title": "Ranking views"
+  },
+  "templates": {
+    "current": "**{total} projects, covering all {seeds} deduplicated reference projects.** Feature review: {reviewed}; metrics snapshot: `{as_of}` (UTC).\n\nWithin each category, projects are grouped by maintenance tier first, then ranked by a blend of stars (40%), 90-day commit activity (35%) and the most recent default-branch commit (25%); archived projects come last. **The maintenance score does not measure novel quality, literary level, or one-click book-completion success.**",
+    "toc_note": "`★` marks a user-provided reference project. Each entry has exactly one primary category; software, Skills, method frameworks and evaluation tools are compared separately. Feature descriptions come from public documentation; no third-party project was installed or executed.",
+    "detail_intro": "Documentation review is not hands-on testing. Sources are pinned to the commit reviewed at the time; automatic star refreshes do not mark features or licenses as re-reviewed.",
+    "rankings_intro": "Snapshot: `{as_of}`. This is an ordering of maintenance metadata, not a writing-ability contest. Every view first groups by the active, stale-for-a-while, stale-for-over-a-year and archived/historical tiers, then sorts descending by that view's metric. Ties compare stars, then repository name.\n\n[Formula and limits](methodology.md) · [Raw ranking CSV]({R}data/rankings.csv)",
+    "entry": "- Category: {category}; form: {form}.\n- Applicability boundary: {boundary}\n- Maintenance status: {maintenance}; {commits_30d} commits in the last 30 days, {commits_90d} in the last 90 days.\n- License: [{license}]({license_source}); {license_status}. {license_note}\n- Feature review: {reviewed_at}; {sources}.",
+    "source_link": "Source {index}",
+    "choose": "- Want to open a tool and start writing: look at the novel workbenches; compare editing and review experience, model configuration and backup options.\n- Want chapter-by-chapter writing as a repeatable pipeline: look at the creation agents and long-form skills; check state, foreshadowing and revision mechanisms first.\n- Already have a manuscript and need revision: look at revision tools such as Sepia and avoid-ai-writing; general article rules do not always fit fiction.\n- Want to turn a novel into a short drama: look at the screenplay and adaptation category; film narration is not an original screenplay.\n\nMore specific boundaries and sources are in [project details](docs/projects.md); creation stages and categorization are in [scope and taxonomy](docs/taxonomy.md).",
+    "data": "- [Balanced / stars / activity / recent-commit rankings](docs/rankings.md)\n- [Ranking formula and limitations](docs/methodology.md)\n- [Search process, project renames and seed mapping](docs/research.md)\n- [Projects JSON]({R}data/projects.json) · [Metrics JSON]({R}data/metrics.json) · [Rankings CSV]({R}data/rankings.csv)\n- [Contributing guide](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py   # requires gh login or GH_TOKEN\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions refreshes the metrics and rankings of included repositories daily. New projects, categories, feature and license judgments are updated only after manual review. When API queries come back incomplete, the previous full snapshot is kept.",
+    "thanks": "Original curation and scripts in this catalogue use the [MIT]({R}LICENSE) license; linked projects follow their own licenses. Public source code, open-source claims in READMEs and GitHub-detected licenses must be read together with each project's additional terms. Unverified licenses are never defaulted to MIT.\n\nThe ranking and update implementation follows [awesome_bot](https://github.com/ZanePoe/awesome_bot). Discovery leads referenced [Awesome Novel Tools](https://github.com/yutingzhao1991/awesome-novel-tools) and [Awesome Novel Skills](https://github.com/UnderleveledBuilder/awesome-novel-skills); final descriptions were verified against the original repositories.",
+    "records_note": "[Change records]({R}record/) keep the original text as written at verification time (Chinese), so the source and wording of every judgment stay auditable."
+  }
+}

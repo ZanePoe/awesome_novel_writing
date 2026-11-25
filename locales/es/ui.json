@@ -1,0 +1,67 @@
+{
+  "language": "es",
+  "language_name": "Español",
+  "list_separator": ", ",
+  "categories": {
+    "workspace": "Aplicaciones de escritura de novelas y entornos de creación",
+    "automation": "Agentes de escritura automática y motores de creación",
+    "skills": "Skills y marcos de método para novela larga",
+    "revision": "Revisión de estilo, desplantillado y control de calidad",
+    "screenplay": "Guiones, adaptación de drama corto y narración audiovisual",
+    "evaluation": "Herramientas de evaluación de escritura creativa"
+  },
+  "scopes": {
+    "core": "Núcleo",
+    "adjacent": "Adyacente",
+    "historical": "Histórico"
+  },
+  "license_status": {
+    "verified": "Licencia abierta verificada",
+    "unverified": "Licencia pendiente de verificación",
+    "custom": "Condiciones de licencia adicionales",
+    "source_available": "Licencia de código fuente restringida"
+  },
+  "modes": {
+    "balanced": "Puntuación combinada de mantenimiento",
+    "stars": "Prioridad a las estrellas",
+    "activity": "Prioridad a los commits de 90 días",
+    "recent": "Prioridad al último commit de la rama predeterminada"
+  },
+  "tiers": [
+    "Con commits en los últimos 90 días",
+    "Sin commits desde hace 91–365 días",
+    "Sin commits desde hace más de 365 días",
+    "Archivado / histórico"
+  ],
+  "tags": {
+    "baseline": "★",
+    "archived": "Archivado/histórico",
+    "license": "Atención de licencia"
+  },
+  "headers": {
+    "categories": ["Categoría", "Cantidad", "Proyectos mejor posicionados"],
+    "detail": ["Proyecto", "Para qué sirve", "Forma", "Stars", "Commits 90 días", "Último commit UTC", "Puntuación de mantenimiento", "Licencia"],
+    "rankings": ["Proyecto", "Categoría", "Capa de mantenimiento", "Stars", "Commits 90 días", "Último commit UTC", "Puntuación de mantenimiento"]
+  },
+  "sections": {
+    "current": "Inclusiones actuales",
+    "toc": "Categorías",
+    "choose": "Cómo elegir",
+    "data": "Rankings, datos y mantenimiento",
+    "thanks": "Licencias y agradecimientos",
+    "detail_title": "Fichas de proyectos y evidencia",
+    "rankings_title": "Vistas de ranking"
+  },
+  "templates": {
+    "current": "**{total} proyectos, que cubren los {seeds} proyectos de referencia deduplicados.** Verificación funcional: {reviewed}; instantánea de métricas: `{as_of}` (UTC).\n\nDentro de cada categoría se agrupa primero por estado de mantenimiento y luego se ordena combinando estrellas (40%), actividad de commits a 90 días (35%) y último commit de la rama predeterminada (25%). Los proyectos archivados van al final. **La puntuación de mantenimiento no mide la calidad de la novela, el nivel literario ni la tasa de éxito de generar un libro completo con un clic.**",
+    "toc_note": "`★` marca los proyectos de referencia aportados por el usuario. Cada entrada tiene una sola categoría principal; software, skills, marcos de método y herramientas de evaluación se comparan por separado. Las descripciones de funciones provienen de la documentación pública; no se instaló ni ejecutó ningún proyecto de terceros.",
+    "detail_intro": "Verificar la documentación no es una prueba de ejecución. Las fuentes quedan fijadas al commit vigente en el momento de la revisión; refrescar las estrellas de forma automática no vuelve a marcar como revisadas las funciones ni la licencia.",
+    "rankings_intro": "Instantánea: `{as_of}`. Es una ordenación por metadatos de mantenimiento, no una competición de capacidad de escritura. Todas las vistas agrupan primero por activo, inactivo desde hace tiempo, muy antiguo y archivado/histórico, y luego ordenan de forma descendente según el indicador de esa vista. En caso de empate se comparan las estrellas y el nombre del repositorio.\n\n[Fórmula y limitaciones](methodology.md) · [Datos CSV del ranking]({R}data/rankings.csv)",
+    "entry": "- Categoría: {category}; forma: {form}.\n- Frontera de aplicación: {boundary}\n- Estado de mantenimiento: {maintenance}; {commits_30d} commits en 30 días, {commits_90d} commits en 90 días.\n- Licencia: [{license}]({license_source}); {license_status}. {license_note}\n- Verificación funcional: {reviewed_at}; {sources}.",
+    "source_link": "Fuente {index}",
+    "choose": "- Si quieres abrir un programa y ponerte a escribir: mira los entornos de creación de novelas y compara la experiencia de edición y revisión, la configuración de modelos y las formas de copia de seguridad.\n- Si quieres convertir la escritura por capítulos en un flujo repetible: mira los agentes de creación y las skills de novela larga; revisa primero el estado de la historia, los presagios y los mecanismos de revisión.\n- Si ya tienes el texto y necesitas reescribirlo: mira las herramientas de revisión como Sepia y avoid-ai-writing; las reglas para artículos generales no siempre valen para ficción.\n- Si quieres adaptar una novela a drama corto: mira la categoría de guiones y adaptación; la narración audiovisual no equivale a un guion original.\n\nLas fronteras y fuentes más detalladas están en [la tabla de proyectos](docs/projects.md); las fases de creación y las categorías, en [el criterio de clasificación](docs/taxonomy.md).",
+    "data": "- [Vistas combinada / Estrellas / Actividad / Último commit](docs/rankings.md)\n- [Fórmula de ranking y sus limitaciones](docs/methodology.md)\n- [Proceso de búsqueda, cambios de nombre y mapeo de semillas](docs/research.md)\n- [JSON de datos]({R}data/projects.json) · [JSON de métricas]({R}data/metrics.json) · [CSV del ranking]({R}data/rankings.csv)\n- [Guía de contribución](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py   # requiere sesión de gh o GH_TOKEN\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions refresca a diario las métricas y el ranking de los repositorios incluidos. Los nuevos proyectos, categorías, funciones y juicios de licencia se actualizan tras verificación manual. Si una consulta a la API queda incompleta, se conserva la última instantánea completa.",
+    "thanks": "La recopilación original y los scripts de este catálogo están bajo [MIT]({R}LICENSE); los proyectos enlazados se rigen por sus propias licencias. El código público, la afirmación de código abierto del README y la licencia que detecta GitHub deben leerse junto con las notas adicionales de cada proyecto. Una licencia sin verificar no se registra por defecto como MIT.\n\nLa implementación del ranking y de las actualizaciones sigue el patrón de [awesome_bot](https://github.com/ZanePoe/awesome_bot). Las pistas de descubrimiento tomaron como referencia [Awesome Novel Tools](https://github.com/yutingzhao1991/awesome-novel-tools) y [Awesome Novel Skills](https://github.com/UnderleveledBuilder/awesome-novel-skills); las descripciones finales se verificaron contra los repositorios originales.",
+    "records_note": "[Registro de cambios]({R}record/) conserva el texto original (en chino) vigente en el momento de cada revisión, para auditar el origen y la formulación de cada decisión."
+  }
+}

@@ -1,0 +1,303 @@
+{
+ "EthanYoQ/Pagekin": {
+  "name": "Pagekin",
+  "form": "Application de bureau",
+  "description": "Atelier d'écriture long format, de la bible et du découpage de chapitres jusqu'au texte, à la relecture et à la révision.",
+  "boundary": "Anciennement AI Novel Writer ; les modèles se branchent séparément ; distinguer le produit desktop principal du plugin DSH en version d'aperçu de développement.",
+  "license_label": "GPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "ExplosiveCoderflome/AI-Novel-Writing-Assistant": {
+  "form": "Atelier desktop / auto-hébergé",
+  "description": "Organise la production d'un roman entier autour de l'univers, des personnages, de l'écriture chapitre par chapitre et des contrôles.",
+  "boundary": "Anciennement AI Novel Writing Assistant ; la licence demande de vérifier en parallèle le noyau et les composants commerciaux.",
+  "license_label": "AGPL-3.0 + conditions commerciales supplémentaires",
+  "license_note": "La LICENSE liste l'AGPL et une autorisation commerciale distincte pour l'usage en service ; consigné dans les termes de l'auteur, sans réduire cela à un AGPL sans conditions."
+ },
+ "alfredxw/denova": {
+  "form": "Plateforme de création",
+  "description": "Réunit romans, histoires interactives, bases documentaires et outils d'agents dans un même espace de travail.",
+  "boundary": "Couvre aussi le jeu de rôle ; les fonctions d'expérience de jeu ne valent pas une capacité de génération automatique de romans longs.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "yilujian/easy-writing": {
+  "name": "easy-writing",
+  "form": "Application de bureau",
+  "description": "Édition locale des chapitres, statistiques de frappe, assistance à la création par IA et gestion des œuvres.",
+  "boundary": "L'écriture de base fonctionne hors ligne ; les appels à l'IA et les fonctions en ligne relèvent de conditions d'exécution distinctes.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "YILING0013/AI_NovelGenerator": {
+  "form": "Atelier local",
+  "description": "Garde personnages, relations, plan narratif et texte dans un projet ; après génération des candidats, l'auteur relit et sauvegarde.",
+  "boundary": "Consigné selon le README actuel ; ne reprend pas la promotion d'une génération de roman entier en un clic héritée des anciennes versions.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "syrizelink/OpenFic": {
+  "form": "Application multiplateforme",
+  "description": "Co-création long format appuyée sur la bible, les personnages et des workflows Prompt / Agent personnalisables.",
+  "boundary": "La position officielle écarte explicitement le scénario d'un roman entier obtenu automatiquement à partir d'un seul prompt.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "yuanbw2025/storyforge": {
+  "name": "StoryForge",
+  "form": "Atelier de création",
+  "description": "Outil narratif local-first couvrant l'écriture de romans, l'adaptation de récits et les expériences interactives.",
+  "boundary": "Inclut aussi scénarios, bandes dessinées et mondes interactifs ; il ne faut pas traiter toutes les fonctions comme des capacités d'écriture de prose.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "notnotype/neuro-book": {
+  "form": "IDE de création / version d'aperçu",
+  "description": "Organise l'écriture long format avec éditeur, fichiers de projet et outils extensibles.",
+  "boundary": "La v2 est en cours de refonte ; un studio d'écriture IA de ce type figure sur la roadmap et n'est pas déclaré livré au titre des fonctions des anciennes versions.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "heider-x/vela": {
+  "form": "IDE de bureau",
+  "description": "Combine plan, premier jet, réécriture et relecture avec une base documentaire RAG locale.",
+  "boundary": "Un stockage local ne signifie pas que le manuscrit ne sortira pas lors de l'appel d'un modèle distant.",
+  "license_label": "GPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "sigpanic/goink": {
+  "form": "Application de bureau",
+  "description": "Système d'écriture combinant décisions d'écriture par agent, mémoire structurée et vérifications d'état après rédaction.",
+  "boundary": "Nécessite la configuration d'un modèle ; la « prise de décision en temps réel » est une description de conception du projet, pas une qualité mesurée.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "xiaoshengxianjun/51mazi": {
+  "name": "51mazi",
+  "form": "Application de bureau",
+  "description": "Éditeur de romans et assistant de création, avec écriture par IA et ressources créatives.",
+  "boundary": "L'édition classique, le texte par IA et les capacités d'image dépendent de configurations différentes.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "iLearn-Lab/NovelClaw": {
+  "form": "Atelier auto-hébergé",
+  "description": "Organise la création au long cours autour de brouillons de chapitres, d'exécutions inspectables, de relecture et d'une mémoire éditable.",
+  "boundary": "Le multi-agent est un mécanisme de workflow, pas un avantage vérifié sur la qualité d'un roman entier.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "FlickeringLamp/ai-novelist": {
+  "name": "ai-novelist",
+  "form": "Outil de création de bureau",
+  "description": "Exploration de la co-création de texte avec l'IA par appels d'outils et boucle de rétroaction humaine.",
+  "boundary": "Le projet déclare certaines capacités d'agent à un stade précoce et ne fournit pas de génération de roman en un clic prête à l'emploi.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "bbaz123/novel-studio": {
+  "form": "Atelier web local",
+  "description": "Éditeur couplant bible narrative, état des personnages, gestion des fils rouges et contrôles de cohérence.",
+  "boundary": "La branche par défaut est Experimental-Version-v1.0 ; une branche expérimentale ne s'assimile pas à une version stable.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "giapnguyen74/xnovelist": {
+  "form": "Application locale dans le navigateur",
+  "description": "Organise les manuscrits localement dans le navigateur, avec assistance d'écriture par IA sur le modèle de votre choix.",
+  "boundary": "Stockage et sauvegardes du navigateur sont à votre charge ; les données ne suivent pas le même chemin selon un modèle distant ou local.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "MXD706/agnes": {
+  "form": "Atelier local",
+  "description": "Atelier de roman couvrant univers, personnages, intrigue, chapitres, relecture et mémoire longue.",
+  "boundary": "Le dépôt déclare explicitement ne pas avoir de licence ; conservé comme indice de code source visible.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "Narcooo/inkos": {
+  "form": "Agent de création / atelier",
+  "description": "Système d'agents de création pour la planification narrative, l'écriture, la relecture et la révision.",
+  "boundary": "Romans, scénarios, contenu interactif et traduction sont dans le périmètre ; le modèle choisi et la relecture humaine influencent toujours les résultats.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "Doriandarko/kimi-writer": {
+  "form": "CLI / Agent",
+  "description": "S'appuie sur le modèle pour planifier, écrire, gérer les fichiers et reprendre la création long format à partir de résumés du contexte.",
+  "boundary": "Conçu par défaut autour de kimi-k2-thinking ; les démonstrations de l'auteur ne valent pas un benchmark multi-modèles.",
+  "license_label": "MIT + clause d'attribution commerciale",
+  "license_note": "La LICENSE contient une exigence explicite d'attribution pour l'usage commercial ; GitHub ne l'identifie pas comme un SPDX standard."
+ },
+ "AxolDad/novelist": {
+  "form": "Système d'agents / Alpha",
+  "description": "Maintient personnages, intrigue et ton d'un long roman via une mémoire en base de données et des relectures par plusieurs voies.",
+  "boundary": "Marqué Alpha par l'auteur ; le vote d'agents relecteurs ne vaut pas validation de la qualité littéraire par un humain.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "Dankular/Storyteller": {
+  "form": "Harness d'écriture",
+  "description": "Écriture long format par chapitres, appuyée sur la bible narrative, les points d'intrigue, le registre des fils rouges et la cohérence.",
+  "boundary": "Le nom dans le README actuel est novel-harness, le dépôt reste Storyteller ; une seule entrée conservée.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "LiPu-jpg/Openwrite": {
+  "form": "Moteur de création",
+  "description": "Organisation de la création de romans, du traitement du style et de la modération de contenu par workflows IA.",
+  "boundary": "C'est un moteur d'écriture ; le mode d'exécution concret et les modèles requis suivent la configuration actuelle du dépôt.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "PenglongHuang/chinese-novelist-skill": {
+  "form": "Agent Skill",
+  "description": "Assiste l'écriture de romans en chinois par questions-réponses, mémoire de création et contraintes par chapitre.",
+  "boundary": "Dépend d'un agent et d'un modèle externes ; un nombre de chapitres promis n'est pas un taux d'achèvement mesuré.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "zenstory-ai/oh-story-claudecode": {
+  "form": "Pack de Skills pour agent",
+  "description": "Workflows de Skills couvrant l'étude du roman web, l'analyse de textes, l'écriture courte et longue et la révision.",
+  "boundary": "S'exécute dans un agent existant ; ne pas confondre collecte de documentation et efficacité de génération de texte.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "lingfengQAQ/webnovel-writer": {
+  "form": "Plugin / Skill pour agent",
+  "description": "Série web long format appuyée sur une planification hiérarchique, l'état de l'histoire et la récupération contextuelle.",
+  "boundary": "Branches et versions de l'hôte diffèrent ; la catégorie suit la branche par défaut vérifiée, pas la promotion d'une branche de développement.",
+  "license_label": "GPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "LAY-lgtm/novel-writing-framework": {
+  "form": "Méthodologie / Skill pour agent",
+  "description": "Plan, rédaction chapitre par chapitre, auto-contrôle et adaptation aux plateformes, formalisés en méthode d'écriture industrialisée.",
+  "boundary": "Essentiellement de la documentation et des règles ; ni logiciel desktop autonome, ni système garantissant des revenus.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "usagifufu/FuFu-Novel-Writing": {
+  "name": "FuFu",
+  "form": "Pack de Skills WorkBuddy",
+  "description": "Flux d'écriture long format organisant recherche, bible, plan, fils rouges, chapitres et relecture.",
+  "boundary": "Dépend d'un agent hôte ; citer ou fusionner les méthodes d'autres projets n'implique pas que leur efficacité réelle ait été mesurée par ce catalogue.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "lujih/webnovel-writer-opencode": {
+  "form": "Portage / extension OpenCode",
+  "description": "Adapte le workflow de série web long format à OpenCode et ajoute des capacités de pilotage d'écriture.",
+  "boundary": "Dérivation explicite de webnovel-writer ; la différence d'hôte est consignée à part et le projet n'est pas traité comme sans lien.",
+  "license_label": "GPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "jiaw-Zh/long-novel-writer": {
+  "form": "Skill d'écriture long format",
+  "description": "Gère une série au long cours autour de résumés hiérarchiques et d'un registre des faits du récit.",
+  "boundary": "Le volume de mots visé n'est qu'un objectif de conception, pas un test de charge uniforme réalisé.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "conorbronsdon/avoid-ai-writing": {
+  "form": "Agent Skill / outil de vérification",
+  "description": "Diagnostique et réécrit le style IA template, avec des modes détection seule et édition en place.",
+  "boundary": "Révision d'écriture générale ; réduire les formulations type ne prouve pas l'identité de l'auteur du texte.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "Nanako0129/sepia": {
+  "form": "Agent Skill",
+  "description": "Répare d'abord la structure narrative du roman, puis les phrases ; les règles s'appliquent selon le genre et le contexte.",
+  "boundary": "Sépare la révision romanesque du mode articles professionnelles ; « dé-IA » n'est pas présenté comme une garantie de contournement des détecteurs.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "Yuriloll/qifeng-writing": {
+  "form": "Skill d'écriture en chinois",
+  "description": "Diagnostique les faits, la structure, la narration et la langue des posts et articles en chinois.",
+  "boundary": "Les auteurs déclarent explicitement qu'un roman pur demande des méthodes dédiées ; conservé comme outil d'expression adjacent.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "op7418/Humanizer-zh": {
+  "form": "Skill de lissage en chinois",
+  "description": "Repère et corrige les tournures IA mécaniques ou vagues grâce à des règles adaptées au chinois.",
+  "boundary": "Règles de lissage générales ; ne remplacent pas l'intrigue ni la construction des personnages d'un roman.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "blader/humanizer": {
+  "form": "Skill de lissage en anglais",
+  "description": "Contrôle et réécrit le texte à partir des traits d'écriture IA courants.",
+  "boundary": "Révision stylistique anglaise générale ; la qualité romanesque n'est pas évaluée séparément.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "notnotype/llmlint": {
+  "form": "Vérificateur de règles de texte",
+  "description": "Scanne les traces d'écriture par règles afin de fournir à la révision des problèmes localisables.",
+  "boundary": "Une règle déclenchée est un indice de retouche, pas une identification fiable d'un auteur IA.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "eternityspring/shuohao-skills": {
+  "form": "Pack de Skills de production de mini-drames",
+  "description": "De l'adaptation de roman — plan, personnages, scénario — jusqu'à la mise en scène et aux livrables de storyboard.",
+  "boundary": "Axe principal adaptation de romans et production de mini-drames ; l'image et la génération vidéo ajoutent des dépendances d'outils.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "NarratorAI-Studio/narrator-ai-cli-skill": {
+  "form": "Skill d'accompagnement CLI",
+  "description": "Guide l'agent pour piloter un CLI de production d'explications vidéo de films et séries.",
+  "boundary": "Documentation de Skill pour un outil de vidéo explicative, pas un générateur de romans longs originaux.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "VanGong1999/juben": {
+  "form": "Plateforme d'agents de scénario",
+  "description": "Assiste la conception de projets audiovisuels, l'écriture de scénarios et leur évaluation via des workflows d'agents spécialisés.",
+  "boundary": "Correspondance avec ai-juben confirmée par l'utilisateur ; distinct du jeu d'enquête du même nom.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "zenstory-ai/drama-skills": {
+  "form": "Pack de Skills mini-drames",
+  "description": "Flux créatif autour du développement d'histoires, du scénario, des assets et du storyboard de mini-drames.",
+  "boundary": "N'est conservé que pour sa part liée à l'adaptation de romans ; les coûts de génération vidéo ne sont pas inclus dans l'outil textuel lui-même.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "Hao0321/ai-short-drama": {
+  "form": "Skill de scénarisation",
+  "description": "Conception d'intrigue et écriture de scénarios pour mini-drames par IA.",
+  "boundary": "Les objectifs structurels du mini-drame diffèrent de la série web long format ; comparaison par groupes séparés.",
+  "license_label": "MIT",
+  "license_note": "Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément."
+ },
+ "EQ-bench/longform-writing-bench": {
+  "form": "Recherche / outil d'évaluation",
+  "description": "Évalue la planification créative, la révision et la génération d'histoires courtes et moyennes des modèles.",
+  "boundary": "Cadre d'évaluation, pas produit d'écriture ; les scores des modèles n'entrent pas dans les classements de maintenance de ce dépôt.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune identification explicite de licence ouverte ; le manque de vérification est consigné."
+ },
+ "MaoXiaoYuZ/Long-Novel-GPT": {
+  "form": "Générateur long format / Agent",
+  "description": "Génération de romans longs par expansion hiérarchique : plan, chapitres puis texte.",
+  "boundary": "Le roman complet en un clic et une partie des capacités de planification annoncés dans le README restent inscrits à des plans ultérieurs ; l'approche hiérarchique précoce est conservée, sans revendiquer de livre auto-produit validé.",
+  "license_label": "À vérifier",
+  "license_note": "GitHub n'indique aucun fichier de licence, la licence reste donc à vérifier ; aucun droit sur les modèles ou les œuvres d'exemple n'est présumé."
+ },
+ "looplj/reveric": {
+  "name": "Reveric",
+  "form": "Atelier de création desktop local-first",
+  "description": "Atelier de création desktop reliant longs romans, adaptation de scénarios, storyboard, table de réalisation 3D et montage via des agents.",
+  "boundary": "La branche par défaut est unstable ; le projet est BYOK — un stockage local des textes ne signifie pas que les données ne sortent pas lors de l'appel de modèles distants de texte, d'image, d'audio ou de vidéo.",
+  "license_label": "AGPL-3.0 + exigence d'attribution Section 7",
+  "license_note": "Les interfaces modifiées doivent conserver « Based on Reveric by looplj. » et le lien vers le projet d'origine ; une voie de licence commerciale est prévue et les matériaux tiers gardent leurs propres licences."
+ }
+}
