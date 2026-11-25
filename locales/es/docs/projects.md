@@ -9,7 +9,7 @@ Organiza la producción de una novela completa alrededor del mundo, los personaj
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Escritorio / entorno autoalojado.
 - Frontera de aplicación: Nombre original: AI Novel Writing Assistant; la licencia exige verificar a la vez el núcleo y los componentes comerciales.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 491 commits en 30 días, 901 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 490 commits en 30 días, 901 commits en 90 días.
 - Licencia: [AGPL-3.0 + condiciones comerciales adicionales](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE); Condiciones de licencia adicionales. El LICENSE enumera a la vez la AGPL y una nota de autorización comercial separada para el servicio; se registra según el texto del autor y no se simplifica a una AGPL sin condiciones.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -29,7 +29,7 @@ Herramienta de narración local-first que abarca la creación de novelas, la ada
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Entorno de creación.
 - Frontera de aplicación: Incluye guion, cómic y mundos interactivos; no puede contarse todo ello como capacidad de escritura de prosa.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1422 commits en 30 días, 3238 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1425 commits en 30 días, 3244 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -69,7 +69,7 @@ Sistema de escritura que une decisiones de redacción del agente, memoria estruc
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación de escritorio.
 - Frontera de aplicación: Requiere configurar el modelo; "decisiones en tiempo real" es una descripción de diseño del proyecto, no una calidad medida.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 119 commits en 30 días, 416 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 118 commits en 30 días, 416 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Coficción de novela larga mediante ambientación, personajes y flujos de prompt
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación multiplataforma.
 - Frontera de aplicación: La documentación oficial aclara que no está pensada para obtener una novela completa a partir de una sola indicación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 26 commits en 30 días, 109 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 28 commits en 30 días, 111 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 

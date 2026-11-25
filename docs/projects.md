@@ -9,7 +9,7 @@ Organizes whole-novel production around worldbuilding, characters, chapter-by-ch
 
 - Category: Novel-writing software and workbenches; form: Desktop / self-hosted workbench.
 - Applicability boundary: Formerly AI Novel Writing Assistant; licensing must be verified for both the core and the commercial components.
-- Maintenance status: Commits in the last 90 days; 491 commits in the last 30 days, 901 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 490 commits in the last 30 days, 901 in the last 90 days.
 - License: [AGPL-3.0 + commercial addendum](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE); Additional license terms present. The LICENSE lists AGPL plus a note that service-style commercial use is authorized separately; recorded as the author states it, not simplified into unconditional AGPL.
 - Feature review: 2026-11-05; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -29,7 +29,7 @@ Local-first storytelling tool covering novel creation, story adaptation and inte
 
 - Category: Novel-writing software and workbenches; form: Creation workbench.
 - Applicability boundary: Also includes screenplays, comics and interactive worlds; not every feature should be read as prose-writing capability.
-- Maintenance status: Commits in the last 90 days; 1422 commits in the last 30 days, 3238 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 1425 commits in the last 30 days, 3244 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -69,7 +69,7 @@ Writing system combining agent writing decisions, structured memory and post-wri
 
 - Category: Novel-writing software and workbenches; form: Desktop app.
 - Applicability boundary: Requires model configuration; "real-time decisions" is the project's design description, and output quality has not been independently measured.
-- Maintenance status: Commits in the last 90 days; 119 commits in the last 30 days, 416 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 118 commits in the last 30 days, 416 in the last 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Supports long-form co-creation with settings, characters and customizable Prompt
 
 - Category: Novel-writing software and workbenches; form: Cross-platform app.
 - Applicability boundary: The project explicitly does not target getting a whole novel automatically from a single prompt.
-- Maintenance status: Commits in the last 90 days; 26 commits in the last 30 days, 109 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 28 commits in the last 30 days, 111 in the last 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 

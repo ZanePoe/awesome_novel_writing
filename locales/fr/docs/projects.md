@@ -9,7 +9,7 @@ Organise la production d'un roman entier autour de l'univers, des personnages, d
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier desktop / auto-hébergé.
 - Périmètre d'application : Anciennement AI Novel Writing Assistant ; la licence demande de vérifier en parallèle le noyau et les composants commerciaux.
-- État de maintenance : Commits sur les 90 derniers jours ; 491 commits sur 30 jours, 901 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 490 commits sur 30 jours, 901 commits sur 90 jours.
 - Licence : [AGPL-3.0 + conditions commerciales supplémentaires](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE) ; Conditions de licence supplémentaires. La LICENSE liste l'AGPL et une autorisation commerciale distincte pour l'usage en service ; consigné dans les termes de l'auteur, sans réduire cela à un AGPL sans conditions.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -29,7 +29,7 @@ Outil narratif local-first couvrant l'écriture de romans, l'adaptation de réci
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création.
 - Périmètre d'application : Inclut aussi scénarios, bandes dessinées et mondes interactifs ; il ne faut pas traiter toutes les fonctions comme des capacités d'écriture de prose.
-- État de maintenance : Commits sur les 90 derniers jours ; 1422 commits sur 30 jours, 3238 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 1425 commits sur 30 jours, 3244 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -69,7 +69,7 @@ Système d'écriture combinant décisions d'écriture par agent, mémoire struct
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application de bureau.
 - Périmètre d'application : Nécessite la configuration d'un modèle ; la « prise de décision en temps réel » est une description de conception du projet, pas une qualité mesurée.
-- État de maintenance : Commits sur les 90 derniers jours ; 119 commits sur 30 jours, 416 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 118 commits sur 30 jours, 416 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Co-création long format appuyée sur la bible, les personnages et des workflows
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application multiplateforme.
 - Périmètre d'application : La position officielle écarte explicitement le scénario d'un roman entier obtenu automatiquement à partir d'un seul prompt.
-- État de maintenance : Commits sur les 90 derniers jours ; 26 commits sur 30 jours, 109 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 28 commits sur 30 jours, 111 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 

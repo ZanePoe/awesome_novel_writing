@@ -9,7 +9,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面 / 自托管工作台。
 - 适用边界：原名 AI Novel Writing Assistant；许可需同时核验核心与商业组件。
-- 维护状态：近90天有提交；30 天提交 491 次，90 天提交 901 次。
+- 维护状态：近90天有提交；30 天提交 490 次，90 天提交 901 次。
 - 许可：[AGPL-3.0 + 商用附加说明](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE)；存在附加许可说明。LICENSE 同时列出 AGPL 与服务型商用另行授权说明；按作者原文记录，不将其简化为无附加条件的 AGPL。
 - 功能核验：2026-11-05；[来源 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7)。
 
@@ -29,7 +29,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作工作台。
 - 适用边界：兼含剧本、漫画和互动世界，不能把全部功能都当作正文写作能力。
-- 维护状态：近90天有提交；30 天提交 1422 次，90 天提交 3238 次。
+- 维护状态：近90天有提交；30 天提交 1425 次，90 天提交 3244 次。
 - 许可：[MIT](https://api.github.com/repos/yuanbw2025/storyforge/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15)。
 
@@ -69,7 +69,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：需要配置模型；“实时决策”是项目设计描述，尚未实测质量。
-- 维护状态：近90天有提交；30 天提交 119 次，90 天提交 416 次。
+- 维护状态：近90天有提交；30 天提交 118 次，90 天提交 416 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6)。
 
@@ -79,7 +79,7 @@
 
 - 分类：小说创作软件与工作台；形态：跨平台应用。
 - 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
-- 维护状态：近90天有提交；30 天提交 26 次，90 天提交 109 次。
+- 维护状态：近90天有提交；30 天提交 28 次，90 天提交 111 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
 
