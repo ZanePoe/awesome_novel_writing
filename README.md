@@ -28,7 +28,7 @@ The diagram is a selection path; individual projects cover different scopes. The
 
 ## Current coverage
 
-**42 projects, covering all 14 deduplicated reference projects.** Feature review: 2026-11-06; metrics snapshot: `2026-11-24T11:30:59+00:00` (UTC).
+**42 projects, covering all 14 deduplicated reference projects.** Feature review: 2026-11-06; metrics snapshot: `2026-11-25T10:20:11+00:00` (UTC).
 
 Within each category, projects are grouped by maintenance tier first, then ranked by a blend of stars (40%), 90-day commit activity (35%) and the most recent default-branch commit (25%); archived projects come last. **The maintenance score does not measure novel quality, literary level, or one-click book-completion success.**
 
@@ -49,31 +49,31 @@ Within each category, projects are grouped by maintenance tier first, then ranke
 
 | Project | Purpose | Form | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) ★ · License caution | Organizes whole-novel production around worldbuilding, characters, chapter-by-chapter writing and checks. | Desktop / self-hosted workbench | 3,538 | 916 | 2026-11-23 | 88.1 | AGPL-3.0 + commercial addendum |
-| [Pagekin](https://github.com/EthanYoQ/Pagekin) ★ | Long-form writing workbench covering settings, chapter blueprints, drafting, review and revision. | Desktop app | 2,842 | 5,145 | 2026-11-24 | 87.6 | GPL-3.0 |
-| [StoryForge](https://github.com/yuanbw2025/storyforge) | Local-first storytelling tool covering novel creation, story adaptation and interactive experiences. | Creation workbench | 1,048 | 3,131 | 2026-11-24 | 84.1 | MIT |
-| [NeuroBook](https://github.com/notnotype/neuro-book) | Organizes long-form writing with an editor, project files and extensible tools. | Creation IDE / preview | 796 | 7,911 | 2026-11-24 | 83.2 | AGPL-3.0 |
-| [Denova](https://github.com/alfredxw/denova) ★ | Puts novels, interactive stories, a lore library and agent tools in one workspace. | Creation platform | 1,052 | 368 | 2026-11-24 | 82.5 | Apache-2.0 |
-| [Reveric](https://github.com/looplj/reveric) ★ · License caution | Desktop creation workbench that connects long-form novels, screenplay adaptation, storyboarding, a 3D director's desk and editing through agents. | Local-first desktop creation workbench | 982 | 260 | 2026-11-24 | 80.2 | AGPL-3.0 + Section 7 attribution |
-| [Goink](https://github.com/sigpanic/goink) | Writing system combining agent writing decisions, structured memory and post-writing state checks. | Desktop app | 550 | 416 | 2026-11-19 | 79.6 | AGPL-3.0 |
-| [OpenFic](https://github.com/syrizelink/OpenFic) | Supports long-form co-creation with settings, characters and customizable Prompt/Agent workflows. | Cross-platform app | 1,317 | 108 | 2026-11-23 | 76.1 | Apache-2.0 |
-| [Easy Writing](https://github.com/yilujian/easy-writing) ★ | Local chapter editing, word-count statistics, AI-assisted creation and work management. | Desktop app | 956 | 33 | 2026-11-03 | 63.5 | AGPL-3.0 |
-| [Novel Studio](https://github.com/bbaz123/novel-studio) | Editor combined with story settings, character state, foreshadowing management and continuity checks. | Local web workbench | 8 | 194 | 2026-11-23 | 62.0 | MIT |
-| [AI Novel Generator](https://github.com/YILING0013/AI_NovelGenerator) | Keeps characters, relationships, story plans and manuscripts in a project; candidate text is generated, then reviewed and saved by the author. | Local workbench | 6,534 | 5 | 2026-11-05 | 60.8 | AGPL-3.0 |
-| [Vela](https://github.com/heider-x/vela) | Combines outlining, drafting, rewriting and review with a local RAG library. | Desktop IDE | 593 | 21 | 2026-10-19 | 56.3 | GPL-3.0 |
-| [NovelClaw](https://github.com/iLearn-Lab/NovelClaw) | Organizes long-running creation with chapter drafts, inspectable runs, review and editable memory. | Self-hosted workbench | 375 | 3 | 2026-10-12 | 43.9 | MIT |
-| [51mazi](https://github.com/xiaoshengxianjun/51mazi) | Novel editor and creation-assistance tool with AI writing and writing-material features. | Desktop app | 498 | 1 | 2026-08-31 | 35.2 | MIT |
-| [QingZhu](https://github.com/FlickeringLamp/ai-novelist) | Explores AI text co-creation through tool calling and human-in-the-loop review. | Desktop creation tool | 227 | 0 | 2026-07-25 | 25.3 | MIT |
+| [Biz Novel Studio](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) ★ · License caution | Organizes whole-novel production around worldbuilding, characters, chapter-by-chapter writing and checks. | Desktop / self-hosted workbench | 3,558 | 901 | 2026-11-25 | 88.4 | AGPL-3.0 + commercial addendum |
+| [Pagekin](https://github.com/EthanYoQ/Pagekin) ★ | Long-form writing workbench covering settings, chapter blueprints, drafting, review and revision. | Desktop app | 2,872 | 5,208 | 2026-11-24 | 87.5 | GPL-3.0 |
+| [StoryForge](https://github.com/yuanbw2025/storyforge) | Local-first storytelling tool covering novel creation, story adaptation and interactive experiences. | Creation workbench | 1,050 | 3,238 | 2026-11-25 | 84.2 | MIT |
+| [NeuroBook](https://github.com/notnotype/neuro-book) | Organizes long-form writing with an editor, project files and extensible tools. | Creation IDE / preview | 798 | 8,151 | 2026-11-25 | 83.2 | AGPL-3.0 |
+| [Denova](https://github.com/alfredxw/denova) ★ | Puts novels, interactive stories, a lore library and agent tools in one workspace. | Creation platform | 1,054 | 360 | 2026-11-24 | 82.1 | Apache-2.0 |
+| [Reveric](https://github.com/looplj/reveric) ★ · License caution | Desktop creation workbench that connects long-form novels, screenplay adaptation, storyboarding, a 3D director's desk and editing through agents. | Local-first desktop creation workbench | 999 | 260 | 2026-11-24 | 80.0 | AGPL-3.0 + Section 7 attribution |
+| [Goink](https://github.com/sigpanic/goink) | Writing system combining agent writing decisions, structured memory and post-writing state checks. | Desktop app | 550 | 416 | 2026-11-19 | 79.3 | AGPL-3.0 |
+| [OpenFic](https://github.com/syrizelink/OpenFic) | Supports long-form co-creation with settings, characters and customizable Prompt/Agent workflows. | Cross-platform app | 1,317 | 109 | 2026-11-25 | 76.4 | Apache-2.0 |
+| [Easy Writing](https://github.com/yilujian/easy-writing) ★ | Local chapter editing, word-count statistics, AI-assisted creation and work management. | Desktop app | 978 | 33 | 2026-11-03 | 63.4 | AGPL-3.0 |
+| [Novel Studio](https://github.com/bbaz123/novel-studio) | Editor combined with story settings, character state, foreshadowing management and continuity checks. | Local web workbench | 8 | 194 | 2026-11-23 | 61.7 | MIT |
+| [AI Novel Generator](https://github.com/YILING0013/AI_NovelGenerator) | Keeps characters, relationships, story plans and manuscripts in a project; candidate text is generated, then reviewed and saved by the author. | Local workbench | 6,540 | 5 | 2026-11-05 | 60.6 | AGPL-3.0 |
+| [Vela](https://github.com/heider-x/vela) | Combines outlining, drafting, rewriting and review with a local RAG library. | Desktop IDE | 593 | 21 | 2026-10-19 | 56.2 | GPL-3.0 |
+| [NovelClaw](https://github.com/iLearn-Lab/NovelClaw) | Organizes long-running creation with chapter drafts, inspectable runs, review and editable memory. | Self-hosted workbench | 375 | 3 | 2026-10-12 | 43.7 | MIT |
+| [51mazi](https://github.com/xiaoshengxianjun/51mazi) | Novel editor and creation-assistance tool with AI writing and writing-material features. | Desktop app | 509 | 1 | 2026-08-31 | 35.2 | MIT |
+| [QingZhu](https://github.com/FlickeringLamp/ai-novelist) | Explores AI text co-creation through tool calling and human-in-the-loop review. | Desktop creation tool | 227 | 0 | 2026-07-25 | 25.2 | MIT |
 | [xnovelist](https://github.com/giapnguyen74/xnovelist) | Organizes manuscripts locally in the browser while you supply models for AI writing assistance. | Browser-local app | 13 | 0 | 2026-06-08 | 13.0 | MIT |
-| [Agnes Creative OS](https://github.com/MXD706/agnes) · License caution | Novel workbench spanning worldbuilding, characters, plot, chapters, review and long-term memory. | Local workbench | 3 | 0 | 2026-05-27 | 8.2 | Unverified |
+| [Agnes Creative OS](https://github.com/MXD706/agnes) · License caution | Novel workbench spanning worldbuilding, characters, plot, chapters, review and long-term memory. | Local workbench | 3 | 0 | 2026-05-27 | 8.1 | Unverified |
 
 ### Automated writing agents and creation engines
 
 | Project | Purpose | Form | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Openwrite](https://github.com/LiPu-jpg/Openwrite) | Organizes novel creation, style processing and content review through AI workflows. | Creation engine | 1,020 | 218 | 2026-11-20 | 78.4 | Apache-2.0 |
-| [InkOS](https://github.com/Narcooo/inkos) ★ | Creation-agent system supporting story planning, writing, review and revision. | Creation agent / workbench | 11,419 | 98 | 2026-10-24 | 76.0 | AGPL-3.0 |
-| [novel-harness / Storyteller](https://github.com/Dankular/Storyteller) · License caution | Supports chaptered long-form writing with story settings, plot points, a foreshadowing ledger and continuity records. | Writing harness | 0 | 7 | 2026-09-12 | 22.8 | Unverified |
+| [Openwrite](https://github.com/LiPu-jpg/Openwrite) | Organizes novel creation, style processing and content review through AI workflows. | Creation engine | 1,022 | 218 | 2026-11-20 | 78.1 | Apache-2.0 |
+| [InkOS](https://github.com/Narcooo/inkos) ★ | Creation-agent system supporting story planning, writing, review and revision. | Creation agent / workbench | 11,427 | 48 | 2026-10-24 | 71.8 | AGPL-3.0 |
+| [novel-harness / Storyteller](https://github.com/Dankular/Storyteller) · License caution | Supports chaptered long-form writing with story settings, plot points, a foreshadowing ledger and continuity records. | Writing harness | 0 | 7 | 2026-09-12 | 22.7 | Unverified |
 | [Novelist Agent](https://github.com/AxolDad/novelist) · License caution | Maintains characters, plot and voice across a long novel using database memory and multi-reviewer mechanisms. | Agent system / alpha | 2 | 0 | 2026-01-06 | 4.5 | Unverified |
 | [Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT) · License caution | Organizes long-novel generation through layered expansion of outlines, chapters and text. | Long-form generator / agent | 1,259 | 0 | 2025-11-05 | 25.1 | Unverified |
 | [Kimi Writing Agent](https://github.com/Doriandarko/kimi-writer) · License caution | Uses a model to plan, write, manage files and recover long-form work from context summaries. | CLI / agent | 596 | 0 | 2025-11-08 | 22.6 | MIT + commercial attribution clause |
@@ -82,34 +82,34 @@ Within each category, projects are grouped by maintenance tier first, then ranke
 
 | Project | Purpose | Form | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode) | Skill workflows covering web-novel research, teardown, long- and short-form writing and revision. | Agent skill pack | 8,872 | 163 | 2026-11-24 | 85.2 | MIT |
-| [chinese-novelist](https://github.com/PenglongHuang/chinese-novelist-skill) ★ | Assists Chinese-language novel creation through Q&A, creation memory and chapter constraints. | Agent Skill | 5,528 | 30 | 2026-11-15 | 71.9 | MIT |
-| [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | Supports long serialized web-novel writing with layered planning, story state and retrieval. | Agent plugin / skill | 8,059 | 18 | 2026-11-19 | 71.5 | GPL-3.0 |
-| [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode) | Adapts the long-form web-novel workflow to OpenCode and adds writing-management features. | OpenCode port / extension | 228 | 190 | 2026-11-01 | 67.8 | GPL-3.0 |
-| [FuFu](https://github.com/usagifufu/FuFu-Novel-Writing) · License caution | Long-form writing flow organizing research, worldbuilding, outlines, foreshadowing, chapters and review. | WorkBuddy skill pack | 4 | 12 | 2026-10-19 | 36.8 | Unverified |
-| [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) ★ | Turns outlining, chapter-by-chapter writing, self-checks and platform adaptation into an engineered writing method. | Methodology / agent skill | 277 | 0 | 2026-05-31 | 23.1 | MIT |
+| [Oh Story](https://github.com/zenstory-ai/oh-story-claudecode) | Skill workflows covering web-novel research, teardown, long- and short-form writing and revision. | Agent skill pack | 8,918 | 163 | 2026-11-24 | 85.1 | MIT |
+| [chinese-novelist](https://github.com/PenglongHuang/chinese-novelist-skill) ★ | Assists Chinese-language novel creation through Q&A, creation memory and chapter constraints. | Agent Skill | 5,567 | 53 | 2026-11-24 | 77.2 | MIT |
+| [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | Supports long serialized web-novel writing with layered planning, story state and retrieval. | Agent plugin / skill | 8,067 | 18 | 2026-11-19 | 71.3 | GPL-3.0 |
+| [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode) | Adapts the long-form web-novel workflow to OpenCode and adds writing-management features. | OpenCode port / extension | 228 | 190 | 2026-11-01 | 67.6 | GPL-3.0 |
+| [FuFu](https://github.com/usagifufu/FuFu-Novel-Writing) · License caution | Long-form writing flow organizing research, worldbuilding, outlines, foreshadowing, chapters and review. | WorkBuddy skill pack | 4 | 12 | 2026-10-19 | 36.6 | Unverified |
+| [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) ★ | Turns outlining, chapter-by-chapter writing, self-checks and platform adaptation into an engineered writing method. | Methodology / agent skill | 276 | 0 | 2026-05-31 | 23.0 | MIT |
 | [long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer) · License caution | Organizes long serialization around layered summaries and story-fact management. | Long-form writing Skill | 96 | 0 | 2026-05-15 | 18.8 | Unverified |
 
 ### Style revision, de-templating and quality checks
 
 | Project | Purpose | Form | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | Diagnoses and rewrites templated AI style, with detect-only and in-place edit modes. | Agent Skill / checker | 6,210 | 502 | 2026-11-23 | 90.2 | MIT |
-| [Humanizer](https://github.com/blader/humanizer) | Checks and rewrites text against common AI writing features. | English polishing Skill | 72,940 | 70 | 2026-11-19 | 86.6 | MIT |
-| [Sepia](https://github.com/Nanako0129/sepia) ★ | Repairs novel narrative structure before touching wording; rules for other genres apply by occasion. | Agent Skill | 3,946 | 389 | 2026-11-03 | 82.1 | MIT |
-| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Identifies and revises mechanical, vague AI expression patterns using Chinese-language rules. | Chinese polishing Skill | 23,688 | 1 | 2026-09-23 | 51.4 | MIT |
-| [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | Diagnoses factual, structural, narrative and language issues in Chinese posts and articles. | Chinese-writing Skill | 40 | 2 | 2026-08-31 | 28.8 | MIT |
-| [llmlint](https://github.com/notnotype/llmlint) | Scans writing traces with rules, providing locatable issues for revision. | Text rule linter | 13 | 0 | 2026-08-15 | 17.3 | AGPL-3.0 |
+| [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ★ | Diagnoses and rewrites templated AI style, with detect-only and in-place edit modes. | Agent Skill / checker | 6,288 | 518 | 2026-11-24 | 90.3 | MIT |
+| [Humanizer](https://github.com/blader/humanizer) | Checks and rewrites text against common AI writing features. | English polishing Skill | 73,392 | 70 | 2026-11-19 | 86.4 | MIT |
+| [Sepia](https://github.com/Nanako0129/sepia) ★ | Repairs novel narrative structure before touching wording; rules for other genres apply by occasion. | Agent Skill | 3,954 | 389 | 2026-11-03 | 81.9 | MIT |
+| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Identifies and revises mechanical, vague AI expression patterns using Chinese-language rules. | Chinese polishing Skill | 23,757 | 1 | 2026-09-23 | 51.3 | MIT |
+| [qifeng-writing](https://github.com/Yuriloll/qifeng-writing) ★ | Diagnoses factual, structural, narrative and language issues in Chinese posts and articles. | Chinese-writing Skill | 40 | 2 | 2026-08-31 | 28.7 | MIT |
+| [llmlint](https://github.com/notnotype/llmlint) | Scans writing traces with rules, providing locatable issues for revision. | Text rule linter | 13 | 0 | 2026-08-15 | 17.2 | AGPL-3.0 |
 
 ### Screenplays, short-drama adaptation and film narration
 
 | Project | Purpose | Form | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [drama-skills](https://github.com/zenstory-ai/drama-skills) | Organizes creation around short-drama story development, scripts, assets and storyboards. | Short-drama skill pack | 4,906 | 188 | 2026-11-24 | 83.9 | MIT |
-| [shuohao-skills](https://github.com/eternityspring/shuohao-skills) ★ | Extends from novel-adapted outlines, characters and screenplays to scene direction and storyboard delivery. | Short-drama production skill pack | 7,038 | 58 | 2026-11-09 | 74.9 | Apache-2.0 |
-| [juben / ai-juben](https://github.com/VanGong1999/juben) ★ | Assists film planning, screenplay creation and evaluation through professional agent workflows. | Screenplay agent platform | 193 | 7 | 2026-11-22 | 54.4 | MIT |
-| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | Guides an agent to drive a CLI for film-narration production. | Companion CLI Skill | 3,323 | 0 | 2026-07-05 | 33.3 | MIT |
-| [ai-short-drama](https://github.com/Hao0321/ai-short-drama) | Plot design and screenplay creation skills for AI short dramas. | Screenwriting Skill | 84 | 0 | 2026-08-13 | 23.4 | MIT |
+| [drama-skills](https://github.com/zenstory-ai/drama-skills) | Organizes creation around short-drama story development, scripts, assets and storyboards. | Short-drama skill pack | 4,986 | 189 | 2026-11-24 | 83.9 | MIT |
+| [shuohao-skills](https://github.com/eternityspring/shuohao-skills) ★ | Extends from novel-adapted outlines, characters and screenplays to scene direction and storyboard delivery. | Short-drama production skill pack | 7,117 | 54 | 2026-11-09 | 74.3 | Apache-2.0 |
+| [juben / ai-juben](https://github.com/VanGong1999/juben) ★ | Assists film planning, screenplay creation and evaluation through professional agent workflows. | Screenplay agent platform | 193 | 7 | 2026-11-22 | 54.1 | MIT |
+| [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) ★ | Guides an agent to drive a CLI for film-narration production. | Companion CLI Skill | 3,324 | 0 | 2026-07-05 | 33.3 | MIT |
+| [ai-short-drama](https://github.com/Hao0321/ai-short-drama) | Plot design and screenplay creation skills for AI short dramas. | Screenwriting Skill | 84 | 0 | 2026-08-13 | 23.3 | MIT |
 
 ### Creative writing evaluation tools
 

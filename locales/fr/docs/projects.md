@@ -9,7 +9,7 @@ Organise la production d'un roman entier autour de l'univers, des personnages, d
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier desktop / auto-hébergé.
 - Périmètre d'application : Anciennement AI Novel Writing Assistant ; la licence demande de vérifier en parallèle le noyau et les composants commerciaux.
-- État de maintenance : Commits sur les 90 derniers jours ; 489 commits sur 30 jours, 916 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 491 commits sur 30 jours, 901 commits sur 90 jours.
 - Licence : [AGPL-3.0 + conditions commerciales supplémentaires](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE) ; Conditions de licence supplémentaires. La LICENSE liste l'AGPL et une autorisation commerciale distincte pour l'usage en service ; consigné dans les termes de l'auteur, sans réduire cela à un AGPL sans conditions.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -19,7 +19,7 @@ Atelier d'écriture long format, de la bible et du découpage de chapitres jusqu
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application de bureau.
 - Périmètre d'application : Anciennement AI Novel Writer ; les modèles se branchent séparément ; distinguer le produit desktop principal du plugin DSH en version d'aperçu de développement.
-- État de maintenance : Commits sur les 90 derniers jours ; 2951 commits sur 30 jours, 5145 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 2867 commits sur 30 jours, 5208 commits sur 90 jours.
 - Licence : [GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17).
 
@@ -29,7 +29,7 @@ Outil narratif local-first couvrant l'écriture de romans, l'adaptation de réci
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création.
 - Périmètre d'application : Inclut aussi scénarios, bandes dessinées et mondes interactifs ; il ne faut pas traiter toutes les fonctions comme des capacités d'écriture de prose.
-- État de maintenance : Commits sur les 90 derniers jours ; 1365 commits sur 30 jours, 3131 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 1422 commits sur 30 jours, 3238 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organise l'écriture long format avec éditeur, fichiers de projet et outils ext
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : IDE de création / version d'aperçu.
 - Périmètre d'application : La v2 est en cours de refonte ; un studio d'écriture IA de ce type figure sur la roadmap et n'est pas déclaré livré au titre des fonctions des anciennes versions.
-- État de maintenance : Commits sur les 90 derniers jours ; 5076 commits sur 30 jours, 7911 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 5325 commits sur 30 jours, 8151 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -49,7 +49,7 @@ Réunit romans, histoires interactives, bases documentaires et outils d'agents d
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Plateforme de création.
 - Périmètre d'application : Couvre aussi le jeu de rôle ; les fonctions d'expérience de jeu ne valent pas une capacité de génération automatique de romans longs.
-- État de maintenance : Commits sur les 90 derniers jours ; 46 commits sur 30 jours, 368 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 44 commits sur 30 jours, 360 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/alfredxw/denova/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58).
 
@@ -59,7 +59,7 @@ Atelier de création desktop reliant longs romans, adaptation de scénarios, sto
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création desktop local-first.
 - Périmètre d'application : La branche par défaut est unstable ; le projet est BYOK — un stockage local des textes ne signifie pas que les données ne sortent pas lors de l'appel de modèles distants de texte, d'image, d'audio ou de vidéo.
-- État de maintenance : Commits sur les 90 derniers jours ; 254 commits sur 30 jours, 260 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 247 commits sur 30 jours, 260 commits sur 90 jours.
 - Licence : [AGPL-3.0 + exigence d'attribution Section 7](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES) ; Conditions de licence supplémentaires. Les interfaces modifiées doivent conserver « Based on Reveric by looplj. » et le lien vers le projet d'origine ; une voie de licence commerciale est prévue et les matériaux tiers gardent leurs propres licences.
 - Vérification fonctionnelle : 2026-11-06 ; [Source 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [Source 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91).
 
@@ -69,7 +69,7 @@ Système d'écriture combinant décisions d'écriture par agent, mémoire struct
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application de bureau.
 - Périmètre d'application : Nécessite la configuration d'un modèle ; la « prise de décision en temps réel » est une description de conception du projet, pas une qualité mesurée.
-- État de maintenance : Commits sur les 90 derniers jours ; 127 commits sur 30 jours, 416 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 119 commits sur 30 jours, 416 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Co-création long format appuyée sur la bible, les personnages et des workflows
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application multiplateforme.
 - Périmètre d'application : La position officielle écarte explicitement le scénario d'un roman entier obtenu automatiquement à partir d'un seul prompt.
-- État de maintenance : Commits sur les 90 derniers jours ; 24 commits sur 30 jours, 108 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 26 commits sur 30 jours, 109 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -99,7 +99,7 @@ Co-création long format appuyée sur la bible, les personnages et des workflows
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier web local.
 - Périmètre d'application : La branche par défaut est Experimental-Version-v1.0 ; une branche expérimentale ne s'assimile pas à une version stable.
-- État de maintenance : Commits sur les 90 derniers jours ; 6 commits sur 30 jours, 194 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 5 commits sur 30 jours, 194 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/bbaz123/novel-studio/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/bbaz123/novel-studio/blob/fda67b0a19b9819c8e61ea62a06a4f9ea456ada2/README.md#L5).
 
@@ -179,7 +179,7 @@ Organisation de la création de romans, du traitement du style et de la modérat
 
 - Catégorie : Agents d'écriture automatisés et moteurs de création ; forme : Moteur de création.
 - Périmètre d'application : C'est un moteur d'écriture ; le mode d'exécution concret et les modèles requis suivent la configuration actuelle du dépôt.
-- État de maintenance : Commits sur les 90 derniers jours ; 100 commits sur 30 jours, 218 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 94 commits sur 30 jours, 218 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10).
 
@@ -189,7 +189,7 @@ Système d'agents de création pour la planification narrative, l'écriture, la 
 
 - Catégorie : Agents d'écriture automatisés et moteurs de création ; forme : Agent de création / atelier.
 - Périmètre d'application : Romans, scénarios, contenu interactif et traduction sont dans le périmètre ; le modèle choisi et la relecture humaine influencent toujours les résultats.
-- État de maintenance : Commits sur les 90 derniers jours ; 0 commits sur 30 jours, 98 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 0 commits sur 30 jours, 48 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6).
 
@@ -239,7 +239,7 @@ Workflows de Skills couvrant l'étude du roman web, l'analyse de textes, l'écri
 
 - Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Pack de Skills pour agent.
 - Périmètre d'application : S'exécute dans un agent existant ; ne pas confondre collecte de documentation et efficacité de génération de texte.
-- État de maintenance : Commits sur les 90 derniers jours ; 73 commits sur 30 jours, 163 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 74 commits sur 30 jours, 163 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8).
 
@@ -249,7 +249,7 @@ Assiste l'écriture de romans en chinois par questions-réponses, mémoire de cr
 
 - Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Agent Skill.
 - Périmètre d'application : Dépend d'un agent et d'un modèle externes ; un nombre de chapitres promis n'est pas un taux d'achèvement mesuré.
-- État de maintenance : Commits sur les 90 derniers jours ; 16 commits sur 30 jours, 30 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 39 commits sur 30 jours, 53 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5).
 
@@ -309,7 +309,7 @@ Diagnostique et réécrit le style IA template, avec des modes détection seule 
 
 - Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Agent Skill / outil de vérification.
 - Périmètre d'application : Révision d'écriture générale ; réduire les formulations type ne prouve pas l'identité de l'auteur du texte.
-- État de maintenance : Commits sur les 90 derniers jours ; 45 commits sur 30 jours, 502 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 518 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5).
 
@@ -369,7 +369,7 @@ Flux créatif autour du développement d'histoires, du scénario, des assets et 
 
 - Catégorie : Scénarios, adaptation en mini-drames et explications de films ; forme : Pack de Skills mini-drames.
 - Périmètre d'application : N'est conservé que pour sa part liée à l'adaptation de romans ; les coûts de génération vidéo ne sont pas inclus dans l'outil textuel lui-même.
-- État de maintenance : Commits sur les 90 derniers jours ; 60 commits sur 30 jours, 188 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 189 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5).
 
@@ -379,7 +379,7 @@ De l'adaptation de roman — plan, personnages, scénario — jusqu'à la mise e
 
 - Catégorie : Scénarios, adaptation en mini-drames et explications de films ; forme : Pack de Skills de production de mini-drames.
 - Périmètre d'application : Axe principal adaptation de romans et production de mini-drames ; l'image et la génération vidéo ajoutent des dépendances d'outils.
-- État de maintenance : Commits sur les 90 derniers jours ; 4 commits sur 30 jours, 58 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 1 commits sur 30 jours, 54 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/eternityspring/shuohao-skills/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md#L5).
 
