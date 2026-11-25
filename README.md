@@ -22,6 +22,10 @@ flowchart LR
 
 The diagram is a selection path; individual projects cover different scopes. The first release is a curated starting point and does not claim to list every project; stars and development activity do not equal the quality of finished fiction.
 
+## Jump to a category
+
+[Novel-writing software and workbenches](#novel-writing-software-and-workbenches) · [Automated writing agents and creation engines](#automated-writing-agents-and-creation-engines) · [Long-form creation skills and method frameworks](#long-form-creation-skills-and-method-frameworks) · [Style revision, de-templating and quality checks](#style-revision-de-templating-and-quality-checks) · [Screenplays, short-drama adaptation and film narration](#screenplays-short-drama-adaptation-and-film-narration) · [Creative writing evaluation tools](#creative-writing-evaluation-tools)
+
 ## Current coverage
 
 **42 projects, covering all 14 deduplicated reference projects.** Feature review: 2026-11-06; metrics snapshot: `2026-11-24T11:30:59+00:00` (UTC).

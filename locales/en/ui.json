@@ -45,6 +45,7 @@
   },
   "sections": {
     "current": "Current coverage",
+    "tags": "Jump to a category",
     "toc": "Category index",
     "choose": "How to choose",
     "data": "Rankings, data and maintenance",

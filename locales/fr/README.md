@@ -22,6 +22,10 @@ flowchart LR
 
 Le diagramme est un chemin de choix ; les projets ne couvrent pas tous les mêmes périmètres. La première version est un point de départ sélectif et ne prétend pas recenser tous les projets ; les étoiles et l'activité de développement ne disent rien de la qualité des œuvres.
 
+## Aller à une catégorie
+
+[Logiciels et ateliers d'écriture de romans](#logiciels-et-ateliers-décriture-de-romans) · [Agents d'écriture automatisés et moteurs de création](#agents-décriture-automatisés-et-moteurs-de-création) · [Skills et cadres méthodologiques pour le long format](#skills-et-cadres-méthodologiques-pour-le-long-format) · [Révision stylistique, détemplatisation et contrôle qualité](#révision-stylistique-détemplatisation-et-contrôle-qualité) · [Scénarios, adaptation en mini-drames et explications de films](#scénarios-adaptation-en-mini-drames-et-explications-de-films) · [Outils d'évaluation de l'écriture créative](#outils-dévaluation-de-lécriture-créative)
+
 ## Sélection actuelle
 
 **42 projets, couvrant la totalité des 14 projets de référence dédupliqués.** Vérification fonctionnelle : 2026-11-06 ; instantané des métriques : `2026-11-24T11:30:59+00:00` (UTC).

@@ -1,6 +1,6 @@
 """Generate the multilingual novel-writing catalogue and transparent GitHub rankings."""
 from __future__ import annotations
-import argparse,csv,io,json,re,unicodedata
+import argparse,csv,io,json,re
 from datetime import datetime
 from pathlib import Path
 from ranking import dt,age_days,score,tier,rank,table
@@ -33,10 +33,12 @@ def prefix(locale,depth=0):
     """`../` count from a generated file to the repository root; depth 1 means the file sits in that locale's docs/. A mirror root is two levels down (locales/<lang>/), English sits at the root."""
     return ('../'*(2+depth)) if locale!=DEFAULT else ('../'*depth)
 def anchor(title):
+    """GitHub's github-slugger rule: lowercase, drop ASCII punctuation and U+2000-206F/U+2E00-2E7F, spaces to hyphens. Other scripts (CJK punctuation included, Devanagari marks included) survive."""
+    drop=set('\\\'!"#$%&()*+,./:;<=>?@[]^`{|}~')
     out=[]
     for ch in title.strip().lower():
-        if ch==' ':out.append('-')
-        elif ch.isalnum() or ch in '_-' or unicodedata.category(ch) in ('Mn','Mc','Me'):out.append(ch)
+        if ch in drop or '\u2000'<=ch<='\u206f' or '\u2e00'<=ch<='\u2e7f':continue
+        out.append('-' if ch==' ' else ch)
     return ''.join(out)
 def switcher(langs,locale):
     items=[]
@@ -101,7 +103,8 @@ def render(locale,u,words,projects,seeds,snapshot):
     m=snapshot['repositories'];asof=snapshot['as_of'];reviewed=max(p['reviewed_at'] for p in projects);ordered=rank(projects,m,asof);R=prefix(locale)
     cat=u['categories'];lic_status=u['license_status'];tags=u['tags'];T=u['templates'];S=u['sections']
     intro=(ROOT/('docs/readme-intro.md' if locale==DEFAULT else f'locales/{locale}/docs/readme-intro.md')).read_text(encoding='utf-8').strip()
-    readme=[intro,f'## {S["current"]}\n\n'+T['current'].format(total=len(projects),seeds=len(seeds),reviewed=reviewed,as_of=asof),f'## {S["toc"]}\n\n'+T['toc_note']]
+    nav='## '+S['tags']+'\n\n'+' · '.join(f'[{label}](#{anchor(label)})' for label in cat.values())
+    readme=[intro,nav,f'## {S["current"]}\n\n'+T['current'].format(total=len(projects),seeds=len(seeds),reviewed=reviewed,as_of=asof),f'## {S["toc"]}\n\n'+T['toc_note']]
     readme.append(table(u['headers']['categories'],[[label,len([p for p in ordered if p['category']==k]),u['list_separator'].join(words[p['repo']]['name'] for p in [x for x in ordered if x['category']==k][:3])] for k,label in cat.items()]))
     detail=[f'# {S["detail_title"]}\n\n'+T['detail_intro']+'\n']
     for k,label in cat.items():

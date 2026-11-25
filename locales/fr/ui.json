@@ -45,6 +45,7 @@
   },
   "sections": {
     "current": "Sélection actuelle",
+    "tags": "Aller à une catégorie",
     "toc": "Index par catégorie",
     "choose": "Comment choisir",
     "data": "Classement, données et maintenance",

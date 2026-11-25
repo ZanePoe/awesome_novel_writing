@@ -47,6 +47,15 @@ class LocaleTests(unittest.TestCase):
             for anchor in re.findall(r'\]\(#([^)]+)\)', text):
                 self.assertIn(anchor, headings, f'{name} anchor #{anchor}')
 
+    def test_tag_navigation_covers_every_category(self):
+        for locale in build.LOCALES:
+            u = build.ui(locale)
+            text = self.out[build.path(locale, 'README.md').as_posix()]
+            nav = text.split('## ' + u['sections']['tags'] + '\n\n', 1)[1].split('\n\n', 1)[0]
+            labels = list(u['categories'].values())
+            self.assertEqual(nav.split(' · '), [f'[{x}](#{build.anchor(x)})' for x in labels], locale)
+            self.assertEqual(len(re.findall(r'^### ', text, re.M)), len(labels), locale)
+
     def test_relative_links_exist_on_disk(self):
         """Generated files resolve from their own directory, same as check_links(); locale root counts as a hit too."""
         for locale in build.LOCALES:

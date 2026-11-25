@@ -22,6 +22,10 @@ flowchart LR
 
 El diagrama traza una ruta de selección; cada proyecto cubre un alcance distinto. La primera versión es un punto de partida curado y no afirma agotar todos los proyectos; las estrellas y la actividad de desarrollo no equivalen a la calidad de las obras.
 
+## Ir a una categoría
+
+[Aplicaciones de escritura de novelas y entornos de creación](#aplicaciones-de-escritura-de-novelas-y-entornos-de-creación) · [Agentes de escritura automática y motores de creación](#agentes-de-escritura-automática-y-motores-de-creación) · [Skills y marcos de método para novela larga](#skills-y-marcos-de-método-para-novela-larga) · [Revisión de estilo, desplantillado y control de calidad](#revisión-de-estilo-desplantillado-y-control-de-calidad) · [Guiones, adaptación de drama corto y narración audiovisual](#guiones-adaptación-de-drama-corto-y-narración-audiovisual) · [Herramientas de evaluación de escritura creativa](#herramientas-de-evaluación-de-escritura-creativa)
+
 ## Inclusiones actuales
 
 **42 proyectos, que cubren los 14 proyectos de referencia deduplicados.** Verificación funcional: 2026-11-06; instantánea de métricas: `2026-11-24T11:30:59+00:00` (UTC).
