@@ -29,7 +29,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作工作台。
 - 适用边界：兼含剧本、漫画和互动世界，不能把全部功能都当作正文写作能力。
-- 维护状态：近90天有提交；30 天提交 1383 次，90 天提交 3251 次。
+- 维护状态：近90天有提交；30 天提交 1364 次，90 天提交 3251 次。
 - 许可：[MIT](https://api.github.com/repos/yuanbw2025/storyforge/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15)。
 
@@ -39,7 +39,7 @@
 
 - 分类：小说创作软件与工作台；形态：创作 IDE / 预览版。
 - 适用边界：当前 v2 正在重建；AI 写作工作室等列在路线图，不按旧版功能宣称已完成。
-- 维护状态：近90天有提交；30 天提交 5563 次，90 天提交 8471 次。
+- 维护状态：近90天有提交；30 天提交 5514 次，90 天提交 8471 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26)。
 
@@ -69,7 +69,7 @@
 
 - 分类：小说创作软件与工作台；形态：桌面应用。
 - 适用边界：需要配置模型；“实时决策”是项目设计描述，尚未实测质量。
-- 维护状态：近90天有提交；30 天提交 106 次，90 天提交 416 次。
+- 维护状态：近90天有提交；30 天提交 105 次，90 天提交 416 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6)。
 
@@ -79,7 +79,7 @@
 
 - 分类：小说创作软件与工作台；形态：跨平台应用。
 - 适用边界：官方明确不面向一句提示自动得到整本小说的场景。
-- 维护状态：近90天有提交；30 天提交 24 次，90 天提交 109 次。
+- 维护状态：近90天有提交；30 天提交 23 次，90 天提交 109 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15)。
 
@@ -309,7 +309,7 @@
 
 - 分类：文风修订、去模板化与质量检查；形态：Agent Skill / 检查工具。
 - 适用边界：通用写作修订；降低模式化表达不代表证明文本作者身份。
-- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 518 次。
+- 维护状态：近90天有提交；30 天提交 60 次，90 天提交 518 次。
 - 许可：[MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5)。
 
@@ -329,7 +329,7 @@
 
 - 分类：文风修订、去模板化与质量检查；形态：Agent Skill。
 - 适用边界：小说修订与专业文章模式分开；不把去 AI 味视为检测器规避保证。
-- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 380 次。
+- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 379 次。
 - 许可：[MIT](https://api.github.com/repos/Nanako0129/sepia/license)；开放许可证已核验。GitHub SPDX 识别；附属模型、数据和素材许可另计。
 - 功能核验：2026-11-05；[来源 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [来源 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7)。
 

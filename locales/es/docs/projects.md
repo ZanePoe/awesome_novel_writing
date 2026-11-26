@@ -29,7 +29,7 @@ Herramienta de narración local-first que abarca la creación de novelas, la ada
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Entorno de creación.
 - Frontera de aplicación: Incluye guion, cómic y mundos interactivos; no puede contarse todo ello como capacidad de escritura de prosa.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1383 commits en 30 días, 3251 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1364 commits en 30 días, 3251 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organiza la escritura de novela larga con editor, archivo de proyecto y herramie
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: IDE de creación / versión previa.
 - Frontera de aplicación: La v2 actual está en reconstrucción; funciones como el estudio de escritura con IA figuran en la hoja de ruta y no se presentan como terminadas según versiones antiguas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 5563 commits en 30 días, 8471 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 5514 commits en 30 días, 8471 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -69,7 +69,7 @@ Sistema de escritura que une decisiones de redacción del agente, memoria estruc
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación de escritorio.
 - Frontera de aplicación: Requiere configurar el modelo; "decisiones en tiempo real" es una descripción de diseño del proyecto, no una calidad medida.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 106 commits en 30 días, 416 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 105 commits en 30 días, 416 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Coficción de novela larga mediante ambientación, personajes y flujos de prompt
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación multiplataforma.
 - Frontera de aplicación: La documentación oficial aclara que no está pensada para obtener una novela completa a partir de una sola indicación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 24 commits en 30 días, 109 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 23 commits en 30 días, 109 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -309,7 +309,7 @@ Diagnostica y reescribe el estilo de IA plantificado, con modos de solo detecci�
 
 - Categoría: Revisión de estilo, desplantillado y control de calidad; forma: Skill de agente / verificador.
 - Frontera de aplicación: Revisión de escritura general; reducir los patrones rutinarios no constituye una prueba de la autoría del texto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 61 commits en 30 días, 518 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 60 commits en 30 días, 518 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5).
 
@@ -329,7 +329,7 @@ Repara primero la estructura narrativa de la novela y luego pasa a la frase; otr
 
 - Categoría: Revisión de estilo, desplantillado y control de calidad; forma: Skill de agente.
 - Frontera de aplicación: Separa la revisión de ficción de la de artículos profesionales; no plantea la eliminación de marcas de IA como una garantía para evadir detectores.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 61 commits en 30 días, 380 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 61 commits en 30 días, 379 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Nanako0129/sepia/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Fuente 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
 

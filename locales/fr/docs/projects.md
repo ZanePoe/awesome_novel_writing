@@ -29,7 +29,7 @@ Outil narratif local-first couvrant l'écriture de romans, l'adaptation de réci
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création.
 - Périmètre d'application : Inclut aussi scénarios, bandes dessinées et mondes interactifs ; il ne faut pas traiter toutes les fonctions comme des capacités d'écriture de prose.
-- État de maintenance : Commits sur les 90 derniers jours ; 1383 commits sur 30 jours, 3251 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 1364 commits sur 30 jours, 3251 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organise l'écriture long format avec éditeur, fichiers de projet et outils ext
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : IDE de création / version d'aperçu.
 - Périmètre d'application : La v2 est en cours de refonte ; un studio d'écriture IA de ce type figure sur la roadmap et n'est pas déclaré livré au titre des fonctions des anciennes versions.
-- État de maintenance : Commits sur les 90 derniers jours ; 5563 commits sur 30 jours, 8471 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 5514 commits sur 30 jours, 8471 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -69,7 +69,7 @@ Système d'écriture combinant décisions d'écriture par agent, mémoire struct
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application de bureau.
 - Périmètre d'application : Nécessite la configuration d'un modèle ; la « prise de décision en temps réel » est une description de conception du projet, pas une qualité mesurée.
-- État de maintenance : Commits sur les 90 derniers jours ; 106 commits sur 30 jours, 416 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 105 commits sur 30 jours, 416 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Co-création long format appuyée sur la bible, les personnages et des workflows
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application multiplateforme.
 - Périmètre d'application : La position officielle écarte explicitement le scénario d'un roman entier obtenu automatiquement à partir d'un seul prompt.
-- État de maintenance : Commits sur les 90 derniers jours ; 24 commits sur 30 jours, 109 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 23 commits sur 30 jours, 109 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -309,7 +309,7 @@ Diagnostique et réécrit le style IA template, avec des modes détection seule 
 
 - Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Agent Skill / outil de vérification.
 - Périmètre d'application : Révision d'écriture générale ; réduire les formulations type ne prouve pas l'identité de l'auteur du texte.
-- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 518 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 60 commits sur 30 jours, 518 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5).
 
@@ -329,7 +329,7 @@ Répare d'abord la structure narrative du roman, puis les phrases ; les règles 
 
 - Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Agent Skill.
 - Périmètre d'application : Sépare la révision romanesque du mode articles professionnelles ; « dé-IA » n'est pas présenté comme une garantie de contournement des détecteurs.
-- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 380 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 379 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/Nanako0129/sepia/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Source 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
 
