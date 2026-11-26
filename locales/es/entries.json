@@ -299,5 +299,19 @@
   "boundary": "La rama predeterminada es unstable; el proyecto es BYOK y que el texto se guarde en local no significa que los datos no salgan de la máquina al usar modelos remotos de texto, imagen, audio o vídeo.",
   "license_label": "AGPL-3.0 + requisito de atribución de la Sección 7",
   "license_note": "Las interfaces modificadas deben conservar \"Based on Reveric by looplj.\" y el enlace al proyecto original; existe además una vía de licencia comercial y los materiales de terceros se rigen por sus propias licencias."
+ },
+ "Dodaios/ste80-humanizer": {
+  "description": "Reescritura en dos pasadas: primero elimina los 26 rasgos de escritura de IA de la lista Signs of AI writing de Wikipedia y luego reconstruye las frases hacia el inglés controlado ASD-STE100.",
+  "form": "Skill de reescritura en inglés",
+  "boundary": "Apunta a texto inglés general (documentación, guías, correos, publicaciones) y no evalúa la calidad de la ficción; el autor declara que el objetivo es la legibilidad, no evadir detectores de IA; STE80 solo llega al 80 % hacia ASD-STE100, porque la conformidad estricta prohíbe palabras comunes como may y should, y el efecto en textos en chino debe verificarse aparte.",
+  "license_label": "MIT",
+  "license_note": "La LICENSE raíz es MIT; la página de Wikipedia detrás de la lista de rasgos y los demás materiales de terceros siguen sus propias condiciones."
+ },
+ "AminBlg/SimpleEnglish": {
+  "description": "Skill de agente que hace que los LLM escriban documentación y respuestas en inglés controlado ASD-STE100: frases cortas, voz activa, un significado por palabra; por defecto legible y estricto si se pide.",
+  "form": "Skill de escritura en inglés controlado",
+  "boundary": "Se centra en la legibilidad del texto técnico en inglés, no en la narrativa de ficción, ni en manuscritos en chino ni en creatividad de estilo; la cifra de -95 % de defectos del README proviene de los evals del propio autor, recalculados en CI en cada push por evals/check_numbers.py desde los archivos crudos versionados, y sigue sin ser un benchmark de terceros; instalar con la CLI de skills trae solo la skill, sin el hook de sesión ni el estilo de salida.",
+  "license_label": "MIT",
+  "license_note": "La LICENSE raíz es MIT; los datos de evaluación, el texto de la especificación ASD-STE100 y los materiales de terceros se rigen por sus fuentes."
  }
 }

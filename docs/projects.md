@@ -9,7 +9,7 @@ Organizes whole-novel production around worldbuilding, characters, chapter-by-ch
 
 - Category: Novel-writing software and workbenches; form: Desktop / self-hosted workbench.
 - Applicability boundary: Formerly AI Novel Writing Assistant; licensing must be verified for both the core and the commercial components.
-- Maintenance status: Commits in the last 90 days; 490 commits in the last 30 days, 901 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 489 commits in the last 30 days, 898 in the last 90 days.
 - License: [AGPL-3.0 + commercial addendum](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE); Additional license terms present. The LICENSE lists AGPL plus a note that service-style commercial use is authorized separately; recorded as the author states it, not simplified into unconditional AGPL.
 - Feature review: 2026-11-05; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -29,7 +29,7 @@ Local-first storytelling tool covering novel creation, story adaptation and inte
 
 - Category: Novel-writing software and workbenches; form: Creation workbench.
 - Applicability boundary: Also includes screenplays, comics and interactive worlds; not every feature should be read as prose-writing capability.
-- Maintenance status: Commits in the last 90 days; 1425 commits in the last 30 days, 3244 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 1383 commits in the last 30 days, 3251 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organizes long-form writing with an editor, project files and extensible tools.
 
 - Category: Novel-writing software and workbenches; form: Creation IDE / preview.
 - Applicability boundary: v2 is currently being rebuilt; the AI writing studio and more are listed on the roadmap, not claimed as done from old-version features.
-- Maintenance status: Commits in the last 90 days; 5325 commits in the last 30 days, 8151 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 5563 commits in the last 30 days, 8471 in the last 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -49,7 +49,7 @@ Puts novels, interactive stories, a lore library and agent tools in one workspac
 
 - Category: Novel-writing software and workbenches; form: Creation platform.
 - Applicability boundary: Also covers role-play; role-play experience features are not the same as automatic long-form novel generation.
-- Maintenance status: Commits in the last 90 days; 44 commits in the last 30 days, 360 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 43 commits in the last 30 days, 357 in the last 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/alfredxw/denova/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58).
 
@@ -59,7 +59,7 @@ Desktop creation workbench that connects long-form novels, screenplay adaptation
 
 - Category: Novel-writing software and workbenches; form: Local-first desktop creation workbench.
 - Applicability boundary: The default branch is unstable; the project is BYOK, and local manuscript storage does not mean data stays local when remote text, image, audio or video models are called.
-- Maintenance status: Commits in the last 90 days; 247 commits in the last 30 days, 260 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 254 commits in the last 30 days, 270 in the last 90 days.
 - License: [AGPL-3.0 + Section 7 attribution](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES); Additional license terms present. Modified interfaces must keep "Based on Reveric by looplj." and the original project link; a commercial-licensing path is also offered, and third-party materials follow their own licenses.
 - Feature review: 2026-11-06; [Source 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [Source 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91).
 
@@ -69,7 +69,7 @@ Writing system combining agent writing decisions, structured memory and post-wri
 
 - Category: Novel-writing software and workbenches; form: Desktop app.
 - Applicability boundary: Requires model configuration; "real-time decisions" is the project's design description, and output quality has not been independently measured.
-- Maintenance status: Commits in the last 90 days; 118 commits in the last 30 days, 416 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 106 commits in the last 30 days, 416 in the last 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Supports long-form co-creation with settings, characters and customizable Prompt
 
 - Category: Novel-writing software and workbenches; form: Cross-platform app.
 - Applicability boundary: The project explicitly does not target getting a whole novel automatically from a single prompt.
-- Maintenance status: Commits in the last 90 days; 28 commits in the last 30 days, 111 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 24 commits in the last 30 days, 109 in the last 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -179,7 +179,7 @@ Organizes novel creation, style processing and content review through AI workflo
 
 - Category: Automated writing agents and creation engines; form: Creation engine.
 - Applicability boundary: A writing engine; actual operation and required models follow the repository's current configuration.
-- Maintenance status: Commits in the last 90 days; 94 commits in the last 30 days, 218 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 52 commits in the last 30 days, 218 in the last 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10).
 
@@ -189,7 +189,7 @@ Creation-agent system supporting story planning, writing, review and revision.
 
 - Category: Automated writing agents and creation engines; form: Creation agent / workbench.
 - Applicability boundary: Novels, screenplays, interactive content and translation are all in scope; models and human review still shape the results.
-- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 48 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 0 commits in the last 30 days, 46 in the last 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6).
 
@@ -239,7 +239,7 @@ Skill workflows covering web-novel research, teardown, long- and short-form writ
 
 - Category: Long-form creation skills and method frameworks; form: Agent skill pack.
 - Applicability boundary: Runs inside an existing agent; material harvesting and text-generation quality are not conflated.
-- Maintenance status: Commits in the last 90 days; 74 commits in the last 30 days, 163 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 71 commits in the last 30 days, 160 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8).
 
@@ -249,9 +249,19 @@ Assists Chinese-language novel creation through Q&A, creation memory and chapter
 
 - Category: Long-form creation skills and method frameworks; form: Agent Skill.
 - Applicability boundary: Depends on an external agent and models; chapter-count promises are not taken as measured completion rates.
-- Maintenance status: Commits in the last 90 days; 39 commits in the last 30 days, 53 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 43 commits in the last 30 days, 57 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5).
+
+## [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)
+
+Adapts the long-form web-novel workflow to OpenCode and adds writing-management features.
+
+- Category: Long-form creation skills and method frameworks; form: OpenCode port / extension.
+- Applicability boundary: An explicit derivative of webnovel-writer; the host difference is recorded instead of treating it as an unrelated project.
+- Maintenance status: Commits in the last 90 days; 35 commits in the last 30 days, 205 in the last 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
+- Feature review: 2026-11-05; [Source 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1).
 
 ## [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer)
 
@@ -262,16 +272,6 @@ Supports long serialized web-novel writing with layered planning, story state an
 - Maintenance status: Commits in the last 90 days; 3 commits in the last 30 days, 18 in the last 90 days.
 - License: [GPL-3.0](https://api.github.com/repos/lingfengQAQ/webnovel-writer/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/lingfengQAQ/webnovel-writer/blob/b38056ec3ae288af613c0af162d648e4a4e8825c/README.md#L15).
-
-## [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)
-
-Adapts the long-form web-novel workflow to OpenCode and adds writing-management features.
-
-- Category: Long-form creation skills and method frameworks; form: OpenCode port / extension.
-- Applicability boundary: An explicit derivative of webnovel-writer; the host difference is recorded instead of treating it as an unrelated project.
-- Maintenance status: Commits in the last 90 days; 20 commits in the last 30 days, 190 in the last 90 days.
-- License: [GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
-- Feature review: 2026-11-05; [Source 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1).
 
 ## [FuFu](https://github.com/usagifufu/FuFu-Novel-Writing)
 
@@ -319,7 +319,7 @@ Checks and rewrites text against common AI writing features.
 
 - Category: Style revision, de-templating and quality checks; form: English polishing Skill.
 - Applicability boundary: Mainly general English style revision; novel quality is not separately evaluated.
-- Maintenance status: Commits in the last 90 days; 26 commits in the last 30 days, 70 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 25 commits in the last 30 days, 70 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/blader/humanizer/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/README.md#L8).
 
@@ -329,9 +329,29 @@ Repairs novel narrative structure before touching wording; rules for other genre
 
 - Category: Style revision, de-templating and quality checks; form: Agent Skill.
 - Applicability boundary: Novel revision and professional-article modes are kept separate; removing AI flavor is not a detector-evasion guarantee.
-- Maintenance status: Commits in the last 90 days; 61 commits in the last 30 days, 389 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 61 commits in the last 30 days, 380 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/Nanako0129/sepia/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Source 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
+
+## [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish)
+
+An agent skill that makes LLMs write docs and replies in ASD-STE100 controlled English: short sentences, active voice, one meaning per word, plain by default and strict on request.
+
+- Category: Style revision, de-templating and quality checks; form: Controlled-English writing Skill.
+- Applicability boundary: Targets readability of English technical text, not fiction narrative, Chinese manuscripts or stylistic creativity; the -95% defect figures in the README come from the author's own evals, recomputed from committed raw files by evals/check_numbers.py in CI on every push, and are still not third-party benchmarks; installing with the skills CLI brings the skill only, without the session hook or the output style.
+- Maintenance status: Commits in the last 90 days; 2 commits in the last 30 days, 56 in the last 90 days.
+- License: [MIT](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/LICENSE); Open license verified. Root LICENSE is MIT; evaluation data, the ASD-STE100 specification text and third-party materials follow their own sources.
+- Feature review: 2026-11-26; [Source 1](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L6) · [Source 2](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L34) · [Source 3](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L86).
+
+## [STE80 Humanizer](https://github.com/Dodaios/ste80-humanizer)
+
+Two-pass rewrite: first strip the 26 AI tells from Wikipedia's Signs of AI writing list, then rebuild the sentences toward ASD-STE100 controlled English.
+
+- Category: Style revision, de-templating and quality checks; form: English rewrite Skill.
+- Applicability boundary: Aims at general English text - docs, guides, emails, posts - and does not assess fiction quality; the author states the goal is readability, not evading AI detectors; STE80 only moves 80% of the way toward ASD-STE100, since full strictness bans common words such as may and should, and results on Chinese manuscripts need separate verification.
+- Maintenance status: Commits in the last 90 days; 14 commits in the last 30 days, 14 in the last 90 days.
+- License: [MIT](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/LICENSE); Open license verified. Root LICENSE is MIT; the Wikipedia page behind the tells list and other third-party materials follow their own terms.
+- Feature review: 2026-11-26; [Source 1](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L9) · [Source 2](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L12) · [Source 3](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L24).
 
 ## [Humanizer-zh](https://github.com/op7418/Humanizer-zh)
 
@@ -369,7 +389,7 @@ Organizes creation around short-drama story development, scripts, assets and sto
 
 - Category: Screenplays, short-drama adaptation and film narration; form: Short-drama skill pack.
 - Applicability boundary: The parts related to novel adaptation are kept; video-generation costs are not part of the text tool itself.
-- Maintenance status: Commits in the last 90 days; 61 commits in the last 30 days, 189 in the last 90 days.
+- Maintenance status: Commits in the last 90 days; 61 commits in the last 30 days, 187 in the last 90 days.
 - License: [MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license); Open license verified. Identified via GitHub SPDX; bundled models, data and media assets carry separate licenses.
 - Feature review: 2026-11-05; [Source 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5).
 

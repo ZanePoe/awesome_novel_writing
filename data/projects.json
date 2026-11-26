@@ -1058,5 +1058,75 @@
       "source": "https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES",
       "note": "修改版界面需保留 Based on Reveric by looplj. 和原项目链接；另提供商业许可路径，第三方材料依各自许可。"
     }
+  },
+  {
+    "repo": "Dodaios/ste80-humanizer",
+    "name": "STE80 Humanizer",
+    "category": "revision",
+    "form": "英文改写 Skill",
+    "scope": "adjacent",
+    "description": "两遍改写文本：先按 Wikipedia「AI 写作特征」清单清掉 26 个机器味套路，再按 ASD-STE100 受控英语重搭短句。",
+    "boundary": "面向文档、说明、邮件、帖子等通用英文文本，不评估小说叙事质量；作者明写目标是可读性而不是规避 AI 检测；STE80 只是「80% 靠拢」ASD-STE100，完全严格会禁掉 may/should 等常见词，中文稿件效果需自行验证。",
+    "seed": false,
+    "reviewed_at": "2026-11-26",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L9"
+      },
+      {
+        "path": "README.md",
+        "line": 12,
+        "url": "https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L12"
+      },
+      {
+        "path": "README.md",
+        "line": 24,
+        "url": "https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L24"
+      }
+    ],
+    "evidence_commit": "dc94757522792c4af70371a81a01465a6079ec28",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；规则清单引用的 Wikipedia 页面与其他第三方素材按各自条款核验。"
+    }
+  },
+  {
+    "repo": "AminBlg/SimpleEnglish",
+    "name": "SimpleEnglish",
+    "category": "revision",
+    "form": "受控英语写作 Skill",
+    "scope": "adjacent",
+    "description": "让 LLM 用 ASD-STE100 受控英语写文档与回复：短句、主动语态、一词一义，默认通俗、按需严格。",
+    "boundary": "针对英文技术文本的可读性，不处理小说叙事、中文稿件或风格创意；README 的 −95% 缺陷等数字来自作者自建 evals，由 evals/check_numbers.py 在每次推送时于 CI 复算，仍不是第三方评测；用 skills CLI 安装只装 skill，不含 session hook 与 output style。",
+    "seed": false,
+    "reviewed_at": "2026-11-26",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L6"
+      },
+      {
+        "path": "README.md",
+        "line": 34,
+        "url": "https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L34"
+      },
+      {
+        "path": "README.md",
+        "line": 86,
+        "url": "https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L86"
+      }
+    ],
+    "evidence_commit": "300432a9e4c473229a7049ab61b8ca2522d9214c",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；评测数据、ASD-STE100 规范文本与第三方素材依各自来源条款核验。"
+    }
   }
 ]

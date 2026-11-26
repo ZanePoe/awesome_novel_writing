@@ -299,5 +299,19 @@
   "boundary": "The default branch is unstable; the project is BYOK, and local manuscript storage does not mean data stays local when remote text, image, audio or video models are called.",
   "license_label": "AGPL-3.0 + Section 7 attribution",
   "license_note": "Modified interfaces must keep \"Based on Reveric by looplj.\" and the original project link; a commercial-licensing path is also offered, and third-party materials follow their own licenses."
+ },
+ "Dodaios/ste80-humanizer": {
+  "description": "Two-pass rewrite: first strip the 26 AI tells from Wikipedia's Signs of AI writing list, then rebuild the sentences toward ASD-STE100 controlled English.",
+  "form": "English rewrite Skill",
+  "boundary": "Aims at general English text - docs, guides, emails, posts - and does not assess fiction quality; the author states the goal is readability, not evading AI detectors; STE80 only moves 80% of the way toward ASD-STE100, since full strictness bans common words such as may and should, and results on Chinese manuscripts need separate verification.",
+  "license_label": "MIT",
+  "license_note": "Root LICENSE is MIT; the Wikipedia page behind the tells list and other third-party materials follow their own terms."
+ },
+ "AminBlg/SimpleEnglish": {
+  "description": "An agent skill that makes LLMs write docs and replies in ASD-STE100 controlled English: short sentences, active voice, one meaning per word, plain by default and strict on request.",
+  "form": "Controlled-English writing Skill",
+  "boundary": "Targets readability of English technical text, not fiction narrative, Chinese manuscripts or stylistic creativity; the -95% defect figures in the README come from the author's own evals, recomputed from committed raw files by evals/check_numbers.py in CI on every push, and are still not third-party benchmarks; installing with the skills CLI brings the skill only, without the session hook or the output style.",
+  "license_label": "MIT",
+  "license_note": "Root LICENSE is MIT; evaluation data, the ASD-STE100 specification text and third-party materials follow their own sources."
  }
 }

@@ -9,7 +9,7 @@ Organise la production d'un roman entier autour de l'univers, des personnages, d
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier desktop / auto-hébergé.
 - Périmètre d'application : Anciennement AI Novel Writing Assistant ; la licence demande de vérifier en parallèle le noyau et les composants commerciaux.
-- État de maintenance : Commits sur les 90 derniers jours ; 490 commits sur 30 jours, 901 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 489 commits sur 30 jours, 898 commits sur 90 jours.
 - Licence : [AGPL-3.0 + conditions commerciales supplémentaires](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE) ; Conditions de licence supplémentaires. La LICENSE liste l'AGPL et une autorisation commerciale distincte pour l'usage en service ; consigné dans les termes de l'auteur, sans réduire cela à un AGPL sans conditions.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -29,7 +29,7 @@ Outil narratif local-first couvrant l'écriture de romans, l'adaptation de réci
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création.
 - Périmètre d'application : Inclut aussi scénarios, bandes dessinées et mondes interactifs ; il ne faut pas traiter toutes les fonctions comme des capacités d'écriture de prose.
-- État de maintenance : Commits sur les 90 derniers jours ; 1425 commits sur 30 jours, 3244 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 1383 commits sur 30 jours, 3251 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organise l'écriture long format avec éditeur, fichiers de projet et outils ext
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : IDE de création / version d'aperçu.
 - Périmètre d'application : La v2 est en cours de refonte ; un studio d'écriture IA de ce type figure sur la roadmap et n'est pas déclaré livré au titre des fonctions des anciennes versions.
-- État de maintenance : Commits sur les 90 derniers jours ; 5325 commits sur 30 jours, 8151 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 5563 commits sur 30 jours, 8471 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -49,7 +49,7 @@ Réunit romans, histoires interactives, bases documentaires et outils d'agents d
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Plateforme de création.
 - Périmètre d'application : Couvre aussi le jeu de rôle ; les fonctions d'expérience de jeu ne valent pas une capacité de génération automatique de romans longs.
-- État de maintenance : Commits sur les 90 derniers jours ; 44 commits sur 30 jours, 360 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 43 commits sur 30 jours, 357 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/alfredxw/denova/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58).
 
@@ -59,7 +59,7 @@ Atelier de création desktop reliant longs romans, adaptation de scénarios, sto
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Atelier de création desktop local-first.
 - Périmètre d'application : La branche par défaut est unstable ; le projet est BYOK — un stockage local des textes ne signifie pas que les données ne sortent pas lors de l'appel de modèles distants de texte, d'image, d'audio ou de vidéo.
-- État de maintenance : Commits sur les 90 derniers jours ; 247 commits sur 30 jours, 260 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 254 commits sur 30 jours, 270 commits sur 90 jours.
 - Licence : [AGPL-3.0 + exigence d'attribution Section 7](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES) ; Conditions de licence supplémentaires. Les interfaces modifiées doivent conserver « Based on Reveric by looplj. » et le lien vers le projet d'origine ; une voie de licence commerciale est prévue et les matériaux tiers gardent leurs propres licences.
 - Vérification fonctionnelle : 2026-11-06 ; [Source 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [Source 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91).
 
@@ -69,7 +69,7 @@ Système d'écriture combinant décisions d'écriture par agent, mémoire struct
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application de bureau.
 - Périmètre d'application : Nécessite la configuration d'un modèle ; la « prise de décision en temps réel » est une description de conception du projet, pas une qualité mesurée.
-- État de maintenance : Commits sur les 90 derniers jours ; 118 commits sur 30 jours, 416 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 106 commits sur 30 jours, 416 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Co-création long format appuyée sur la bible, les personnages et des workflows
 
 - Catégorie : Logiciels et ateliers d'écriture de romans ; forme : Application multiplateforme.
 - Périmètre d'application : La position officielle écarte explicitement le scénario d'un roman entier obtenu automatiquement à partir d'un seul prompt.
-- État de maintenance : Commits sur les 90 derniers jours ; 28 commits sur 30 jours, 111 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 24 commits sur 30 jours, 109 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -179,7 +179,7 @@ Organisation de la création de romans, du traitement du style et de la modérat
 
 - Catégorie : Agents d'écriture automatisés et moteurs de création ; forme : Moteur de création.
 - Périmètre d'application : C'est un moteur d'écriture ; le mode d'exécution concret et les modèles requis suivent la configuration actuelle du dépôt.
-- État de maintenance : Commits sur les 90 derniers jours ; 94 commits sur 30 jours, 218 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 52 commits sur 30 jours, 218 commits sur 90 jours.
 - Licence : [Apache-2.0](https://api.github.com/repos/LiPu-jpg/Openwrite/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/LiPu-jpg/Openwrite/blob/a8b9e782a9d27c50edbea1e9beb36b8d45d47f5b/README.md#L10).
 
@@ -189,7 +189,7 @@ Système d'agents de création pour la planification narrative, l'écriture, la 
 
 - Catégorie : Agents d'écriture automatisés et moteurs de création ; forme : Agent de création / atelier.
 - Périmètre d'application : Romans, scénarios, contenu interactif et traduction sont dans le périmètre ; le modèle choisi et la relecture humaine influencent toujours les résultats.
-- État de maintenance : Commits sur les 90 derniers jours ; 0 commits sur 30 jours, 48 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 0 commits sur 30 jours, 46 commits sur 90 jours.
 - Licence : [AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6).
 
@@ -239,7 +239,7 @@ Workflows de Skills couvrant l'étude du roman web, l'analyse de textes, l'écri
 
 - Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Pack de Skills pour agent.
 - Périmètre d'application : S'exécute dans un agent existant ; ne pas confondre collecte de documentation et efficacité de génération de texte.
-- État de maintenance : Commits sur les 90 derniers jours ; 74 commits sur 30 jours, 163 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 71 commits sur 30 jours, 160 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8).
 
@@ -249,9 +249,19 @@ Assiste l'écriture de romans en chinois par questions-réponses, mémoire de cr
 
 - Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Agent Skill.
 - Périmètre d'application : Dépend d'un agent et d'un modèle externes ; un nombre de chapitres promis n'est pas un taux d'achèvement mesuré.
-- État de maintenance : Commits sur les 90 derniers jours ; 39 commits sur 30 jours, 53 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 43 commits sur 30 jours, 57 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5).
+
+## [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)
+
+Adapte le workflow de série web long format à OpenCode et ajoute des capacités de pilotage d'écriture.
+
+- Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Portage / extension OpenCode.
+- Périmètre d'application : Dérivation explicite de webnovel-writer ; la différence d'hôte est consignée à part et le projet n'est pas traité comme sans lien.
+- État de maintenance : Commits sur les 90 derniers jours ; 35 commits sur 30 jours, 205 commits sur 90 jours.
+- Licence : [GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
+- Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1).
 
 ## [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer)
 
@@ -262,16 +272,6 @@ Série web long format appuyée sur une planification hiérarchique, l'état de 
 - État de maintenance : Commits sur les 90 derniers jours ; 3 commits sur 30 jours, 18 commits sur 90 jours.
 - Licence : [GPL-3.0](https://api.github.com/repos/lingfengQAQ/webnovel-writer/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/lingfengQAQ/webnovel-writer/blob/b38056ec3ae288af613c0af162d648e4a4e8825c/README.md#L15).
-
-## [webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)
-
-Adapte le workflow de série web long format à OpenCode et ajoute des capacités de pilotage d'écriture.
-
-- Catégorie : Skills et cadres méthodologiques pour le long format ; forme : Portage / extension OpenCode.
-- Périmètre d'application : Dérivation explicite de webnovel-writer ; la différence d'hôte est consignée à part et le projet n'est pas traité comme sans lien.
-- État de maintenance : Commits sur les 90 derniers jours ; 20 commits sur 30 jours, 190 commits sur 90 jours.
-- Licence : [GPL-3.0](https://api.github.com/repos/lujih/webnovel-writer-opencode/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
-- Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/lujih/webnovel-writer-opencode/blob/d6b3b143500c3118bcec42e051825ed0c10dddc8/README.md#L1).
 
 ## [FuFu](https://github.com/usagifufu/FuFu-Novel-Writing)
 
@@ -319,7 +319,7 @@ Contrôle et réécrit le texte à partir des traits d'écriture IA courants.
 
 - Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Skill de lissage en anglais.
 - Périmètre d'application : Révision stylistique anglaise générale ; la qualité romanesque n'est pas évaluée séparément.
-- État de maintenance : Commits sur les 90 derniers jours ; 26 commits sur 30 jours, 70 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 25 commits sur 30 jours, 70 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/blader/humanizer/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/README.md#L8).
 
@@ -329,9 +329,29 @@ Répare d'abord la structure narrative du roman, puis les phrases ; les règles 
 
 - Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Agent Skill.
 - Périmètre d'application : Sépare la révision romanesque du mode articles professionnelles ; « dé-IA » n'est pas présenté comme une garantie de contournement des détecteurs.
-- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 389 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 380 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/Nanako0129/sepia/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Source 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
+
+## [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish)
+
+Skill d'agent qui fait écrire aux LLM leur documentation et leurs réponses en anglais contrôlé ASD-STE100 : phrases courtes, voix active, un sens par mot ; simple par défaut, strict sur demande.
+
+- Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Skill d'écriture en anglais contrôlé.
+- Périmètre d'application : Porte sur la lisibilité des textes techniques en anglais, pas sur le récit de fiction, les manuscrits chinois ni la créativité stylistique ; le chiffre de -95 % de défauts du README vient des evals de l'auteur, recalculés à chaque push en CI par evals/check_numbers.py à partir des fichiers bruts versionnés, et ne constituent pas un benchmark tiers ; l'installation via le CLI skills n'apporte que la skill, sans le hook de session ni le style de sortie.
+- État de maintenance : Commits sur les 90 derniers jours ; 2 commits sur 30 jours, 56 commits sur 90 jours.
+- Licence : [MIT](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/LICENSE) ; Licence ouverte vérifiée. La LICENSE racine est MIT ; les données d'évaluation, le texte de la spécification ASD-STE100 et les matériaux tiers suivent leurs sources propres.
+- Vérification fonctionnelle : 2026-11-26 ; [Source 1](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L6) · [Source 2](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L34) · [Source 3](https://github.com/AminBlg/SimpleEnglish/blob/300432a9e4c473229a7049ab61b8ca2522d9214c/README.md#L86).
+
+## [STE80 Humanizer](https://github.com/Dodaios/ste80-humanizer)
+
+Réécriture en deux passes : d'abord supprimer les 26 tics listés dans Signs of AI writing de Wikipédia, puis reconstruire les phrases vers l'anglais contrôlé ASD-STE100.
+
+- Catégorie : Révision stylistique, détemplatisation et contrôle qualité ; forme : Skill de réécriture anglaise.
+- Périmètre d'application : Vise le texte anglais courant (documentation, guides, e-mails, billets) et n'évalue pas la qualité romanesque ; l'auteur affirme que le but est la lisibilité, pas le contournement des détecteurs d'IA ; STE80 ne va qu'à 80 % vers ASD-STE100, car une conformité stricte interdit des mots courants comme may et should ; l'effet sur des manuscrits en chinois reste à vérifier séparément.
+- État de maintenance : Commits sur les 90 derniers jours ; 14 commits sur 30 jours, 14 commits sur 90 jours.
+- Licence : [MIT](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/LICENSE) ; Licence ouverte vérifiée. La LICENSE racine est MIT ; la page Wikipédia derrière la liste des tics et les autres matériaux tiers suivent leurs propres conditions.
+- Vérification fonctionnelle : 2026-11-26 ; [Source 1](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L9) · [Source 2](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L12) · [Source 3](https://github.com/Dodaios/ste80-humanizer/blob/dc94757522792c4af70371a81a01465a6079ec28/README.md#L24).
 
 ## [Humanizer-zh](https://github.com/op7418/Humanizer-zh)
 
@@ -369,7 +389,7 @@ Flux créatif autour du développement d'histoires, du scénario, des assets et 
 
 - Catégorie : Scénarios, adaptation en mini-drames et explications de films ; forme : Pack de Skills mini-drames.
 - Périmètre d'application : N'est conservé que pour sa part liée à l'adaptation de romans ; les coûts de génération vidéo ne sont pas inclus dans l'outil textuel lui-même.
-- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 189 commits sur 90 jours.
+- État de maintenance : Commits sur les 90 derniers jours ; 61 commits sur 30 jours, 187 commits sur 90 jours.
 - Licence : [MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license) ; Licence ouverte vérifiée. Identifiée par GitHub via SPDX ; les licences des modèles, données et ressources attachés se comptent séparément.
 - Vérification fonctionnelle : 2026-11-05 ; [Source 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5).
 

@@ -299,5 +299,19 @@
   "boundary": "La branche par défaut est unstable ; le projet est BYOK — un stockage local des textes ne signifie pas que les données ne sortent pas lors de l'appel de modèles distants de texte, d'image, d'audio ou de vidéo.",
   "license_label": "AGPL-3.0 + exigence d'attribution Section 7",
   "license_note": "Les interfaces modifiées doivent conserver « Based on Reveric by looplj. » et le lien vers le projet d'origine ; une voie de licence commerciale est prévue et les matériaux tiers gardent leurs propres licences."
+ },
+ "Dodaios/ste80-humanizer": {
+  "description": "Réécriture en deux passes : d'abord supprimer les 26 tics listés dans Signs of AI writing de Wikipédia, puis reconstruire les phrases vers l'anglais contrôlé ASD-STE100.",
+  "form": "Skill de réécriture anglaise",
+  "boundary": "Vise le texte anglais courant (documentation, guides, e-mails, billets) et n'évalue pas la qualité romanesque ; l'auteur affirme que le but est la lisibilité, pas le contournement des détecteurs d'IA ; STE80 ne va qu'à 80 % vers ASD-STE100, car une conformité stricte interdit des mots courants comme may et should ; l'effet sur des manuscrits en chinois reste à vérifier séparément.",
+  "license_label": "MIT",
+  "license_note": "La LICENSE racine est MIT ; la page Wikipédia derrière la liste des tics et les autres matériaux tiers suivent leurs propres conditions."
+ },
+ "AminBlg/SimpleEnglish": {
+  "description": "Skill d'agent qui fait écrire aux LLM leur documentation et leurs réponses en anglais contrôlé ASD-STE100 : phrases courtes, voix active, un sens par mot ; simple par défaut, strict sur demande.",
+  "form": "Skill d'écriture en anglais contrôlé",
+  "boundary": "Porte sur la lisibilité des textes techniques en anglais, pas sur le récit de fiction, les manuscrits chinois ni la créativité stylistique ; le chiffre de -95 % de défauts du README vient des evals de l'auteur, recalculés à chaque push en CI par evals/check_numbers.py à partir des fichiers bruts versionnés, et ne constituent pas un benchmark tiers ; l'installation via le CLI skills n'apporte que la skill, sans le hook de session ni le style de sortie.",
+  "license_label": "MIT",
+  "license_note": "La LICENSE racine est MIT ; les données d'évaluation, le texte de la spécification ASD-STE100 et les matériaux tiers suivent leurs sources propres."
  }
 }
