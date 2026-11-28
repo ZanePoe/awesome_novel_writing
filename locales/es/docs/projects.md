@@ -9,7 +9,7 @@ Organiza la producción de una novela completa alrededor del mundo, los personaj
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Escritorio / entorno autoalojado.
 - Frontera de aplicación: Nombre original: AI Novel Writing Assistant; la licencia exige verificar a la vez el núcleo y los componentes comerciales.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 489 commits en 30 días, 898 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 518 commits en 30 días, 929 commits en 90 días.
 - Licencia: [AGPL-3.0 + condiciones comerciales adicionales](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/LICENSE); Condiciones de licencia adicionales. El LICENSE enumera a la vez la AGPL y una nota de autorización comercial separada para el servicio; se registra según el texto del autor y no se simplifica a una AGPL sin condiciones.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/09e1ee021660f522bab34416c67bd500dab6fae1/README.md#L7).
 
@@ -19,7 +19,7 @@ Entorno de creación para novela larga que va de la ambientación y el plan de c
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación de escritorio.
 - Frontera de aplicación: Nombre original: AI Novel Writer; el modelo se configura aparte; el producto principal de escritorio y el complemento de vista previa DSH se valoran por separado.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 2900 commits en 30 días, 5374 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 2977 commits en 30 días, 5503 commits en 90 días.
 - Licencia: [GPL-3.0](https://api.github.com/repos/EthanYoQ/Pagekin/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/EthanYoQ/Pagekin/blob/2bf8b5aac5fc3bc679a13843af221424941b93b5/README.md#L17).
 
@@ -29,7 +29,7 @@ Herramienta de narración local-first que abarca la creación de novelas, la ada
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Entorno de creación.
 - Frontera de aplicación: Incluye guion, cómic y mundos interactivos; no puede contarse todo ello como capacidad de escritura de prosa.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1414 commits en 30 días, 3362 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1644 commits en 30 días, 3601 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/yuanbw2025/storyforge/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/yuanbw2025/storyforge/blob/349051b8596a6795219dc37a7a1224b54ee94716/README.md#L15).
 
@@ -39,7 +39,7 @@ Organiza la escritura de novela larga con editor, archivo de proyecto y herramie
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: IDE de creación / versión previa.
 - Frontera de aplicación: La v2 actual está en reconstrucción; funciones como el estudio de escritura con IA figuran en la hoja de ruta y no se presentan como terminadas según versiones antiguas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 5565 commits en 30 días, 8741 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 6103 commits en 30 días, 9385 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/notnotype/neuro-book/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/notnotype/neuro-book/blob/16cfeb9d589761ee823ab6e87bebeec58ba7abf1/README.md#L26).
 
@@ -49,7 +49,7 @@ Reúne en un mismo espacio de trabajo novelas, historias interactivas, bases de 
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Plataforma de creación.
 - Frontera de aplicación: Incluye también juego de rol; las funciones de experiencia lúdica no equivalen a una capacidad de generación automática de novela larga.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 40 commits en 30 días, 351 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 39 commits en 30 días, 347 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/alfredxw/denova/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/alfredxw/denova/blob/94562b4e918da50487f609fa27522f339eba9bec/README.md#L58).
 
@@ -59,7 +59,7 @@ Entorno de creación de escritorio que enlaza novela larga, adaptación de guion
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Entorno de creación de escritorio local-first.
 - Frontera de aplicación: La rama predeterminada es unstable; el proyecto es BYOK y que el texto se guarde en local no significa que los datos no salgan de la máquina al usar modelos remotos de texto, imagen, audio o vídeo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 248 commits en 30 días, 270 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 246 commits en 30 días, 278 commits en 90 días.
 - Licencia: [AGPL-3.0 + requisito de atribución de la Sección 7](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/NOTICES); Condiciones de licencia adicionales. Las interfaces modificadas deben conservar "Based on Reveric by looplj." y el enlace al proyecto original; existe además una vía de licencia comercial y los materiales de terceros se rigen por sus propias licencias.
 - Verificación funcional: 2026-11-06; [Fuente 1](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L76) · [Fuente 2](https://github.com/looplj/reveric/blob/282f8e4c218abe566b2e70050d80b8eccf876a32/README.md#L91).
 
@@ -69,7 +69,7 @@ Sistema de escritura que une decisiones de redacción del agente, memoria estruc
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación de escritorio.
 - Frontera de aplicación: Requiere configurar el modelo; "decisiones en tiempo real" es una descripción de diseño del proyecto, no una calidad medida.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 94 commits en 30 días, 416 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 84 commits en 30 días, 416 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/sigpanic/goink/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/sigpanic/goink/blob/c6a221c3b9a2b1c14db3ecc5028844b9c4e4449e/README.md#L6).
 
@@ -79,7 +79,7 @@ Coficción de novela larga mediante ambientación, personajes y flujos de prompt
 
 - Categoría: Aplicaciones de escritura de novelas y entornos de creación; forma: Aplicación multiplataforma.
 - Frontera de aplicación: La documentación oficial aclara que no está pensada para obtener una novela completa a partir de una sola indicación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 24 commits en 30 días, 110 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 20 commits en 30 días, 109 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/syrizelink/OpenFic/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/syrizelink/OpenFic/blob/efcfd94ce12f795fac597f9265fd817aa4afeb29/README.md#L15).
 
@@ -189,7 +189,7 @@ Sistema de agente creativo que admite planificar la historia, escribir, revisar 
 
 - Categoría: Agentes de escritura automática y motores de creación; forma: Agente de creación / entorno.
 - Frontera de aplicación: Entran en su alcance la novela, el guion, el contenido interactivo y la traducción; el modelo y la revisión humana siguen influyendo en el resultado.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 34 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 31 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/Narcooo/inkos/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/Narcooo/inkos/blob/53adac4e974b54dafda975edc4edd07cad364c18/README.md#L6).
 
@@ -239,7 +239,7 @@ Flujo de skills que cubre el estudio de la web-novela, el análisis de obras, la
 
 - Categoría: Skills y marcos de método para novela larga; forma: Paquete de skills para agente.
 - Frontera de aplicación: Se ejecuta dentro de un agente ya existente; no se mezclan los efectos de la recolección de material con los de la generación de texto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 71 commits en 30 días, 155 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 72 commits en 30 días, 156 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/zenstory-ai/oh-story-claudecode/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/zenstory-ai/oh-story-claudecode/blob/0b5cf2a7a37d605706f6406b66526f6d6d714141/README.md#L8).
 
@@ -249,7 +249,7 @@ Asiste la creación de novelas en chino con preguntas guiadas, memoria de creaci
 
 - Categoría: Skills y marcos de método para novela larga; forma: Skill de agente.
 - Frontera de aplicación: Depende de un agente y de modelos externos; las promesas de número de capítulos no se tratan como una tasa de finalización medida.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 43 commits en 30 días, 57 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 40 commits en 30 días, 57 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/PenglongHuang/chinese-novelist-skill/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/PenglongHuang/chinese-novelist-skill/blob/507d41567925eab520ad459db08fda83813e8051/README.md#L5).
 
@@ -309,7 +309,7 @@ Diagnostica y reescribe el estilo de IA plantificado, con modos de solo detecci�
 
 - Categoría: Revisión de estilo, desplantillado y control de calidad; forma: Skill de agente / verificador.
 - Frontera de aplicación: Revisión de escritura general; reducir los patrones rutinarios no constituye una prueba de la autoría del texto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 59 commits en 30 días, 515 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 59 commits en 30 días, 514 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/conorbronsdon/avoid-ai-writing/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/conorbronsdon/avoid-ai-writing/blob/ccc8fc486c3a1dd6cc00be6258a6db3b12e801d3/README.md#L5).
 
@@ -329,7 +329,7 @@ Repara primero la estructura narrativa de la novela y luego pasa a la frase; otr
 
 - Categoría: Revisión de estilo, desplantillado y control de calidad; forma: Skill de agente.
 - Frontera de aplicación: Separa la revisión de ficción de la de artículos profesionales; no plantea la eliminación de marcas de IA como una garantía para evadir detectores.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 60 commits en 30 días, 374 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 60 commits en 30 días, 363 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Nanako0129/sepia/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.md#L7) · [Fuente 2](https://github.com/Nanako0129/sepia/blob/0eb11d6c64c962fcc35f596c167c6e38045d6cb8/README.zh-CN.md#L7).
 
@@ -389,7 +389,7 @@ Organiza el desarrollo de historias de drama corto, libretos, assets y guiones g
 
 - Categoría: Guiones, adaptación de drama corto y narración audiovisual; forma: Paquete de skills de drama corto.
 - Frontera de aplicación: Se conserva lo vinculado a la adaptación de novelas; los costes de generación de vídeo no los cubre la herramienta de texto en sí.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 61 commits en 30 días, 187 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 62 commits en 30 días, 188 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/zenstory-ai/drama-skills/license); Licencia abierta verificada. Identificada vía SPDX de GitHub; los modelos, datos y materiales adjuntos pueden regirse por licencias propias.
 - Verificación funcional: 2026-11-05; [Fuente 1](https://github.com/zenstory-ai/drama-skills/blob/c8f90a79032da8dd3deeec2da3abd2b063939fe5/README.md#L5).
 
